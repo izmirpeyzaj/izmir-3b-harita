@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>İzmir 3B Şehir Haritası</title>
+  <link rel="stylesheet" href="css/stil.css?s=41">
+</head>
+<body>
+  <canvas id="sahne"></canvas>
+  <div id="etiketler"></div>
+
+  <aside id="sol" class="panel">
+    <div>
+      <h1>İzmir 3B Şehir Haritası</h1>
+      <p>On ilçeden simge yapılar. Bir yapıya tıklayın.</p>
+    </div>
+    <div id="araclar">
+      <button id="tur">▶ Tur</button>
+      <button id="tumHarita">⟲ Tüm harita</button>
+      <button id="oyunDugme">🎮 Oyun</button>
+      <button id="defterDugme" title="Keşif defteri">📓 0</button>
+      <button id="listeDugme">☰ Liste</button>
+    </div>
+    <input id="ara" type="search" placeholder="Yer veya ilçe ara…" aria-label="Yer ara">
+    <div id="cipler" aria-label="Kategori filtresi"></div>
+    <ul id="liste"></ul>
+  </aside>
+
+  <nav id="modlar" class="panel" aria-label="Gün modu">
+    <button data-mod="gunduz" class="secili">☀ Gündüz</button>
+    <button data-mod="gunbatimi">🌇 Gün batımı</button>
+    <button data-mod="gece">🌙 Gece</button>
+  </nav>
+
+  <section id="kart" class="panel" hidden>
+    <button id="kartKapat" aria-label="Kapat">×</button>
+    <span id="kartKat"></span>
+    <h2 id="kartAd"></h2>
+    <div id="kartMeta"></div>
+    <p id="kartAciklama"></p>
+    <p id="kartDurum"></p>
+    <figure id="kartHarita">
+      <svg id="ilceHarita" role="img" aria-label="İlçenin gerçek haritadaki yeri"></svg>
+      <figcaption id="ilceHaritaAd"></figcaption>
+    </figure>
+    <div id="kartGezin">
+      <button id="onceki">‹ Önceki</button>
+      <button id="sonraki">Sonraki ›</button>
+    </div>
+  </section>
+
+  <section id="oyun" class="panel" hidden aria-live="polite"></section>
+  <div id="ucusTuslari" hidden></div>
+  <section id="defter" class="panel" hidden aria-label="Keşif defteri"></section>
+  <div id="bildirim" class="panel" hidden role="status"></div>
+  <div id="not" class="panel">Kıyı, ilçe sınırları ve yollar gerçektir; merkez büyütülmüştür, uzaklıklar ölçekli değildir. Yol verisi © OpenStreetMap katkıcıları.</div>
+  <div id="yukleniyor">Harita yükleniyor…</div>
+
+  <script>
+    // Dosyalar değişince tarayıcı önbelleğini atlatmak için bu sayıyı artırın (stil.css bağlantısındakiyle birlikte).
+    // Hepsi klasik betiktir: sayfa çift tıklanarak (file://) açıldığında da çalışır.
+    var SURUM = 41;
+    (function () {
+      var dosyalar = ['vendor/three.klasik.js', 'vendor/OrbitControls.klasik.js', 'js/veri.js', 'js/ilceler.js', 'js/cografya.js', 'js/yardimci.js', 'js/yapilar.js', 'js/sahne.js', 'js/oyun.js', 'js/defter.js'];
+      function hata(e) {
+        console.error(e);
+        document.getElementById('yukleniyor').textContent = 'Harita yüklenemedi. Sayfayı baslat.bat ile açmayı deneyin.';
+      }
+      window.addEventListener('error', function (e) { if (!document.body.classList.contains('hazir')) hata(e.error || e.message); });
+      (function sonraki(i) {
+        if (i >= dosyalar.length) return;
+        var s = document.createElement('script');
+        s.src = dosyalar[i] + '?s=' + SURUM;
+        s.onload = function () { sonraki(i + 1); };
+        s.onerror = hata;
+        document.head.appendChild(s);
+      })(0);
+    })();
+  </script>
+</body>
+</html>

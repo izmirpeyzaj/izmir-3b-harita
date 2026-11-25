@@ -1,0 +1,6 @@
+# Ham ilçe sınırı verisi (kaynağı ve lisansı belirsiz; yalnızca yerelde tutulur)
+ilceler.geojson
+# Yerel araç ayarları ve geçici dosyalar
+.claude/
+__pycache__/
+*.pyc
