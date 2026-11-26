@@ -5,7 +5,7 @@ Kurulum ve derleme gerektirmez; `index.html` dosyasını açmak yeterlidir.
 
 ## Özellikler
 
-- Gerçek kıyı çizgisi, ilçe sınırları, yollar ve raylar. Merkez büyütülmüştür; yönler ve komşuluklar gerçektir, uzaklıklar ölçekli değildir.
+- Gerçek kıyı çizgisi, ilçe sınırları, yollar, raylı sistem hatları, istasyonlar ve vapur iskeleleri. Merkez büyütülmüştür; yönler ve komşuluklar gerçektir, uzaklıklar ölçekli değildir.
 - Gündüz, gün batımı ve gece modları; gece yanan pencereler.
 - Hareket eden vapurlar, tramvaylar, trenler, otobüsler ve arabalar.
 - Üç oyun: "Neresi?" bulmacası, martı uçuşu ve vapur kaptanı.
@@ -24,10 +24,11 @@ python araclar/cografya.py
 ```
 
 Betik, yerlerin koordinatlarını `araclar/koordinat.json`, yolları `araclar/osm_yollar.json` dosyasından okur.
-İlçe sınırlarını içeren `ilceler.geojson` dosyası bu depoda yoktur; yeniden üretim için proje klasörüne ayrıca konmalıdır.
+İlçe sınırlarını içeren `ilceler.geojson` (10 MB) bu depoda yoktur; yeniden üretim için portaldaki "İzmir Şehir Haritası" veri setinden indirilip proje klasörüne konmalıdır.
 
 ## Kaynaklar
 
-- Yol ve ray verisi © [OpenStreetMap](https://www.openstreetmap.org/copyright) katkıcıları (ODbL).
+- İlçe sınırları, metro, tramvay ve İZBAN hatları ile istasyonları, vapur iskeleleri: [İzmir Büyükşehir Belediyesi Açık Veri Portalı](https://acikveri.bizizmir.com/) (CC BY 4.0). İndirilen dosyalar `araclar/acikveri/` klasöründedir.
+- Karayolu verisi © [OpenStreetMap](https://www.openstreetmap.org/copyright) katkıcıları (ODbL).
 - 3B çizim: [three.js](https://threejs.org/) r160 (MIT), `vendor/` klasöründe.
 - Yerlerin koordinatları Wikidata ve OpenStreetMap'ten derlenmiştir.

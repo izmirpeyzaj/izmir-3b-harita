@@ -465,6 +465,16 @@ def main():
                 c.append((a[0] + (b[0] - a[0]) * k / n, a[1] + (b[1] - a[1]) * k / n))
         return c
 
+    # Raylı sistemler İzmir Büyükşehir Belediyesi Açık Veri Portalı'ndan (CC BY 4.0) gelir; OSM'den yalnızca karayolları alınır
+    def acik(ad):
+        return io.open(os.path.join(KOK, 'araclar', 'acikveri', ad), encoding='utf-8-sig')
+    osm = [o for o in osm if o[0] not in ('tren', 'tramvay')]
+    for dosya, sinif in (('tramvay.geojson', 'tramvay'), ('metro.geojson', 'metro'), ('izban.geojson', 'tren')):
+        for f in json.load(acik(dosya))['features']:
+            g = f['geometry']
+            for cizgi in (g['coordinates'] if g['type'] == 'MultiLineString' else [g['coordinates']]):
+                if len(cizgi) > 1:
+                    osm.append([sinif, [[q[0], q[1]] for q in cizgi]])
     ham = {}
     for sinif, pts in osm:
         w = ornekle([cog(*q) for q in ornekle([tuple(q) for q in pts], 0.003)], 0.35)
@@ -519,6 +529,7 @@ def main():
     ayik.update(ayikla(['otoyol', 'cadde', 'sokak']))
     ayik.update(ayikla(['tren']))
     ayik.update(ayikla(['tramvay']))
+    ayik.update(ayikla(['metro']))
 
     # Uç uca gelen parçaları birleştir
     def zincirle(parcalar_):
@@ -562,9 +573,67 @@ def main():
             if boy(z) >= (4.0 if sinif == 'sokak' else 3.0):
                 c.append(z)
         yollar[sinif] = sorted(c, key=boy, reverse=True)
-    yol_noktalari = [q for sinif in yollar for z in yollar[sinif] for q in ornekle(z, 2.0)]
+    yol_noktalari = [q for sinif in yollar if sinif != 'metro' for z in yollar[sinif] for q in ornekle(z, 2.0)]
     print('yollar:', {k: (len(v), round(sum(boy(z) for z in v))) for k, v in yollar.items()})
     print('en uzun:', {k: [round(boy(z)) for z in v[:4]] for k, v in yollar.items()})
+
+    # ---- İstasyonlar ve vapur iskeleleri (belediye açık verisi) ----
+    def baslik(ad):
+        kucuk = {'I': 'ı', 'İ': 'i'}
+        return ' '.join(w[:1] + ''.join(kucuk.get(c, c.lower()) for c in w[1:]) for w in ad.strip().split())
+    ham_ist = []
+    for o in json.load(acik('metro-istasyonlar.json')):
+        if str(o.get('AKTIF_MI')) == 'True':
+            ham_ist.append(('metro', baslik(o['ISTASYON_ADI']), float(o['BOYLAM']), float(o['ENLEM'])))
+    for o in json.load(acik('izban-istasyonlar.json')):
+        ham_ist.append(('tren', o['IstasyonAdi'].strip(), float(o['Boylam']), float(o['Enlem'])))
+    for dosya in ('tramvay-karsiyaka.csv', 'tramvay-konak.csv'):
+        for satir in acik(dosya).read().splitlines()[1:]:
+            h = satir.split(';')
+            if len(h) >= 3 and h[1].strip():
+                ham_ist.append(('tramvay', h[0].strip(), float(h[2].replace(',', '.')), float(h[1].replace(',', '.'))))
+    istasyonlar = []
+    for tur_, ad, lon, lat in ham_ist:
+        x, y = cog(lon, lat)
+        if not (KUTU[0] + 3 < x < KUTU[2] - 3 and KUTU[1] + 3 < y < KUTU[3] - 3):
+            continue
+        if kod(x, y) <= 0:
+            print('  denizde kalan istasyon:', tur_, ad.encode('ascii', 'replace').decode(), round(x), round(y))
+        # Bir yerin modelinin tam içine düşen istasyon, modelin kenarına itilir (istasyon gerçekten oradadır)
+        for k in kimlikler:
+            d = math.hypot(x - konum[k][0], y - konum[k][1])
+            if d < R[k] * 0.8:
+                d = d or 0.01
+                x, y = konum[k][0] + (x - konum[k][0]) / d * R[k] * 0.85, konum[k][1] + (y - konum[k][1]) / d * R[k] * 0.85
+        if kod(x, y) <= 0:
+            continue
+        if any(t == tur_ and math.hypot(x - ix, y - iy) < 2.2 for t, _, ix, iy in istasyonlar):
+            continue
+        istasyonlar.append((tur_, ad, x, y))
+    # İskeleler: en yakın kıyı noktasına oturur; bir kıyı modelinin yanındaysa o modelin iskelesi sayılır
+    MODEL_ISKELE = {'konak-pier': 20, 'pasaport': 15, 'karsiyaka-iskele': 9, 'bostanli': 10}
+    iskeleler = []
+    for o in json.load(acik('iskeleler-api.json')):
+        if not o.get('AktifMi', True):
+            continue
+        x, y = cog(float(o['Boylam']), float(o['Enlem']))
+        if not (KUTU[0] + 6 < x < KUTU[2] - 6 and KUTU[1] + 6 < y < KUTU[3] - 6):
+            continue
+        q = min(kiyi_noktalari, key=lambda p: (p[0] - x) ** 2 + (p[1] - y) ** 2)
+        if math.hypot(q[0] - x, q[1] - y) > 12:
+            continue
+        yakin = min(MODEL_ISKELE, key=lambda k: math.hypot(konum[k][0] - q[0], konum[k][1] - q[1]))
+        if math.hypot(konum[yakin][0] - q[0], konum[yakin][1] - q[1]) < 13:
+            q, n, uzak, model = konum[yakin], yon[yakin], MODEL_ISKELE[yakin], True
+        else:
+            n, uzak, model = deniz_yonu(*q), 9, False
+            if not n or any((q[0] - cx) ** 2 + (q[1] - cy) ** 2 < r2 for cx, cy, r2 in daireler):
+                continue
+        if any(math.hypot(i['x'] - q[0], i['y'] - q[1]) < 6 for i in iskeleler):
+            continue
+        iskeleler.append({'ad': baslik(o['Adi']), 'x': round(q[0], 1), 'y': round(q[1], 1), 'nx': round(n[0], 3), 'ny': round(n[1], 3),
+                          'uzak': uzak, 'model': model, 'arabali': bool(o.get('ArabaliVapurIskelesiMi'))})
+    print('istasyon:', {t: sum(1 for i in istasyonlar if i[0] == t) for t in ('metro', 'tren', 'tramvay')}, 'iskele:', [i['ad'] + ('*' if i['model'] else '') for i in iskeleler])
 
     # ---- Tepeler ----
     tepeler = []
@@ -621,6 +690,8 @@ def main():
         'hedef': {k: yuvarla(hedef[k]) for k in kimlikler},
         'yon': {k: yuvarla(yon[k], 3) for k in kimlikler if yon.get(k)},
         'kiyida': sorted(KIYI_YERLERI),
+        'istasyonlar': [[t, a, round(x, 1), round(y, 1)] for t, a, x, y in istasyonlar],
+        'iskeleler': iskeleler,
         'yollar': {k: [[yuvarla(q, 2) for q in z] for z in v] for k, v in yollar.items()},
         'tepeler': [[round(v, 1) for v in t] for t in tepeler],
         'semtler': [[ad] + yuvarla(cog(lon, lat)) for ad, lon, lat in SEMTLER],

@@ -307,10 +307,9 @@
     const sahne = S.scene, kamera = S.camera, C = IZ.COG;
     const [KX0, KY0, KX1, KY1] = C.kutu;
     const SURE = 180;
-    // İskeleler: kıyıdaki yapıların açığında, suyun üstündeki yanaşma noktaları (harita koordinatı)
-    const iskeleler = [['konak-pier', 'Konak', 20], ['pasaport', 'Pasaport', 15], ['karsiyaka-iskele', 'Karşıyaka', 9], ['bostanli', 'Bostanlı', 10], ['deniz-muzesi', 'İnciraltı', 10], ['sahilevleri', 'Narlıdere', 10]]
-      .filter(([id]) => C.konum[id] && C.yon[id])
-      .map(([id, ad, uzak]) => ({ ad, x: C.konum[id][0] + C.yon[id][0] * uzak, y: C.konum[id][1] + C.yon[id][1] * uzak, nx: C.yon[id][0], ny: C.yon[id][1] }))
+    // İskeleler: İZDENİZ'in gerçek iskeleleri (belediye açık verisi); yanaşma noktası iskelenin açığındadır
+    const iskeleler = (C.iskeleler || [])
+      .map((i) => ({ ad: i.ad, x: i.x + i.nx * i.uzak, y: i.y + i.ny * i.uzak, nx: i.nx, ny: i.ny }))
       .filter((i) => S.araziKodu(i.x, i.y) === 0);
 
     // Vapur: önü yerel +x

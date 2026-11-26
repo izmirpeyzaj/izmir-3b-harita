@@ -267,6 +267,58 @@
     scene.add(g);
   });
 
+  // Metro hattı (yeraltında; haritada kırmızı çizgiyle gösterilir)
+  (function () {
+    const g = new THREE.Group();
+    (COG.yollar.metro || []).forEach((z) => yolParcalari(z, (a, b, ux, uy, L, aci) => {
+      const m = IZ.kutu(L + 0.3, 0.1, 0.36, '#c8402f');
+      m.castShadow = false;
+      m.position.copy(D((a[0] + b[0]) / 2, (a[1] + b[1]) / 2));
+      m.rotation.y = aci;
+      g.add(m);
+    }));
+    IZ.birlestir(g);
+    scene.add(g);
+  })();
+  // İstasyonlar: metro kırmızı, İZBAN mavi, tramvay turkuaz tabelalı
+  const IST_RENK = { metro: '#c8402f', tren: '#1f5fa8', tramvay: '#1aa3a3' };
+  (function () {
+    const g = new THREE.Group();
+    (COG.istasyonlar || []).forEach(([tur, ad, x, y]) => {
+      const p = new THREE.Group();
+      p.add(IZ.kutu(1.7, 0.14, 0.8, '#d9d2c2'));
+      p.add(IZ.koy(IZ.silindir(0.035, 0.035, 1.5, 4, '#6d747a'), 0.65, 0.14, 0.3));
+      p.add(IZ.koy(IZ.kutu(0.5, 0.5, 0.08, IST_RENK[tur], { isik: IST_RENK[tur], guc: 0.8 }), 0.65, 1.5, 0.3));
+      if (tur !== 'tramvay') {
+        for (const sx of [-0.7, 0.3]) p.add(IZ.koy(IZ.silindir(0.03, 0.03, 0.95, 4, '#6d747a'), sx, 0.14, 0.3));
+        p.add(IZ.koy(IZ.kutu(1.3, 0.06, 0.7, IST_RENK[tur]), -0.2, 1.08, 0.1));
+      }
+      p.position.copy(D(x, y, 0.09));
+      g.add(p);
+      yasaklar.push({ x, y, r: 1.7 });
+    });
+    IZ.birlestir(g);
+    scene.add(g);
+  })();
+  // Vapur iskeleleri: kendi modeli olmayanlar için küçük iskele binası ve rıhtım (yerel +z deniz)
+  (COG.iskeleler || []).filter((i) => !i.model).forEach((i) => {
+    const g = new THREE.Group();
+    g.add(IZ.koy(IZ.kutu(1.6, 0.3, 6.0, '#cfc6ae'), 0, -0.2, 3.0));
+    for (const z of [1.2, 3.2, 5.4]) for (const sx of [-0.65, 0.65]) g.add(IZ.koy(IZ.silindir(0.11, 0.11, 1.0, 5, '#8a6a4a'), sx, -1.1, z));
+    for (const sx of [-0.75, 0.75]) g.add(IZ.koy(IZ.kutu(0.04, 0.04, 5.6, '#6d747a'), sx, 0.5, 3.1));
+    g.add(IZ.koy(IZ.kutu(2.8, 1.3, 1.8, '#f1e6cc'), 0, 0.1, -1.4));
+    g.add(IZ.koy(IZ.kutu(2.84, 0.5, 1.4, '#36546d', { isik: '#ffd27a' }), 0, 0.55, -1.4));
+    g.add(IZ.koy(IZ.piramit(3.2, 0.7, 2.2, '#b9553a'), 0, 1.4, -1.4));
+    g.add(IZ.koy(IZ.kutu(1.6, 0.3, 0.06, '#1f5fa8'), 0, 1.15, -0.47));
+    g.add(IZ.koy(IZ.silindir(0.03, 0.03, 2.4, 4, '#dddddd'), 1.6, 0.1, -0.6));
+    g.add(IZ.koy(IZ.kutu(0.6, 0.38, 0.03, '#e30a17'), 1.91, 2.1, -0.6));
+    IZ.birlestir(g);
+    g.position.copy(D(i.x, i.y));
+    g.rotation.y = Math.atan2(i.nx, i.ny * -1);
+    scene.add(g);
+    yasaklar.push({ x: i.x - i.nx * 1.5, y: i.y - i.ny * 1.5, r: 3.2 });
+  });
+
   // Yola uzaklık için ızgara: dolgu binalar yolun üstüne gelmez, yerleşim cadde boylarında toplanır
   const yolIzgara = new Map(), kentIzgara = new Set();
   yolNoktalari.forEach((p) => {
@@ -714,11 +766,11 @@
     hareketli(tramvayModeli(i % 2 ? '#e0703a' : null), e, { hiz: 3.8, durak: 3, ciftYon: true, u: 0.2, yan: 0.22 });
     if (e.getLength() > 28) hareketli(tramvayModeli(i % 2 ? '#e0703a' : null), e, { hiz: 3.8, durak: 3, ciftYon: true, u: 0.8, yon: -1, yan: -0.22 });
   });
-  function trenModeli() {
+  function trenModeli(serit) {
     const g = new THREE.Group();
     for (const x of [-2.5, 0, 2.5]) {
       g.add(IZ.koy(IZ.kutu(2.35, 0.7, 0.6, '#f4f4f0'), x, 0.08, 0));
-      g.add(IZ.koy(IZ.kutu(2.37, 0.18, 0.62, '#1f5fa8'), x, 0.1, 0));
+      g.add(IZ.koy(IZ.kutu(2.37, 0.18, 0.62, serit || '#1f5fa8'), x, 0.1, 0));
       g.add(IZ.koy(IZ.kutu(2.1, 0.26, 0.63, '#2b3a4a', { isik: '#ffe9b0' }), x, 0.44, 0));
       g.add(IZ.koy(IZ.kutu(2.2, 0.06, 0.5, '#d9dde0'), x, 0.78, 0));
     }
@@ -726,6 +778,9 @@
   }
   (COG.yollar.tren || []).slice(0, 4).forEach((z, i) => {
     hareketli(trenModeli(), rayEgri(z), { hiz: 6, durak: 4, ciftYon: true, u: i % 2 ? 0.7 : 0.15, yon: i % 2 ? -1 : 1 });
+  });
+  (COG.yollar.metro || []).slice(0, 2).forEach((z, i) => {
+    hareketli(trenModeli('#c8402f'), rayEgri(z), { hiz: 6.5, durak: 3, ciftYon: true, u: i ? 0.6 : 0.2, yon: i ? -1 : 1 });
   });
   // Otobüsler ve şehir içi trafik: ana caddelerde gidip gelir
   function otobusModeli() {

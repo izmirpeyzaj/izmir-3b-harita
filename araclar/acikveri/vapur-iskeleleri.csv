@@ -1,0 +1,13 @@
+ISKELE_ID;ISKELE_ADI;BOYLAM;ENLEM;ADRES;ARABALI_VAPUR_YOLCU;YOLCU_BEKLEME_SALONU;ENGELLI_ERISIMINE_UYGUNLUK;ERKEK_TUVALETI_SAYISI;KADIN_TUVALETI_SAYISI;ENGELLI_TUVALETI_SAYISI;BEBEK_BAKIM_ODASI_SAYISI;WIZMIRNET_KABLOSUZ_INTERNET;TURNIKE_SAYISI;IZMIRIM_KART_YUKLEME_NOKTASI_SAYISI;FERIBOT_ODEME_GISESI_SAYISI
+3;BOSTANLI; 27.097777777778; 38.451944444445; Hasan Ali Yücel Blv. Bostanlı Vapur İskelesi No 35 35590 Karşıyaka/İzmir; Arabalı Vapur Yolcu; Var; Var;1;1;1;1; Var;13;2;0
+2;KARŞIYAKA; 27.120555555556; 38.454722222222; Karşıyaka Vapur İskelesi Tuna Mahallesi Cemal Gürsel Caddesi Karşıyaka-İzmir; Yolcu; Var; Var;1;1;1;1; Var;14;3;0
+5;ALSANCAK; 27.140833333333; 38.438888888889; Alsancak Vapur İskelesi Atatürk Caddesi Konak/İzmir; Yolcu; Var; Var;1;1;0;0; Var;5;1;0
+4;PASAPORT; 27.1325; 38.428611111111; Pasaport Vapur İskelesi Akdeniz Mahallesi Atatürk Caddesi Konak/İZMİR; Yolcu; Var; Var;1;1;0;0; Var;7;1;0
+1;KONAK; 27.125833333333; 38.418611111111; Konak Vapur İskelesi Konak Mahallesi Konak/İzmir; Yolcu; Var; Var;1;1;1;1; Var;13;3;0
+1019;KARANTİNA; 27.12138; 38.4141; Karantina Vapur İskelesi 15 Temmuz Demokrasi Şehitleri Meydanı Konak/İzmir; Yolcu; Var; Var;0;0;0;0; Var;3;0;0
+6;GÖZTEPE; 27.083333333333; 38.399444444444; Adres: Güzelyalı Mahallesi Otopark İç Yolu Numara: 719 Konak / İzmir; Yolcu; Var; Var;0;0;0;0; Var;4;1;0
+7;ÜÇKUYULAR; 27.070833333333; 38.405555555556; MEHMET KÖSTEPEN İSKELESİ(ÜÇKUYULAR) (YOLCU VE ARABALI GEMİ İSKELESİ); Arabalı Vapur+Yolcu; Var; Var;1;1;1;1; Var;5;1;2
+12;GÜZELBAHÇE; 26.8925; 38.3788; Atatürk Mah. Kazım Dirik Cad. No:46 Güzelbahçe/İZMİR; Yolcu; Var; Var;0;0;0;0; Yok;3;0;0
+11;URLA; 26.772222; 38.363889; İskele mahallesi 2122 sokak 35430 URLA-İZMİR; Yolcu; Var; Var;0;0;0;0; Yok;3;0;0
+13;MORDOĞAN; 26.6267; 38.5182; Mordoğan Mahallesi Cumhuriyet Meydanı Karaburun/İZMİR; Yolcu; Yok; Var;0;0;0;0; Yok;2;0;0
+9;FOÇA; 26.753369; 38.66635; Büyükdeniz Sahil Cd. Atatürk Mah. Eski Foça - İZMİR; Yolcu; Yok; Var;0;0;0;0; Yok;3;0;0
