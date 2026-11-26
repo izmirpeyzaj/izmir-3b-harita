@@ -74,7 +74,15 @@
     const sira = karistir(S.yerler.map((y) => y.veri)).slice(0, SORU);
     let tur = -1, puan = 0, sure = 0, yanlis = 0, ipucu = 0, durum = 'soru', bekle = 0;
     kutu.innerHTML = '<div class="oyunUst"><b id="oyunBaslik"></b><span id="oyunPuan"></span><button id="oyunCik" aria-label="Oyundan çık">×</button></div>' +
-      '<p id="oyunMetin"></p><p id="oyunIpucu"></p><div class="oyunAlt"><button id="oyunIpucuDugme">İpucu (−15 puan)</button><button id="oyunGec">Geç</button></div>';
+      '<p id="oyunMetin"></p><p id="oyunIpucu"></p><div class="oyunAlt"><button id="oyunIpucuDugme">İpucu (−15 puan)</button><button id="oyunGec">Geç</button></div>' +
+      '<div class="oyunIlceler" id="oyunIlceler" aria-label="İlçeye git"></div>';
+    // İlçe düğmeleri: aramak için kamerayı o ilçeye götürür (puan düşmez)
+    IZ.ILCELER.forEach((ilce) => {
+      const b = document.createElement('button');
+      b.textContent = ilce;
+      b.addEventListener('click', () => S.ilceyeGit(ilce));
+      $('oyunIlceler').appendChild(b);
+    });
     const metin = $('oyunMetin'), ipucuYazi = $('oyunIpucu');
     function ust() {
       $('oyunBaslik').textContent = 'Neresi? Soru ' + (tur + 1) + '/' + SORU;

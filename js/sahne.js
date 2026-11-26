@@ -21,7 +21,14 @@
   controls.target.set(0, 0, -22);
   controls.enableDamping = true;
   controls.maxPolarAngle = Math.PI / 2.15;
-  controls.minDistance = 18;
+  controls.minDistance = 10;
+  // Harita alışkanlığı: sol tuşla sürükleyince kaydırır, sağ tuşla döndürür; tekerlek imlecin altına yakınlaşır.
+  // Dokunmatikte tek parmak kaydırır, iki parmak yakınlaştırır ve döndürür.
+  controls.mouseButtons = { LEFT: THREE.MOUSE.PAN, MIDDLE: THREE.MOUSE.DOLLY, RIGHT: THREE.MOUSE.ROTATE };
+  controls.touches = { ONE: THREE.TOUCH.PAN, TWO: THREE.TOUCH.DOLLY_ROTATE };
+  controls.screenSpacePanning = false;
+  controls.zoomToCursor = true;
+  controls.panSpeed = 1.1;
   controls.maxDistance = 380;
   controls.update();
 
@@ -989,6 +996,99 @@
   }
   // Gezinme: kapat, tüm harita, önceki/sonraki, otomatik tur
   const BAS_KAMERA = new THREE.Vector3(-88, 58, -12), BAS_HEDEF = new THREE.Vector3(0, 0, -22);
+
+  // ---------- Gezinme: klavye, ekran düğmeleri, küçük harita ----------
+  // Ok tuşları ya da WASD kaydırır, Q/E döndürür, + ve - yakınlaştırır. Ekran düğmeleri aynı işi yapar.
+  const GEZ_TUS = {
+    ArrowUp: 'ileri', w: 'ileri', W: 'ileri', ArrowDown: 'geri', s: 'geri', S: 'geri', ArrowLeft: 'sol', a: 'sol', A: 'sol', ArrowRight: 'sag', d: 'sag', D: 'sag',
+    q: 'donSol', Q: 'donSol', e: 'donSag', E: 'donSag', '+': 'yakin', '=': 'yakin', '-': 'uzak', _: 'uzak'
+  };
+  const gezTus = { ileri: false, geri: false, sol: false, sag: false, donSol: false, donSag: false, yakin: false, uzak: false };
+  const gezV = new THREE.Vector3(), gezYan = new THREE.Vector3(), gezOfs = new THREE.Vector3(), DIKEY = new THREE.Vector3(0, 1, 0);
+  function gezinmeGuncelle(dt) {
+    const t = gezTus;
+    if (!(t.ileri || t.geri || t.sol || t.sag || t.donSol || t.donSag || t.yakin || t.uzak)) return;
+    ucus = null;
+    gezOfs.copy(camera.position).sub(controls.target);
+    const uzaklik = gezOfs.length();
+    // Kaydırma: kameranın baktığı yöne göre, yerde
+    gezV.set(-gezOfs.x, 0, -gezOfs.z).normalize();
+    gezYan.crossVectors(gezV, DIKEY);
+    const hiz = Math.max(10, uzaklik * 0.5) * dt;
+    const ileri = (t.ileri ? 1 : 0) - (t.geri ? 1 : 0), yan = (t.sag ? 1 : 0) - (t.sol ? 1 : 0);
+    controls.target.addScaledVector(gezV, ileri * hiz).addScaledVector(gezYan, yan * hiz);
+    // Döndürme ve yakınlaşma: kamera hedefin çevresinde
+    const don = ((t.donSag ? 1 : 0) - (t.donSol ? 1 : 0)) * 1.0 * dt;
+    if (don) gezOfs.applyAxisAngle(DIKEY, don);
+    const yakinlas = (t.yakin ? 1 : 0) - (t.uzak ? 1 : 0);
+    if (yakinlas) gezOfs.setLength(Math.min(controls.maxDistance, Math.max(controls.minDistance, uzaklik * (1 - yakinlas * 0.75 * dt))));
+    camera.position.copy(controls.target).add(gezOfs);
+  }
+  // Ekran düğmeleri: basılı tutunca sürer
+  document.querySelectorAll('#gezinme button[data-g]').forEach((b) => {
+    const ayarla = (durum) => (e) => { gezTus[b.dataset.g] = durum; if (durum) turDurdur(); e.preventDefault(); };
+    b.addEventListener('pointerdown', ayarla(true));
+    ['pointerup', 'pointerleave', 'pointercancel'].forEach((olay) => b.addEventListener(olay, ayarla(false)));
+  });
+  // Kuzey yukarı: kamerayı hedefin güneyine alır
+  document.getElementById('kuzey').addEventListener('click', () => {
+    turDurdur();
+    const ofs = camera.position.clone().sub(controls.target);
+    const yatay = Math.hypot(ofs.x, ofs.z);
+    ucus = { t: 0, n0: controls.target.clone(), n1: controls.target.clone(), k0: camera.position.clone(), k1: controls.target.clone().add(new THREE.Vector3(0, ofs.y, yatay)) };
+  });
+
+  // Küçük harita: tıklanan yere gider; nokta kameranın baktığı yeri, çizgi bakış yönünü gösterir
+  const kucuk = document.getElementById('kucukHaritaCizim');
+  const SVGNS = 'http://www.w3.org/2000/svg';
+  kucuk.setAttribute('viewBox', KX0 + ' ' + -KY1 + ' ' + (KX1 - KX0) + ' ' + (KY1 - KY0));
+  COG.parcalar.forEach((p) => {
+    const yol = document.createElementNS(SVGNS, 'path');
+    yol.setAttribute('d', 'M' + p.halka.map((q) => q[0] + ' ' + -q[1]).join('L') + 'Z');
+    if (p.kod === 11) yol.setAttribute('class', 'dis');
+    else {
+      const baslik = document.createElementNS(SVGNS, 'title');
+      baslik.textContent = p.ad;
+      yol.appendChild(baslik);
+    }
+    kucuk.appendChild(yol);
+  });
+  IZ.YERLER.forEach((v) => {
+    const c = document.createElementNS(SVGNS, 'circle');
+    c.setAttribute('cx', v.konum[0]);
+    c.setAttribute('cy', -v.konum[1]);
+    c.setAttribute('r', 3);
+    c.setAttribute('fill', IZ.KATEGORILER[v.kategori].renk);
+    kucuk.appendChild(c);
+  });
+  const bakis = document.createElementNS(SVGNS, 'line'), buradayim = document.createElementNS(SVGNS, 'circle');
+  bakis.setAttribute('class', 'bakis');
+  buradayim.setAttribute('class', 'burada');
+  buradayim.setAttribute('r', 9);
+  kucuk.appendChild(bakis);
+  kucuk.appendChild(buradayim);
+  function hedefeGit(x, z) {
+    turDurdur();
+    const ofs = camera.position.clone().sub(controls.target);
+    const n1 = new THREE.Vector3(Math.min(KX1 - 4, Math.max(KX0 + 4, x)), 0, Math.min(-KY0 - 4, Math.max(-KY1 + 4, z)));
+    ucus = { t: 0, n0: controls.target.clone(), n1, k0: camera.position.clone(), k1: n1.clone().add(ofs) };
+  }
+  kucuk.addEventListener('click', (e) => {
+    const m = kucuk.getScreenCTM();
+    if (!m) return;
+    const n = new DOMPoint(e.clientX, e.clientY).matrixTransform(m.inverse());
+    hedefeGit(n.x, n.y); // SVG y = dünya z
+  });
+  function kucukHaritaGuncelle() {
+    const h = controls.target, k = camera.position;
+    buradayim.setAttribute('cx', h.x);
+    buradayim.setAttribute('cy', h.z);
+    const dx = h.x - k.x, dz = h.z - k.z, L = Math.hypot(dx, dz) || 1;
+    bakis.setAttribute('x1', h.x - (dx / L) * 22);
+    bakis.setAttribute('y1', h.z - (dz / L) * 22);
+    bakis.setAttribute('x2', h.x);
+    bakis.setAttribute('y2', h.z);
+  }
   const sol = document.getElementById('sol');
   const darEkran = window.matchMedia('(max-width: 720px)');
   if (darEkran.matches) sol.classList.add('kapali');
@@ -1030,11 +1130,16 @@
   document.getElementById('onceki').addEventListener('click', () => { turDurdur(); komsu(-1); });
   document.getElementById('sonraki').addEventListener('click', () => { turDurdur(); komsu(1); });
   window.addEventListener('keydown', (e) => {
-    if (IZ.sahne.oyunAktif) return; // oyun kendi tuşlarını dinler
+    if (IZ.sahne.kameraSerbest) return; // uçuş ve vapur oyunları kendi tuşlarını dinler
+    const oyunda = IZ.sahne.oyunAktif;
+    if (e.target && /INPUT|TEXTAREA/.test(e.target.tagName)) return;
     if (e.key === 'Escape') { turDurdur(); kartiKapat(); }
-    else if (e.key === 'ArrowRight') { turDurdur(); komsu(1); }
-    else if (e.key === 'ArrowLeft') { turDurdur(); komsu(-1); }
+    else if (e.key === 'PageDown' && !oyunda) { turDurdur(); komsu(1); e.preventDefault(); }
+    else if (e.key === 'PageUp' && !oyunda) { turDurdur(); komsu(-1); e.preventDefault(); }
+    else if (GEZ_TUS[e.key]) { gezTus[GEZ_TUS[e.key]] = true; turDurdur(); e.preventDefault(); }
   });
+  window.addEventListener('keyup', (e) => { if (GEZ_TUS[e.key]) gezTus[GEZ_TUS[e.key]] = false; });
+  window.addEventListener('blur', () => { Object.keys(gezTus).forEach((k) => { gezTus[k] = false; }); });
   tuval.addEventListener('wheel', turDurdur, { passive: true });
 
   // Tıklama ve üzerine gelme
@@ -1045,7 +1150,15 @@
     fare.set((e.clientX / window.innerWidth) * 2 - 1, -(e.clientY / window.innerHeight) * 2 + 1);
     isin.setFromCamera(fare, camera);
     const isabet = isin.intersectObjects(yerler.filter((y) => y.grup.visible).map((y) => y.grup), true)[0];
-    if (!isabet) return null;
+    if (!isabet) {
+      let en = 34, bulunan = null;
+      yerler.forEach((y) => {
+        if (!y.ekranda || !y.grup.visible) return;
+        const d = Math.hypot(e.clientX - y.ex, e.clientY - y.ey - 16);
+        if (d < en) { en = d; bulunan = y; }
+      });
+      return bulunan;
+    }
     let o = isabet.object;
     while (o && !o.userData.yerId) o = o.parent;
     return o ? yerBul(o.userData.yerId) : null;
@@ -1087,6 +1200,7 @@
       if (turZaman > 7) { turZaman = 0; komsu(1); }
     }
 
+    if (!IZ.sahne || !IZ.sahne.kameraSerbest) gezinmeGuncelle(dt);
     if (ucus) {
       ucus.t = Math.min(1, ucus.t + dt / 1.1);
       const k = ucus.t < 0.5 ? 2 * ucus.t * ucus.t : 1 - Math.pow(-2 * ucus.t + 2, 2) / 2;
@@ -1094,7 +1208,13 @@
       camera.position.lerpVectors(ucus.k0, ucus.k1, k);
       if (ucus.t >= 1) ucus = null;
     }
-    if (!(IZ.sahne && IZ.sahne.kameraSerbest)) controls.update(); // uçuş oyununda kamerayı oyun yönetir
+    if (!(IZ.sahne && IZ.sahne.kameraSerbest)) {
+      // Bakılan nokta haritanın dışına ve yerin altına kaçmasın
+      const h = controls.target;
+      h.set(Math.min(KX1 - 2, Math.max(KX0 + 2, h.x)), Math.min(30, Math.max(0, h.y)), Math.min(-KY0 - 2, Math.max(-KY1 + 2, h.z)));
+      controls.update(); // uçuş oyununda kamerayı oyun yönetir
+    }
+    kucukHaritaGuncelle();
 
     const w = window.innerWidth, h = window.innerHeight;
     yerler.forEach((y) => {
@@ -1144,9 +1264,20 @@
   if (yerBul(decodeURIComponent(location.hash.slice(1)))) sec(decodeURIComponent(location.hash.slice(1)));
 
   // Hata ayıklama için
+  // Açılışta kısa bir gezinme ipucu; ilk dokunuşta ya da birkaç saniye sonra kaybolur
+  (function () {
+    const b = document.getElementById('bildirim');
+    if (!b) return;
+    b.textContent = darEkran.matches ? 'Tek parmak: kaydır · İki parmak: yakınlaş ve döndür' : 'Sürükle: kaydır · Sağ tuş: döndür · Tekerlek: yakınlaş · Ok tuşları da çalışır';
+    b.hidden = false;
+    const gizle = () => { if (b.textContent.indexOf('kaydır') !== -1) b.hidden = true; };
+    setTimeout(gizle, 9000);
+    tuval.addEventListener('pointerdown', gizle, { once: true });
+  })();
+
   // Dışa açılanlar: hata ayıklama ve oyunlar (js/oyun.js) için
   IZ.sahne = {
     scene, camera, controls, sec, yerler, renderer, D, araziKodu, kartiKapat, turDurdur,
-    kareler: [], tiklamaYakala: null, kameraSerbest: false, oyunAktif: false, listeyiCiz, yerSecildi: null
+    ilceyeGit, kareler: [], tiklamaYakala: null, kameraSerbest: false, oyunAktif: false, listeyiCiz, yerSecildi: null
   };
 })();

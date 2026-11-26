@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>İzmir 3B Şehir Haritası</title>
-  <link rel="stylesheet" href="css/stil.css?s=41">
+  <link rel="stylesheet" href="css/stil.css?s=44">
 </head>
 <body>
   <canvas id="sahne"></canvas>
@@ -50,6 +50,16 @@
     </div>
   </section>
 
+  <nav id="gezinme" class="panel" aria-label="Gezinme">
+    <button data-g="yakin" aria-label="Yakınlaş" title="Yakınlaş (+)">+</button>
+    <button data-g="uzak" aria-label="Uzaklaş" title="Uzaklaş (−)">−</button>
+    <button data-g="donSol" aria-label="Sola döndür" title="Sola döndür (Q)">↺</button>
+    <button data-g="donSag" aria-label="Sağa döndür" title="Sağa döndür (E)">↻</button>
+    <button id="kuzey" aria-label="Kuzey yukarı" title="Kuzey yukarı">K↑</button>
+  </nav>
+  <div id="kucukHarita" class="panel" title="Gitmek istediğiniz yere tıklayın">
+    <svg id="kucukHaritaCizim" role="img" aria-label="Küçük harita"></svg>
+  </div>
   <section id="oyun" class="panel" hidden aria-live="polite"></section>
   <div id="ucusTuslari" hidden></div>
   <section id="defter" class="panel" hidden aria-label="Keşif defteri"></section>
@@ -60,7 +70,7 @@
   <script>
     // Dosyalar değişince tarayıcı önbelleğini atlatmak için bu sayıyı artırın (stil.css bağlantısındakiyle birlikte).
     // Hepsi klasik betiktir: sayfa çift tıklanarak (file://) açıldığında da çalışır.
-    var SURUM = 43;
+    var SURUM = 46;
     (function () {
       var dosyalar = ['vendor/three.klasik.js', 'vendor/OrbitControls.klasik.js', 'js/veri.js', 'js/ilceler.js', 'js/cografya.js', 'js/yardimci.js', 'js/yapilar.js', 'js/sahne.js', 'js/oyun.js', 'js/defter.js'];
       function hata(e) {
