@@ -2746,5 +2746,23 @@
    "eglence"
   ],
   "kaynak": "https://benefitsystems.com.tr/en/facilities/izmir-go-park/"
+ },
+ {
+  "id": "izmir-peyzaj",
+  "ad": "İzmir Peyzaj ve Sulama Sistemleri",
+  "tur": "bahce",
+  "ilce": "Bayraklı",
+  "semt": "Adalet (Folkart Towers)",
+  "yil": "1998",
+  "lat": 38.4541,
+  "lon": 27.1766,
+  "web": "https://izmirpeyzaj.com.tr",
+  "aciklama": "1998'de zirai ilaç, tohum ve gübre satan bir aile işletmesi olarak kurulan firma, 2007'den beri peyzaj işi yapıyor. Peyzaj tasarımı ve uygulaması, otomatik sulama kurulumu, dikey bahçe ve yosun duvar ile site, fabrika ve villa bahçelerinin periyodik bakımını üstleniyor. Kadrosunda peyzaj mimarları, ziraat mühendisleri ve bahçıvan ustaları var; Hunter ve Rain Bird sulama sistemlerinde yetkili teknisyenlik belgesine sahip. Ofisi Folkart Towers B Kule'de; İzmir, Manisa ve Ege kıyısına hizmet veriyor.",
+  "ilgi": [
+   "alisveris",
+   "doga"
+  ],
+  "kaynak": "https://izmirpeyzaj.com.tr/kurumsal",
+  "kategori": "alisveris"
  }
 ]

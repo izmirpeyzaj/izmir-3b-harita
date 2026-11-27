@@ -22,7 +22,7 @@ TURLER = {'restoran', 'meyhane', 'balik', 'kahvalti', 'kafe', 'pastane', 'sokak'
           'stadyum', 'salon', 'sahne', 'sinema', 'spor', 'lunapark', 'marina', 'muze', 'galeri', 'kultur-merkezi', 'bilim',
           'cami', 'kilise', 'sinagog', 'kosk', 'han', 'antik', 'park', 'orman', 'bahce', 'sahil', 'oyun', 'hayvan'}
 ILGILER = {'tarih', 'muze', 'yeme', 'alisveris', 'eglence', 'doga', 'cocuk'}
-ALANLAR = ('id', 'ad', 'tur', 'ilce', 'semt', 'yil', 'aciklama', 'ilgi', 'web', 'webTur', 'alan')
+ALANLAR = ('id', 'ad', 'tur', 'kategori', 'ilce', 'semt', 'yil', 'aciklama', 'ilgi', 'web', 'webTur', 'alan')
 
 
 def icinde(x, y, halka):
