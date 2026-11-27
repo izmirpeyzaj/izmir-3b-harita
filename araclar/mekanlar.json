@@ -1,0 +1,1759 @@
+[
+ {
+  "id": "forum-bornova",
+  "ad": "Forum Bornova",
+  "tur": "avm",
+  "ilce": "Bornova",
+  "semt": "Kazımdirik",
+  "yil": "2006",
+  "lat": 38.4508,
+  "lon": 27.2114,
+  "web": "https://forumbornova.com",
+  "aciklama": "Forum Bornova, Multi Turkmall tarafından geliştirilip 12 Ekim 2006'da açılan, İzmir'in ve Ege Bölgesi'nin ilk açık hava alışveriş merkezidir. Ege mimarisinden esinlenen iki katlı yapıda 120'yi aşkın mağaza, bir IKEA mağazası, yedi salonlu sinema ve çocuk oyun alanları bulunur. Ege Üniversitesi kampüsünün hemen yanında yer aldığı için öğrencilerin sık uğradığı bir buluşma noktasıdır. Metroyla gelenler için en yakın durak yaklaşık 900 metre uzaklıktaki Bornova istasyonudur.",
+  "ilgi": [
+   "alisveris",
+   "yeme",
+   "eglence"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Forum_Bornova"
+ },
+ {
+  "id": "point-bornova",
+  "ad": "Point Bornova AVM",
+  "tur": "avm",
+  "ilce": "Bornova",
+  "semt": "Yeşilova",
+  "yil": "2015",
+  "lat": 38.4308,
+  "lon": 27.2102,
+  "web": null,
+  "aciklama": "Point Bornova AVM, 50 katlı ve 193 metre yüksekliğindeki Point Bornova gökdeleninin alt katlarında yer alan alışveriş merkezidir ve 27 Kasım 2015'te açılmıştır. Dağ, deniz ve kent temalı tavanı kısa sürede açılıp kapanabilen yapı, Avrupa'nın üstü açılır kapanır ilk alışveriş merkezi olarak tanıtılır. Yaklaşık 108 mağazası ve İzmir'in ilk VIP sinema salonlarını barındırır. İzmir Otogarı'nın hemen batısında bulunduğundan şehirlerarası yolculuk öncesi kolayca uğranabilir.",
+  "ilgi": [
+   "alisveris",
+   "eglence"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Point_Bornova"
+ },
+ {
+  "id": "park-bornova-outlet",
+  "ad": "Park Bornova Outlet Center",
+  "tur": "outlet",
+  "ilce": "Bornova",
+  "semt": "Doğanlar",
+  "yil": "1997",
+  "lat": 38.4567,
+  "lon": 27.2468,
+  "web": "https://www.parkbornova.com.tr/",
+  "aciklama": "Park Bornova, 29 Mart 1997'de EGS Park Bornova adıyla açılmış ve İzmir'in ilk alışveriş merkezlerinden biri olarak bilinir. 2001 krizinin ardından el değiştiren merkez, 6 Kasım 2004'te outlet konseptiyle yeniden açılmıştır. Tek katlı yapıda yaklaşık 52 mağaza, market, sinema, bowling salonu, çocuk oyun alanı ve kafeler bulunur. Ankara Caddesi üzerinde, İzmir–Ankara karayolu ile çevre yolu bağlantılarının kesiştiği noktadadır; en yakın metro durağı Üniversite istasyonudur.",
+  "ilgi": [
+   "alisveris",
+   "eglence",
+   "cocuk"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Park_Bornova_Outlet_Center"
+ },
+ {
+  "id": "istinyepark-izmir",
+  "ad": "İstinyePark İzmir",
+  "tur": "avm",
+  "ilce": "Balçova",
+  "semt": "Bahçelerarası",
+  "yil": "2021",
+  "lat": 38.3998,
+  "lon": 27.0682,
+  "web": "https://izmir.istinyepark.com.tr",
+  "aciklama": "İstinyePark İzmir, Orjin Grup tarafından inşa edilerek 22 Ekim 2021'de açılan alışveriş merkezidir; açılışı pandemi nedeniyle birkaç kez ertelenmiştir. Yaklaşık 86 bin metrekare kiralanabilir alanda 270 mağaza yer alır. Projede 80 bin metrekarelik bir kent parkı ve 160 odalı Hyatt Regency oteli de bulunur. Mithatpaşa Caddesi üzerindeki Fahrettin Altay tramvay durağı yaklaşık 230 metre, F. Altay metro istasyonu ise yaklaşık 500 metre uzaklıktadır.",
+  "ilgi": [
+   "alisveris",
+   "yeme"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/İstinyePark_İzmir"
+ },
+ {
+  "id": "agora-avm",
+  "ad": "Agora AVM",
+  "tur": "avm",
+  "ilce": "Balçova",
+  "semt": "Bahçelerarası",
+  "yil": "2003",
+  "lat": 38.395,
+  "lon": 27.0533,
+  "web": "https://agoraizmir.com",
+  "aciklama": "Agora AVM, adını antik çağda pazar yeri anlamına gelen agora sözcüğünden alan ve 14 Mart 2003'te açılan bir alışveriş merkezidir. 10 Eylül 2008'de tamamlanan büyütmeyle alanı iki katından fazlasına çıkmış, mağaza sayısı 85'ten 178'e yükselmiştir. Giyim ve elektronik mağazalarının yanı sıra sinema, etkinlik ve çocuk alanı, kafe-restoran katı bulunur. Mithatpaşa Caddesi üzerindedir; Narlıdere metro hattının Balçova istasyonu yaklaşık 330 metre uzaklıktadır.",
+  "ilgi": [
+   "alisveris",
+   "eglence",
+   "cocuk"
+  ],
+  "kaynak": "https://www.visitizmir.org/en/destinasyon/13027"
+ },
+ {
+  "id": "palmiye-avm",
+  "ad": "Palmiye AVM",
+  "tur": "avm",
+  "ilce": "Balçova",
+  "semt": "Bahçelerarası",
+  "yil": "2003",
+  "lat": 38.3949,
+  "lon": 27.0503,
+  "web": "https://palmiyealisverismerkezi.com",
+  "aciklama": "Palmiye AVM, Balçova'da Mithatpaşa Caddesi üzerinde 2003 yılında hizmete giren bir alışveriş merkezidir. Yaklaşık 15 bin metrekarelik arsa üzerinde, 23.500 metrekare kapalı alana yayılır. Giyim, aksesuar ve ev ürünleri mağazalarının yanında farklı mutfaklardan seçenekler sunan bir kafe-restoran bölümü vardır. Agora AVM ve Ege Park Balçova ile aynı cadde üzerinde yer aldığından birlikte gezilebilir; Narlıdere metro hattının Çağdaş istasyonu yaklaşık 400 metre uzaklıktadır.",
+  "ilgi": [
+   "alisveris",
+   "yeme"
+  ],
+  "kaynak": "https://www.visitizmir.org/en/destinasyon/13042"
+ },
+ {
+  "id": "ege-park-balcova",
+  "ad": "Ege Park Balçova",
+  "tur": "avm",
+  "ilce": "Balçova",
+  "semt": "Bahçelerarası",
+  "yil": "2010",
+  "lat": 38.3951,
+  "lon": 27.044,
+  "web": null,
+  "aciklama": "Ege Park Balçova, Mithatpaşa Caddesi üzerinde 19 Haziran 2010'da açılan bir alışveriş merkezidir. Yaklaşık 22 bin metrekare kiralanabilir alana sahip yapıda, yerli ve yabancı markaların mağazaları iki kata yayılır. Kompleksin parçası olan 22 katlı otel binası, Balçova'da uzaktan seçilebilen bir yapıdır. Narlıdere metro hattının Çağdaş istasyonu yaklaşık 150 metre uzaklıkta olduğundan raylı sistemle ulaşım kolaydır.",
+  "ilgi": [
+   "alisveris"
+  ],
+  "kaynak": "https://www.visitizmir.org/en/destinasyon/13034"
+ },
+ {
+  "id": "selway-outlet-park",
+  "ad": "Selway Outlet Park",
+  "tur": "outlet",
+  "ilce": "Balçova",
+  "semt": "Çetin Emeç",
+  "yil": "2006",
+  "lat": 38.3762,
+  "lon": 27.0751,
+  "web": null,
+  "aciklama": "Selway Outlet Park, İzmir Çevre Yolu kenarında, Balçova'nın Çetin Emeç Mahallesi'nde yer alan bir outlet alışveriş merkezidir. İzmir Büyükşehir Belediyesi'nin turizm portalına göre 2006'da İzmir'in ilk outlet AVM'si olarak açılmıştır. Toplam 55 bin metrekarelik alanın 35 bin metrekaresi kiralanabilir alandır ve 100'ü aşkın yerli ve yabancı marka bulunur. Yaklaşık 3.500 araçlık otoparkı nedeniyle daha çok otomobille ulaşılan bir merkezdir.",
+  "ilgi": [
+   "alisveris"
+  ],
+  "kaynak": "https://www.visitizmir.org/en/destinasyon/13044"
+ },
+ {
+  "id": "ozdilek-izmir",
+  "ad": "Özdilek İzmir AVM",
+  "tur": "avm",
+  "ilce": "Balçova",
+  "semt": "İnciraltı",
+  "yil": null,
+  "lat": 38.4109,
+  "lon": 27.0313,
+  "web": null,
+  "aciklama": "Özdilek İzmir AVM, Balçova'nın İnciraltı bölgesinde, İnciraltı Caddesi üzerinde yer alan bir alışveriş merkezidir. Mağaza, market ve kafe-restoran bölümlerinin yanında çocuklara yönelik StarPark eğlence merkezi ve 3–8 yaş arası çocuklar için uzman gözetiminde bir oyun odası bulunur. Merkez, termal tesisleri olan Wyndham Grand İzmir Özdilek oteliyle aynı yapı grubundadır. Yaklaşık 1.000 araçlık otoparkı vardır.",
+  "ilgi": [
+   "alisveris",
+   "cocuk",
+   "eglence"
+  ],
+  "kaynak": "https://www.visitizmir.org/en/destinasyon/13032"
+ },
+ {
+  "id": "mavibahce",
+  "ad": "MaviBahçe",
+  "tur": "avm",
+  "ilce": "Karşıyaka",
+  "semt": "Mavişehir",
+  "yil": "2015",
+  "lat": 38.4737,
+  "lon": 27.0749,
+  "web": "https://www.mavibahce.com.tr/",
+  "aciklama": "MaviBahçe, ECE Türkiye tarafından geliştirilerek 14 Kasım 2015'te açılan alışveriş merkezidir. 200'ü aşkın mağazanın yanında İzmir'in ilk IMAX sinema salonu ve geniş bir çocuk oyun ve eğlence katı bulunur. Caher Dudayev Bulvarı üzerinde, Hilltown Karşıyaka'nın tam karşısında yer aldığı için iki merkez birlikte gezilebilir. Karşıyaka tramvayının Mustafa Kemal Spor Salonu durağı yaklaşık 180 metre uzaklıktadır.",
+  "ilgi": [
+   "alisveris",
+   "eglence",
+   "cocuk"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/MaviBahçe"
+ },
+ {
+  "id": "hilltown-karsiyaka",
+  "ad": "Hilltown Karşıyaka",
+  "tur": "avm",
+  "ilce": "Karşıyaka",
+  "semt": "Yalı",
+  "yil": "2019",
+  "lat": 38.4788,
+  "lon": 27.0742,
+  "web": "https://hilltownkarsiyaka.com",
+  "aciklama": "Hilltown Karşıyaka, Rönesans Holding'in sahibi ve işletmecisi olduğu, 18 Ekim 2019'da açılan alışveriş merkezidir. Mimari tasarımı Hollandalı TCONCEPT firmasına aittir ve meydanlarıyla küçük bir kasabayı andırır. Yaklaşık 190 mağazanın 42'si kafe ve restorandır; yedi salonlu sinema, hipermarket, 1.500 metrekarelik çocuk oyun alanı ve 2.750 araçlık kapalı otopark bulunur. Karşıyaka tramvayının Ataşehir durağı yaklaşık 150 metre uzaklıktadır.",
+  "ilgi": [
+   "alisveris",
+   "yeme",
+   "eglence",
+   "cocuk"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Hilltown_Karşıyaka"
+ },
+ {
+  "id": "westpark-outlet",
+  "ad": "Westpark Outlet",
+  "tur": "outlet",
+  "ilce": "Bayraklı",
+  "semt": "Refik Şevket İnce",
+  "yil": "2018",
+  "lat": 38.4805,
+  "lon": 27.1795,
+  "web": "https://www.westparkoutlet.com.tr",
+  "aciklama": "Westpark Outlet, Tankar Gayrimenkul Yatırım tarafından işletilen ve 10 Mayıs 2018'de açılan bir outlet alışveriş merkezidir. Birbirine üst geçitle bağlanan iki binadan oluşan yarı açık yapıda yaklaşık 170 mağaza ve sinema bulunur. Merkezin içinde Ege Bölgesi'nin ilk büyük akvaryumu yer alır. İzmir Çevre Yolu kenarında bulunduğundan otomobille kolay ulaşılır; yaklaşık 2.500 araçlık otoparkı vardır, raylı sistem istasyonları ise uzaktadır.",
+  "ilgi": [
+   "alisveris",
+   "eglence",
+   "cocuk"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Westpark_Outlet"
+ },
+ {
+  "id": "izmir-optimum",
+  "ad": "İzmir Optimum",
+  "tur": "avm",
+  "ilce": "Gaziemir",
+  "semt": "Zafer",
+  "yil": "2012",
+  "lat": 38.3379,
+  "lon": 27.1348,
+  "web": "https://izmiroptimum.com",
+  "aciklama": "İzmir Optimum, Rönesans Holding tarafından işletilen ve 30 Mart 2012'de outlet merkezi olarak açılan alışveriş merkezidir. 2017'de tamamlanan büyütmeyle konsept değiştirmiş, 2018'de ICSC Avrupa Alışveriş Merkezi Ödülleri'nde büyütme dalında ödül almıştır. Yaklaşık 235 bin metrekarelik kompleks 250 mağaza ve sinema barındırır. Önünde tarihi Seydiköy Tümülüsü yer alır; İZBAN'ın ESBAŞ istasyonu yaklaşık 250 metre uzaklıkta, havalimanı da yakındadır.",
+  "ilgi": [
+   "alisveris",
+   "eglence",
+   "tarih",
+   "cocuk"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/İzmir_Optimum"
+ },
+ {
+  "id": "izmirpark-avm",
+  "ad": "İzmirPark AVM",
+  "tur": "avm",
+  "ilce": "Konak",
+  "semt": "Güneşli (Eşrefpaşa)",
+  "yil": null,
+  "lat": 38.4034,
+  "lon": 27.1287,
+  "web": null,
+  "aciklama": "İzmirPark AVM, Eşrefpaşa Caddesi üzerinde, Konak, Şirinyer ve Hatay yerleşimlerinin kesiştiği noktada yer alan orta ölçekli bir alışveriş merkezidir. 32 bin metrekarelik inşaat alanında 13.200 metrekare kiralanabilir alan ve 50'yi aşkın mağaza bulunur. Yemek katı ve yaklaşık 500 araçlık otoparkıyla çevre mahallelerin günlük alışveriş noktalarından biridir. Konak Meydanı'na yaklaşık 1,5 kilometre uzaklıktadır; en yakın metro durağı Üçyol istasyonudur.",
+  "ilgi": [
+   "alisveris",
+   "yeme"
+  ],
+  "kaynak": "https://www.visitizmir.org/en/destinasyon/13041"
+ },
+ {
+  "id": "havra-sokagi",
+  "ad": "Tarihi Havra Sokağı",
+  "tur": "sokak",
+  "ilce": "Konak",
+  "semt": "Kemeraltı (Güzelyurt)",
+  "yil": null,
+  "lat": 38.4197,
+  "lon": 27.136,
+  "web": null,
+  "aciklama": "Havra Sokağı, Kemeraltı Çarşısı'nın doğal uzantısı sayılan ve yüzyıllardır ticaretin sürdüğü dar bir çarşı sokağıdır. Adını çevresindeki tarihi sinagoglardan alır; Signora Giveret, Bikur Holim, Şalom ve Algazi gibi sinagoglar bu bölgededir. Geçmişte İzmir Yahudi cemaatinin koşer et, süt ve gıda üretim merkeziydi; bugün meyve-sebze, balık, peynir ve turşu satan küçük dükkânlarla doludur. En yakın metro durağı yaklaşık 300 metre uzaklıktaki Çankaya istasyonudur.",
+  "ilgi": [
+   "alisveris",
+   "yeme",
+   "tarih"
+  ],
+  "kaynak": "https://www.yeniasir.com.tr/izmir/2026/08/24/kemeraltinin-ticaret-damari-havra-sokagi"
+ },
+ {
+  "id": "mimar-kemalettin-moda-merkezi",
+  "ad": "Mimar Kemalettin Moda Merkezi",
+  "tur": "carsi",
+  "ilce": "Konak",
+  "semt": "Akdeniz",
+  "yil": "2001",
+  "lat": 38.4232,
+  "lon": 27.135,
+  "web": null,
+  "aciklama": "Mimar Kemalettin Caddesi, 1922 yangınında yanan alanda 1925'te Danger planına göre açılan ilk caddelerden biridir ve bugün tekstil ile moda ticaretiyle bilinir. İzmir Büyükşehir ve Konak belediyelerinin düzenlemesiyle 14 Kasım 2001'de yayalaştırılarak Mimar Kemalettin Moda Merkezi adıyla yeniden açılmıştır. Kentsel sit alanında Çukur Han, Kadıoğlu Hanı ve Helvacıoğlu Hanı gibi 60 tescilli yapı bulunur. Çankaya metro istasyonu yaklaşık 200 metre uzaklıktadır.",
+  "ilgi": [
+   "alisveris",
+   "tarih"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Mimar_Kemalettin_Moda_Merkezi"
+ },
+ {
+  "id": "bostanli-pazar-yeri",
+  "ad": "Bostanlı Pazar Yeri",
+  "tur": "pazar",
+  "ilce": "Karşıyaka",
+  "semt": "Atakent (Bostanlı)",
+  "yil": null,
+  "lat": 38.4601,
+  "lon": 27.0882,
+  "web": null,
+  "aciklama": "Bostanlı Pazar Yeri, Karşıyaka Belediyesi'ne ait yaklaşık 15 bin metrekarelik kapalı pazar alanıdır. Çarşamba günleri kurulan ve halk arasında Bospa ya da sosyete pazarı olarak anılan pazar, özellikle giyim tezgâhlarıyla tanınır; esnaf burada 37 yıldır pazar kurduğunu belirtir. Alan, 2010'da açılan Ekopazar İzmir'e de ilk yıllarında ev sahipliği yapmıştır. Karşıyaka tramvayının Vilayet Evi durağı yaklaşık 180 metre, Bostanlı İskelesi ise yürüme mesafesindedir.",
+  "ilgi": [
+   "alisveris",
+   "yeme"
+  ],
+  "kaynak": "https://www.aydinlik.com.tr/haber/bostanli-pazari-esnafindan-uyari-pazaryerini-ucuncu-sahislar-kullanamaz-569403"
+ },
+ {
+  "id": "ozkanlar-viyaduk-pazari",
+  "ad": "Özkanlar Pazarı (Bornova Viyadüğü altı)",
+  "tur": "pazar",
+  "ilce": "Bornova",
+  "semt": "Kazımdirik (Özkanlar)",
+  "yil": null,
+  "lat": 38.459,
+  "lon": 27.2064,
+  "web": null,
+  "aciklama": "Özkanlar Pazarı, Bornova Viyadüğü'nün altında, Kurtuluş Caddesi çevresinde kurulan geniş bir semt pazarıdır. Perşembe günleri ağırlıklı olarak tekstil ürünlerinin satıldığı sosyete pazarı, pazar günleri ise ikinci el otomobil pazarı kurulur. Her ayın son pazar günü aynı alanda antika ve eski eşya pazarı düzenlenir. Bornova metro istasyonu yaklaşık 550 metre uzaklıkta olduğundan raylı sistemle ulaşmak kolaydır.",
+  "ilgi": [
+   "alisveris"
+  ],
+  "kaynak": "https://www.istairport.com/blog/turkiye/izmir-in-ikinci-el-pazarlari"
+ },
+ {
+  "id": "buca-carsi-kapali-pazar",
+  "ad": "Buca Çarşı Kapalı Pazar Yeri",
+  "tur": "pazar",
+  "ilce": "Buca",
+  "semt": "Kozağaç",
+  "yil": null,
+  "lat": 38.3826,
+  "lon": 27.1705,
+  "web": null,
+  "aciklama": "Buca Çarşı, Buca Belediyesi'nin Kozağaç Mahallesi'nde yaptırdığı, yaklaşık 13 bin metrekarelik alışveriş ve sosyal tesis kompleksidir. Zemin katında yaklaşık 10 bin metrekarelik, ısıtma ve soğutma sistemli, 1.000 tezgâh kapasiteli kapalı pazar yeri bulunur ve ilçenin büyük semt pazarı burada kurulur. İzmir Büyükşehir Belediyesi'nin İkinci El Pazarı da her ayın üçüncü cuma günü bu kapalı pazar alanında düzenlenir. Buca merkezine yürüme mesafesindedir.",
+  "ilgi": [
+   "alisveris",
+   "yeme"
+  ],
+  "kaynak": "https://www.karar.com/sehir-haberleri/buyuksehirin-ikinci-el-pazarlari-birinci-yilini-doldurdu-2073959"
+ },
+ {
+  "id": "bozyaka-kapali-pazar",
+  "ad": "Bozyaka Kapalı Pazar Yeri",
+  "tur": "pazar",
+  "ilce": "Karabağlar",
+  "semt": "Bozyaka",
+  "yil": null,
+  "lat": 38.3867,
+  "lon": 27.1241,
+  "web": null,
+  "aciklama": "Bozyaka Kapalı Pazar Yeri, Karabağlar'ın Bozyaka Mahallesi'nde, 3089 Sokak üzerinde bulunan kapalı semt pazarıdır. Haftalık mahalle pazarının yanı sıra İzmir Büyükşehir Belediyesi'nin İkinci El Pazarı'nın Karabağlar ayağına ev sahipliği yapar; bu pazar her ayın dördüncü çarşamba günü kurulur. İkinci el pazarında kullanılabilir durumdaki giysi, ev eşyası ve kitap gibi ürünler satılır. Eski İzmir Caddesi'ne ve Bozyaka Eğitim ve Araştırma Hastanesi çevresine yakındır.",
+  "ilgi": [
+   "alisveris"
+  ],
+  "kaynak": "https://www.karar.com/sehir-haberleri/buyuksehirin-ikinci-el-pazarlari-birinci-yilini-doldurdu-2073959"
+ },
+ {
+  "id": "yukarikoy-uretici-pazari",
+  "ad": "Tarihi Yukarıköy Yerel Üretici Pazarı",
+  "tur": "pazar",
+  "ilce": "Narlıdere",
+  "semt": "Yukarıköy",
+  "yil": "2023",
+  "lat": 38.3914,
+  "lon": 27.0057,
+  "web": null,
+  "aciklama": "Yukarıköy, yaklaşık 300 yıllık geçmişiyle Narlıdere'nin ilk yerleşim yeridir. Narlıdere Belediyesi'nin üç yıl süren restorasyonunda 122 yapının çatı ve cepheleri onarılmış, 2023'te açılan alanda hafta sonları kurulan bir yerel üretici pazarı oluşturulmuştur. Köydeki satış noktalarında belediyenin kurduğu NAR-KOOP kadın üretici kooperatifinin gıda ve el emeği ürünleri de bulunur. İlçede AVM bulunmadığından yerel alışveriş öne çıkar; en yakın metro durağı 100. Yıl Cumhuriyet Şehitlik istasyonudur.",
+  "ilgi": [
+   "alisveris",
+   "yeme",
+   "tarih"
+  ],
+  "kaynak": "https://www.birgun.net/haber/tarihi-yukarikoy-vitrine-cikti-451452"
+ },
+ {
+  "id": "inciralti-kent-ormani",
+  "ad": "İnciraltı Kent Ormanı",
+  "tur": "orman",
+  "ilce": "Balçova",
+  "semt": "Bahçelerarası",
+  "yil": "2006",
+  "lat": 38.4104,
+  "lon": 27.0593,
+  "web": null,
+  "ilgi": [
+   "doga",
+   "cocuk"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/İnciraltı_Kent_Ormanı",
+  "aciklama": "Balçova'nın Bahçelerarası Mahallesi'nde, Çakalburnu Lagünü'nün doğusunda yer alan kent ormanı, 1999'a kadar moloz dökülen Yenikale Burnu'nda 2004 sonunda başlayıp Haziran 2006'da tamamlanan ağaçlandırmayla oluşturuldu. Yaklaşık 622 bin metrekarelik alanda çınar, ıhlamur, manolya ve çam gibi türlerden 20 binden fazla ağaç bulunuyor. Yürüyüş parkurları, bisiklet yolları ve dinlenme alanları var; lagün tarafında kuş gözlemi yapılabiliyor. 2017'den beri her yıl 19 Mayıs haftasında İzmir Gençlik Festivali burada düzenleniyor; ateş yakma kurallarına dikkat etmek gerekiyor."
+ },
+ {
+  "id": "asik-veysel-rekreasyon-alani",
+  "ad": "Aşık Veysel Rekreasyon Alanı",
+  "tur": "park",
+  "ilce": "Bornova",
+  "semt": null,
+  "yil": "2010",
+  "lat": 38.4675,
+  "lon": 27.2097,
+  "web": null,
+  "ilgi": [
+   "doga",
+   "cocuk",
+   "eglence"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/A%C5%9F%C4%B1k_Veysel_Rekreasyon_Alan%C4%B1",
+  "aciklama": "Halk ozanı Aşık Veysel'in adını taşıyan 231 bin metrekarelik park, 2008'de başlayan çalışmaların ardından 25 Eylül 2010'da İzmir Büyükşehir Belediyesi tarafından açıldı. İçinde 5 bin kişilik açık hava amfitiyatrosu, 1.500 metrekarelik gölet, basketbol ve tenis sahaları, üç çocuk oyun alanı, 1,5 kilometrelik bisiklet yolu ve 2021'de hizmete giren yarı olimpik yüzme havuzu bulunuyor. Yaz akşamları amfitiyatroda konserler düzenleniyor; parkın bitişiğindeki Buz Sporları Salonu ile birlikte gezilebiliyor."
+ },
+ {
+  "id": "izmir-kent-ormani",
+  "ad": "İzmir Kent Ormanı",
+  "tur": "orman",
+  "ilce": "Bornova",
+  "semt": null,
+  "yil": null,
+  "lat": 38.4808,
+  "lon": 27.2797,
+  "web": null,
+  "ilgi": [
+   "doga",
+   "cocuk"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/%C4%B0zmir_Kent_Orman%C4%B1",
+  "aciklama": "Bornova ilçe merkezine yaklaşık 4 kilometre uzaklıkta, Orman Genel Müdürlüğü tarafından yönetilen ve halka açık olan kent ormanı yaklaşık 1.226 hektarlık bir alanı kaplıyor. Baskın tür kızılçam; ardıç, defne, mersin, meşe ve zakkum da görülüyor, sincap, tilki ve keklik gibi hayvanlar yaşıyor. Seyir kulesi, seyir terasları, yürüyüş ve bisiklet parkurları, spor sahaları ve çocuk oyun alanları bulunuyor. Yaz sıcağında sabah erken saatler yürüyüş için daha uygun; orman yangını riskine karşı ateş yakılmamalı."
+ },
+ {
+  "id": "ege-universitesi-botanik-bahcesi",
+  "ad": "Ege Üniversitesi Botanik Bahçesi ve Herbaryumu",
+  "tur": "bahce",
+  "ilce": "Bornova",
+  "semt": "Ege Üniversitesi Kampüsü",
+  "yil": null,
+  "lat": 38.4591,
+  "lon": 27.2335,
+  "web": "https://botanik.ege.edu.tr/",
+  "ilgi": [
+   "doga",
+   "cocuk"
+  ],
+  "kaynak": "https://botanik.ege.edu.tr/",
+  "aciklama": "Ege Üniversitesi'nin Bornova kampüsündeki Botanik Bahçesi ve Herbaryum Uygulama ve Araştırma Merkezi, tropik bölgelerden yüksek dağlara uzanan geniş bir coğrafyadan bitkileri bir arada barındırıyor. Bahçe, araştırma ve eğitim amacıyla kurulmuş bir bilimsel koleksiyon niteliğinde; herbaryumunda kurutulmuş bitki örnekleri saklanıyor ve merkez İzmir florasında yeni türlerin tanımlanmasına katkı veriyor. Okul ve grup ziyaretleri için merkezle önceden randevu alınması öneriliyor. Kampüse Bornova metro hattının Ege Üniversitesi istasyonundan ulaşılabiliyor."
+ },
+ {
+  "id": "uzundere-rekreasyon-alani",
+  "ad": "Uzundere Rekreasyon Alanı",
+  "tur": "park",
+  "ilce": "Karabağlar",
+  "semt": "Uzundere",
+  "yil": "2016",
+  "lat": 38.3575,
+  "lon": 27.0947,
+  "web": null,
+  "ilgi": [
+   "doga",
+   "cocuk",
+   "eglence"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Uzundere_Rekreasyon_Alan%C4%B1",
+  "aciklama": "Karabağlar'daki 230 bin metrekarelik rekreasyon alanının yapımına 2 Mart 2013'te başlandı ve park 3 Haziran 2016'da Karabağlar Belediyesi tarafından hizmete açıldı. Parkın simgesi 37,5 metre yüksekliğindeki Nasreddin Hoca heykeli; ayrıca yapay göletler, tematik çocuk oyun alanı, yüzme havuzu, 2 bin kişilik amfitiyatro ve kafeterya bulunuyor. Geniş çim alanları piknik ve aile gezileri için uygun. Hafta sonları kalabalık olduğundan sakin bir ziyaret için hafta içi akşamüstü tercih edilebilir."
+ },
+ {
+  "id": "buca-yedigoller",
+  "ad": "Buca Yedigöller",
+  "tur": "park",
+  "ilce": "Buca",
+  "semt": "İzkent",
+  "yil": "2003",
+  "lat": 38.3967,
+  "lon": 27.19,
+  "web": null,
+  "ilgi": [
+   "doga",
+   "cocuk"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Buca_Yedig%C3%B6ller",
+  "aciklama": "Bolu'daki Yedigöller Milli Parkı örnek alınarak İzkent ile Evka-1 arasındaki kuru dere yatağında Aralık 2003'te kurulan park yaklaşık 100 bin metrekarelik bir alana yayılıyor. Açıldığında birbirine şelalelerle bağlanan yedi gölet bulunuyordu; 2018 ve 2022'deki yenilemelerin ardından gölet sayısı üçe indi, 2026'da eski gölet alanlarından birinde 1.800 metrekarelik kaykay parkı yapıldı. 70 metrelik yaya köprüsü, seyir terasları, yürüyüş yolları ve kafeterya bulunuyor. Tınaztepe–Konak arasında çalışan otobüs hatlarıyla ulaşılabiliyor."
+ },
+ {
+  "id": "birinci-kordon",
+  "ad": "Kordon (Kordonboyu)",
+  "tur": "sahil",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": null,
+  "lat": 38.4356,
+  "lon": 27.1394,
+  "web": null,
+  "ilgi": [
+   "doga",
+   "tarih",
+   "yeme",
+   "eglence"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Kordon_(%C4%B0zmir)",
+  "aciklama": "Kordon, Konak'ta Cumhuriyet Meydanı ile Alsancak Limanı arasında körfez kıyısı boyunca uzanan cadde ve kamusal kıyı şerididir. Kökeni 1868'de yapımına başlanan İzmir rıhtımına dayanıyor; bugünkü geniş yeşil alanlar 1990'ların sonundaki dolgunun parka dönüştürülmesiyle oluştu. Çimlerde oturmak, yürüyüş ve bisiklet yollarında dolaşmak ve gün batımında körfez manzarasını izlemek en yaygın etkinlikler. Alsancak ve Pasaport vapur iskeleleri Kordon üzerinde; akşamüstü saatleri en canlı zaman."
+ },
+ {
+  "id": "goztepe-sahili",
+  "ad": "Göztepe Sahili",
+  "tur": "sahil",
+  "ilce": "Konak",
+  "semt": "Göztepe",
+  "yil": null,
+  "lat": 38.3995,
+  "lon": 27.09,
+  "web": null,
+  "ilgi": [
+   "doga",
+   "cocuk"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Mustafa_Kemal_Sahil_Bulvar%C4%B1",
+  "aciklama": "Konak'tan Narlıdere'ye uzanan Mustafa Kemal Sahil Bulvarı boyunca Karataş, Karantina, Göztepe ve Güzelyalı önlerinde uzanan kıyı şeridi, 1980'lerde yapılan dolgularla oluşturuldu. Göztepe–Üçkuyular bölümü İzmir Kıyı Tasarım Projesi kapsamında yeniden düzenlendi; ahşap iskeleler, oturma alanları, yürüyüş ve bisiklet yolları eklendi. Çocuk oyun alanları ve çim alanlarıyla aileler için uygun bir sahil parkı niteliğinde. Konak Tramvayı'nın Göztepe durağı ve Göztepe vapur iskelesi hemen yanında."
+ },
+ {
+  "id": "bahribaba-parki",
+  "ad": "Bahribaba Parkı",
+  "tur": "park",
+  "ilce": "Konak",
+  "semt": "Bahribaba",
+  "yil": null,
+  "lat": 38.4147,
+  "lon": 27.1278,
+  "web": null,
+  "ilgi": [
+   "doga",
+   "tarih"
+  ],
+  "kaynak": "https://www.wikidata.org/wiki/Q49583606",
+  "aciklama": "Konak'ta Varyant'ın eteğinde, Mithatpaşa Caddesi ile Halil Rifat Paşa Caddesi arasındaki yamaçta yer alan Bahribaba Parkı, körfeze bakan teraslarıyla kent merkezindeki eski yeşil alanlardan biri. Ağaçlık yürüyüş yolları ve oturma alanları Konak ile Karataş arasında kısa bir mola imkânı sunuyor. Hemen yakınındaki Kent Tarihi Parkı, Ümran Baradan Oyun ve Oyuncak Müzesi ve Tarihi Asansör ile birlikte yürüyerek gezilebiliyor. Konak Tramvayı'nın Karantina durağından birkaç dakikalık yürüyüşle ulaşılıyor."
+ },
+ {
+  "id": "karsiyaka-sahili",
+  "ad": "Karşıyaka Sahili",
+  "tur": "sahil",
+  "ilce": "Karşıyaka",
+  "semt": "Tuna",
+  "yil": null,
+  "lat": 38.4553,
+  "lon": 27.1185,
+  "web": null,
+  "ilgi": [
+   "doga",
+   "cocuk",
+   "yeme"
+  ],
+  "kaynak": "https://www.hurriyet.com.tr/yerel-haberler/izmir/bostanli-sahilinde-kiyi-duzenlemesi-40676717",
+  "aciklama": "Karşıyaka vapur iskelesinden batıya, Bostanlı ve Mavişehir'e doğru uzanan sahil şeridi, araç trafiğinden ayrılmış kesintisiz bir yaya ve bisiklet hattı oluşturuyor. 2017–2018'de yapılan kıyı düzenlemesiyle sahil boyunca kauçuk koşu yolu, spor sahaları, oturma ve piknik alanları eklendi. Çim alanlar, çocuk oyun alanları ve deniz kenarındaki kafeler hafta sonları aileleri buluşturuyor. Karşıyaka iskelesine Konak ve Alsancak'tan vapurla, sahile paralel uzanan Karşıyaka Tramvayı'yla da ulaşılabiliyor."
+ },
+ {
+  "id": "bayrakli-sahili",
+  "ad": "Bayraklı Sahili",
+  "tur": "sahil",
+  "ilce": "Bayraklı",
+  "semt": "Bayraklı İskelesi",
+  "yil": null,
+  "lat": 38.4625,
+  "lon": 27.164,
+  "web": null,
+  "ilgi": [
+   "doga"
+  ],
+  "kaynak": "https://emlakkulisi.com/bayrakli-kiyi-seridi-yeniden-tasarlaniyor/344241",
+  "aciklama": "Bayraklı'nın körfez kıyısı, İzmir Büyükşehir Belediyesi'nin İzmirdeniz Kıyı Tasarım Projesi kapsamında etap etap yeniden düzenleniyor. Şelale Deresi ile Adnan Kahveci Kavşağı arasındaki bölümde kıyı ikiye ayrılarak dalga desenli kesintisiz bir yaya yolu ve kara tarafında ayrı bir bisiklet yolu oluşturuldu; deniz kenarında oturma basamakları bulunuyor. Yürüyüş yolu boyunca körfezin karşı kıyısı ve Bayraklı'daki yüksek binalar birlikte izlenebiliyor. Bayraklı vapur iskelesi ve sahile paralel otobüs hatlarıyla ulaşım kolay."
+ },
+ {
+  "id": "balcova-terapi-ormani",
+  "ad": "Balçova Terapi Ormanı",
+  "tur": "orman",
+  "ilce": "Narlıdere",
+  "semt": "Balçova Barajı çevresi",
+  "yil": null,
+  "lat": 38.3779,
+  "lon": 27.0261,
+  "web": null,
+  "ilgi": [
+   "doga"
+  ],
+  "kaynak": "https://www.yenibakishaber.com/foto-galeri/ruhunuzu-yenileyen-sakin-bir-cennet-balcova-terapi-ormani",
+  "aciklama": "Balçova ile Narlıdere sınırındaki tepelerde, Balçova Barajı gölünün çevresinde yer alan orman, insanları doğayla buluşturmak ve ruh sağlığını desteklemek amacıyla düzenlenmiş ilk terapi ormanı olarak tanıtılıyor. Zirvesi deniz seviyesinden yaklaşık 369 metre yükseklikte; yerel ve nadir ağaç türleri arasında farklı zorluklarda patika parkurları ve baraj gölü manzarası bulunuyor. Parkurlar İnciraltı Kent Ormanı'nın düz yollarına göre daha engebeli olduğundan rahat ayakkabı ve su almak gerekiyor. ESHOT'un 480 numaralı hattı bölgeye yakın geçiyor."
+ },
+ {
+  "id": "buca-halk-parki",
+  "ad": "Buca Halk Parkı",
+  "tur": "park",
+  "ilce": "Buca",
+  "semt": "Kozağaç",
+  "yil": "2026",
+  "lat": 38.3832,
+  "lon": 27.1625,
+  "web": null,
+  "ilgi": [
+   "doga",
+   "cocuk"
+  ],
+  "kaynak": "https://www.karar.com/sehir-haberleri/bucanin-yeni-yasam-alani-kapilarini-acti-2074430",
+  "aciklama": "Buca'nın Kozağaç Mahallesi'nde, Uğur Mumcu Caddesi üzerinde Buca Kaymakamlığı'nın karşısındaki atıl arazi, İzmir Büyükşehir Belediyesi tarafından yaklaşık 22.600 metrekarelik bir halk parkına dönüştürülerek Eylül 2026'da açıldı. Parkta yaklaşık 650 metrelik yürüyüş yolu, çocuk oyun alanları, tenis kortu, açık hava spor istasyonu, kafeterya ve Kozağaç Mahalle Bostanı adıyla bir topluluk bahçesi bulunuyor; mevcut ağaçlar ve zeytinlikler korunarak çim alanlarla birleştirildi. Kültürpark modeline göre gece yarısından sabah altıya kadar kapalı."
+ },
+ {
+  "id": "evrensel-cocuk-muzesi",
+  "ad": "Evrensel Çocuk Müzesi ve Eğitim Kampüsü",
+  "tur": "bilim",
+  "ilce": "Karşıyaka",
+  "semt": "Yalı",
+  "yil": "2017",
+  "lat": 38.4752,
+  "lon": 27.0827,
+  "web": null,
+  "ilgi": [
+   "cocuk",
+   "muze"
+  ],
+  "kaynak": "https://www.hurriyet.com.tr/yerel-haberler/izmir/cocuklar-icin-muze-acildi-40588727",
+  "aciklama": "Karşıyaka Belediyesi'nin Yalı Mahallesi'nde, Cahar Dudayev Bulvarı üzerinde 7.200 metrekarelik arazide kurduğu kampüs Eylül 2017'de açıldı. İyilik, dürüstlük ve saygı gibi evrensel değerleri anlatan sergi alanlarının yanı sıra 15 dinozor replikası ve fosil kazı alanı bulunan paleontoloji adası, böcek replikalarıyla entomoloji adası ve biyolojik gölet var. 2021'de kampüste 16 metre kubbe çaplı, 98 kişilik bir planetaryum da hizmete girdi. Karşıyaka Tramvayı'nın Bilim Müzesi durağı yakınında."
+ },
+ {
+  "id": "karsiyaka-bilim-muzesi",
+  "ad": "Karşıyaka Bilim Müzesi",
+  "tur": "bilim",
+  "ilce": "Karşıyaka",
+  "semt": "Mavişehir",
+  "yil": null,
+  "lat": 38.4754,
+  "lon": 27.0804,
+  "web": null,
+  "ilgi": [
+   "cocuk",
+   "muze",
+   "eglence"
+  ],
+  "kaynak": "https://www.haberhurriyeti.com/amp/haber/3360510/karsiyaka-bilim-muzesine-ziyaretci-akini",
+  "aciklama": "Mavişehir'de Cahar Dudayev Bulvarı üzerindeki Karşıyaka Bilim Müzesi, Karşıyaka Belediyesi tarafından kente kazandırılan ve Ege Bölgesi'nin ilk bilim müzesi olarak tanıtılan bir keşif merkezi. 750 metrekarelik kapalı alanda 60'tan fazla etkileşimli deney istasyonu bulunuyor; Sonsuz Aynalar, Süper Kulak, Karışmayan Sıvılar ve Uçaklar Havada Nasıl Kalır gibi düzenekler fizik ve algı konularını dokunarak öğretiyor. Okul gruplarıyla yoğunlaşabildiğinden hafta sonları ailece ziyaret için daha uygun. Karşıyaka Tramvayı'nın Bilim Müzesi durağına yakın."
+ },
+ {
+  "id": "umran-baradan-oyuncak-muzesi",
+  "ad": "Ümran Baradan Oyun ve Oyuncak Müzesi",
+  "tur": "bilim",
+  "ilce": "Konak",
+  "semt": "Halil Rifat Paşa",
+  "yil": "2010",
+  "lat": 38.4135,
+  "lon": 27.1267,
+  "web": null,
+  "ilgi": [
+   "cocuk",
+   "muze",
+   "tarih"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/%C3%9Cmran_Baradan_Oyun_ve_Oyuncak_M%C3%BCzesi",
+  "aciklama": "İzmirli seramik sanatçısı Ümran Baradan'ın dünyanın farklı ülkelerinden topladığı oyuncaklar ve bağışladığı iki katlı evle kurulan müze, 17 Ocak 2010'da açıldı ve Konak Belediyesi tarafından işletiliyor. Koleksiyonda 1800'lere uzanan örneklerle birlikte binden fazla oyuncak sergileniyor; bahçede masal ve çizgi film kahramanlarının heykelleri yer alıyor. Karagöz-Hacivat gölge oyunu, masal saatleri ve çocuk atölyeleri düzenleniyor. Varyant yolu üzerinde, Konak'tan yürüyerek ya da kısa bir otobüs yolculuğuyla ulaşılabiliyor."
+ },
+ {
+  "id": "funtastic-aquarium-izmir",
+  "ad": "Funtastic Aquarium İzmir",
+  "tur": "hayvan",
+  "ilce": "Bayraklı",
+  "semt": "Refik Şevket İnce",
+  "yil": null,
+  "lat": 38.4805,
+  "lon": 27.1796,
+  "web": null,
+  "ilgi": [
+   "cocuk",
+   "eglence"
+  ],
+  "kaynak": "https://www.karar.com/sehir-haberleri/izmirli-cocuklar-su-alti-dunyasini-kesfetti-2076277",
+  "aciklama": "Bayraklı'da Westpark Outlet alışveriş merkezinin içinde yer alan akvaryum, 2 milyon litreyi aşan su hacmiyle kentin tek büyük kamu akvaryumu olarak tanıtılıyor. Köpek balıkları, vatozlar, tropik deniz balıkları ve soğuk okyanus türleri dahil yüzlerce canlı sergileniyor; tünel şeklindeki yürüyüş bölümü ve canlı besleme seansları en çok ilgi gören kısımlar. İzmir Büyükşehir Belediyesi'nin programıyla her ay bir grup çocuk ücretsiz ağırlanıyor. Kapalı mekân olduğundan yağmurlu ve çok sıcak günlerde iyi bir seçenek."
+ },
+ {
+  "id": "ege-tabiat-tarihi-muzesi",
+  "ad": "Ege Üniversitesi Tabiat Tarihi Müzesi",
+  "tur": "bilim",
+  "ilce": "Bornova",
+  "semt": "Ege Üniversitesi Kampüsü",
+  "yil": "1973",
+  "lat": 38.4586,
+  "lon": 27.2314,
+  "web": "https://tabiattarihi.ege.edu.tr/",
+  "ilgi": [
+   "cocuk",
+   "muze",
+   "doga"
+  ],
+  "kaynak": "https://en.wikipedia.org/wiki/Natural_History_Museum_of_Ege_University",
+  "aciklama": "Ege Üniversitesi kampüsünde Fen Fakültesi'nin yanında bulunan müze 1973'te kuruldu ve 1991'den beri rektörlüğe bağlı bir merkez olarak çalışıyor. Toplam 2.500 metrekarelik altı salonda yaklaşık 4 bin eser sergileniyor: paleontoloji, kayaçlar ve mineraller, kuşlar, Türkiye faunası, genel zooloji ile osteoloji ve evrim bölümleri var. Fosiller ve doldurulmuş hayvanlar çocukların ilgisini çekiyor. Grup ziyaretleri için önceden iletişime geçilmesi öneriliyor; kampüse Bornova metro hattıyla ulaşılabiliyor."
+ },
+ {
+  "id": "konak-macera-parki",
+  "ad": "Konak Macera Parkı",
+  "tur": "oyun",
+  "ilce": "Konak",
+  "semt": "Çınartepe",
+  "yil": null,
+  "lat": 38.41,
+  "lon": 27.182,
+  "web": null,
+  "ilgi": [
+   "cocuk",
+   "eglence",
+   "doga"
+  ],
+  "kaynak": "https://www.yenibakishaber.com/konak-macera-parki-yaz-sezonunu-cocuklara-ucretsiz-acilisla-karsiliyor",
+  "aciklama": "Konak Belediyesi'nin işlettiği macera parkı, Çınartepe'deki Aydın Erten Rekreasyon Alanı'nda körfeze bakan bir yamaçta bulunuyor. Çocuk ip parkuru, ağ trambolin, dev salıncak, zipcoaster ve atış alanı gibi etkinlikler sunuluyor; manzaralı bir kafe de dinlenme imkânı veriyor. Park sezonluk çalışıyor ve yaz tatiliyle birlikte yeni sezonunu açıyor. ESHOT'un 42 numaralı otobüs hattıyla ulaşılabiliyor; açılış saatleri sezona göre değiştiğinden gitmeden önce belediyenin duyurularına bakmak faydalı."
+ },
+ {
+  "id": "bornova-buz-sporlari-salonu",
+  "ad": "Bornova Buz Sporları Salonu",
+  "tur": "oyun",
+  "ilce": "Bornova",
+  "semt": "Aşık Veysel Rekreasyon Alanı",
+  "yil": "2010",
+  "lat": 38.468,
+  "lon": 27.2127,
+  "web": null,
+  "ilgi": [
+   "cocuk",
+   "eglence"
+  ],
+  "kaynak": "https://en.wikipedia.org/wiki/Bornova_Ice_Sports_Hall",
+  "aciklama": "Aşık Veysel Rekreasyon Alanı'nın içinde, İzmir Büyükşehir Belediyesi'ne ait kapalı buz pateni ve buz hokeyi salonu 28 Eylül 2010'da açıldı. Kulüp antrenmanları ve maçların yanı sıra halka açık paten seansları düzenleniyor; seanslar yaklaşık 45 dakika sürüyor ve 18 yaş altındakilerin bir veliyle gelmesi gerekiyor. Okul tatillerinde çocuklara yönelik etkinlikler yapılıyor. Kayıt için kimlik gerekiyor; seans saatleri dönemsel olarak değiştiğinden önceden salonla iletişime geçmek iyi olur."
+ },
+ {
+  "id": "seyirtepe-macera",
+  "ad": "Seyirtepe Macera Parkı",
+  "tur": "oyun",
+  "ilce": "Bayraklı",
+  "semt": "Postacılar",
+  "yil": null,
+  "lat": 38.4905,
+  "lon": 27.1244,
+  "web": null,
+  "ilgi": [
+   "cocuk",
+   "eglence"
+  ],
+  "kaynak": "https://benefitsystems.com.tr/en/facilities/seyirtepe-macera/",
+  "aciklama": "Bayraklı'da Yamanlar Dağı'nın eteğindeki Seyirtepe'de, körfeze hâkim bir noktada kurulan yaklaşık 6 bin metrekarelik macera parkında zipline, tırmanma duvarı, zipbike, serbest atlama, hareketli engel parkuru ve atış alanı bulunuyor. Aynı alandaki tesislerde çocuklar için açık ve kapalı oyun alanları da yer alıyor. Etkinliklere katılmak için 120 santimetre boy sınırı uygulanıyor, bu nedenle küçük çocuklar için oyun alanları daha uygun. Gün batımında körfez manzarası izlenebiliyor; ulaşım için özel araç daha pratik."
+ },
+ {
+  "id": "ege-universitesi-gozlemevi",
+  "ad": "Ege Üniversitesi Gözlemevi",
+  "tur": "bilim",
+  "ilce": "Buca",
+  "semt": "Kurudağ",
+  "yil": "1965",
+  "lat": 38.3983,
+  "lon": 27.2678,
+  "web": "https://gozlemevi.ege.edu.tr/",
+  "ilgi": [
+   "cocuk"
+  ],
+  "kaynak": "https://en.wikipedia.org/wiki/Ege_University_Observatory",
+  "aciklama": "Nif Dağı'nın eteğinde, Buca sınırları içindeki Kurudağ tepesinde bulunan gözlemevi 22 Haziran 1965'te açıldı ve Ege Üniversitesi'nin kampüsüne yaklaşık 17 kilometre uzaklıkta. Ana bina 632, teleskop kubbeleri yaklaşık 800 metre yükseklikte; 48 santimetrelik Cassegrain teleskobu ile 30, 35 ve 40 santimetrelik aynalı teleskoplar araştırmada kullanılıyor. Merkez, okul gruplarına yönelik programlı ziyaretler ve bireysel katılımcılara açık bilim-toplum etkinlikleri düzenliyor. Ziyaretler randevuyla yapıldığından etkinlik takvimini gözlemevinin sitesinden izlemek gerekiyor."
+ },
+ {
+  "id": "gursel-aksel-stadyumu",
+  "ad": "Gürsel Aksel Stadyumu",
+  "tur": "stadyum",
+  "ilce": "Konak",
+  "semt": "Güzelyalı",
+  "yil": "2020",
+  "lat": 38.3968,
+  "lon": 27.0764,
+  "web": null,
+  "aciklama": "Göztepe'nin iç saha maçlarını oynadığı futbol stadı. Eski Gürsel Aksel Stadı'nın yerine inşa edildi ve 26 Ocak 2020'de Göztepe–Beşiktaş maçıyla açıldı. Kaynaklara göre yaklaşık 20 bin seyirci kapasitelidir; Göztepe'nin tarihî sahası olan eski Gürsel Aksel Stadı'nın bulunduğu alanda yer alır. Güzelyalı sahiline ve Ahmed Adnan Saygun Sanat Merkezi'ne yürüme mesafesindedir; maç günlerinde çevredeki yollar yoğunlaştığından toplu taşıma veya yürüyüş tercih edilebilir.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://stadiumdb.com/stadiums/tur/gursel_aksel_stadyumu"
+ },
+ {
+  "id": "alsancak-mustafa-denizli-stadyumu",
+  "ad": "Alsancak Mustafa Denizli Stadyumu",
+  "tur": "stadyum",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": "2021",
+  "lat": 38.4373,
+  "lon": 27.1505,
+  "web": null,
+  "aciklama": "Altay'ın iç saha maçlarını oynadığı futbol stadı. Aynı yerdeki eski Alsancak Stadı 1929'da açılmış, 1959'da Türkiye'nin ilk profesyonel lig maçına ev sahipliği yapmış, 2015'te deprem güvenliği gerekçesiyle yıkılmıştı. Yerine yapılan yaklaşık 15 bin kişilik yeni stat 26 Kasım 2021'de açıldı ve teknik direktör Mustafa Denizli'nin adını aldı. Alsancak Garı ve İZBAN istasyonuna yakın olduğundan toplu taşımayla ulaşmak kolaydır.",
+  "ilgi": [
+   "eglence",
+   "tarih"
+  ],
+  "kaynak": "https://en.wikipedia.org/wiki/Alsancak_Stadium"
+ },
+ {
+  "id": "izmir-ataturk-stadyumu",
+  "ad": "İzmir Atatürk Stadyumu",
+  "tur": "stadyum",
+  "ilce": "Konak",
+  "semt": "Halkapınar",
+  "yil": "1971",
+  "lat": 38.435,
+  "lon": 27.178,
+  "web": null,
+  "aciklama": "1971 Akdeniz Oyunları için yapılan ve Ekim 1971'de açılan, kentin en büyük stadı. Güncel kapasitesi yaklaşık 51 bin kişidir; 1980 İslam Oyunları ile 2005 Dünya Üniversite Oyunları'nın açılış ve kapanış törenleri ve 2006, 2007, 2009 Türkiye Kupası finalleri burada yapıldı. Gençlik ve Spor Bakanlığı'na ait olan stat, futbolun yanı sıra atletizm ve büyük etkinliklerde kullanılır. Metronun Halkapınar istasyonu en yakın durak noktasıdır.",
+  "ilgi": [
+   "eglence",
+   "tarih"
+  ],
+  "kaynak": "https://en.wikipedia.org/wiki/%C4%B0zmir_Atat%C3%BCrk_Stadium"
+ },
+ {
+  "id": "halkapinar-spor-salonu",
+  "ad": "Halkapınar Spor Salonu",
+  "tur": "salon",
+  "ilce": "Konak",
+  "semt": "Halkapınar",
+  "yil": "2005",
+  "lat": 38.4353,
+  "lon": 27.1738,
+  "web": null,
+  "aciklama": "2005 Dünya Üniversite Oyunları (Universiade) için yaklaşık altı ayda inşa edilip Haziran 2005'te hizmete giren kapalı spor salonu. Basketbol düzeninde yaklaşık 10 bin seyirci alır. 2014 Ritmik Cimnastik Dünya Şampiyonası gibi uluslararası organizasyonların yanı sıra basketbol ve voleybol maçları, konserler ve büyük etkinlikler burada düzenlenir. Atatürk Stadyumu'nun hemen yanındadır; Halkapınar metro ve İZBAN aktarma noktasına yürüyerek ulaşılır.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://en.wikipedia.org/wiki/Halkap%C4%B1nar_Sport_Hall"
+ },
+ {
+  "id": "ataturk-voleybol-salonu",
+  "ad": "İzmir Atatürk Voleybol Salonu",
+  "tur": "salon",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": "1971",
+  "lat": 38.4338,
+  "lon": 27.148,
+  "web": null,
+  "aciklama": "1971 Akdeniz Oyunları'nın bazı karşılaşmaları için yapılan kapalı salon; eski adı İzmir Atatürk Spor Salonu'dur. 2012'de yenilenip genişletildi ve yaklaşık 5.500 seyirci kapasitesine ulaştı. 2005 Universiade basketbol maçlarına, 2005 Kadınlar Avrupa Basketbol Şampiyonası grup maçlarına ve 2013 Erkekler Genç Dünya Voleybol Şampiyonası'na ev sahipliği yaptı. Bugün kentin voleybol takımlarının maçları burada oynanır; Kültürpark'ın hemen yanındadır.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://en.wikipedia.org/wiki/%C4%B0zmir_Atat%C3%BCrk_Volleyball_Hall"
+ },
+ {
+  "id": "ahmed-adnan-saygun-sanat-merkezi",
+  "ad": "Ahmed Adnan Saygun Sanat Merkezi",
+  "tur": "sahne",
+  "ilce": "Konak",
+  "semt": "Güzelyalı",
+  "yil": "2008",
+  "lat": 38.3979,
+  "lon": 27.0783,
+  "web": "https://aassm.org.tr",
+  "aciklama": "İzmir Büyükşehir Belediyesi'nin Güzelyalı'daki eski troleybüs atölyesi arazisine yaptırdığı merkez, besteci Ahmed Adnan Saygun'un doğumunun 100. yılında, 27 Aralık 2008'de açıldı. Mimarları Tevfik Tozkoparan ve Emre Ulaş olan yapıda özel akustikli 1.153 kişilik büyük salon, 243 kişilik ikinci salon ve sergi alanları bulunur. Arazideki 19. yüzyıl yapıları restore edilerek kafe ve müzik kütüphanesi oldu. Tramvayın Ahmed Adnan Saygun Sanat Merkezi durağı hemen yanındadır.",
+  "ilgi": [
+   "eglence",
+   "muze"
+  ],
+  "kaynak": "https://en.wikipedia.org/wiki/Ahmed_Adnan_Saygun_Arts_Center"
+ },
+ {
+  "id": "kulturpark-acikhava-tiyatrosu",
+  "ad": "Kültürpark Atatürk Açıkhava Tiyatrosu",
+  "tur": "sahne",
+  "ilce": "Konak",
+  "semt": "Kültürpark",
+  "yil": null,
+  "lat": 38.4287,
+  "lon": 27.1482,
+  "web": null,
+  "aciklama": "Kültürpark'ın içinde yer alan, yaz aylarında konser ve gösterilerin düzenlendiği açıkhava sahnesi. İzmir Enternasyonal Fuarı dönemindeki konserlerle kentin kültür belleğinde ayrı bir yere sahiptir. İzmir Büyükşehir Belediyesi'nin 2026'da tamamladığı restorasyonla sahne ve seyirci alanları yenilendi, 3.150 koltuğun tamamı değiştirildi. Sezon boyunca pop, rock ve Türk sanat müziği konserlerinin yanı sıra tiyatro ve stand-up gösterileri sahnelenir; girişler Kültürpark kapılarından yapılır.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://www.gazetebirlik.com/kultur-sanat/izmirin-sanat-kalbi-yenilendi-kulturparkta-106-etkinliklik-dev-sezon-basliyor/997681"
+ },
+ {
+  "id": "gazi-kadinlar-sokagi",
+  "ad": "Gazi Kadınlar Sokağı",
+  "tur": "gece",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": null,
+  "lat": 38.4375,
+  "lon": 27.1416,
+  "web": null,
+  "aciklama": "Alsancak'ta Kıbrıs Şehitleri Caddesi'ne açılan, barları, birahaneleri ve canlı müzik mekânlarıyla bilinen yaya sokağı. Restore edilmiş cumbalı eski Rum evleri sokağa karakterini verir; gündüz kafe olarak çalışan pek çok mekân akşam saatlerinde bara dönüşür. Hafta sonları gece boyunca kalabalık olur ve çevredeki ara sokaklarla birlikte Alsancak gece hayatının merkezi sayılır. Birinci Kordon ve Alsancak Garı'na yürüme mesafesindedir.",
+  "ilgi": [
+   "eglence",
+   "yeme"
+  ],
+  "kaynak": "https://www.yeniasir.com.tr/izmir/2026/10/10/egenin-kalbine-yolculuk-izmirin-simge-5-sokagi"
+ },
+ {
+  "id": "bornova-aziz-kocaoglu-stadyumu",
+  "ad": "Bornova Aziz Kocaoğlu Stadyumu",
+  "tur": "stadyum",
+  "ilce": "Bornova",
+  "semt": "Ümit",
+  "yil": "2016",
+  "lat": 38.447,
+  "lon": 27.2622,
+  "web": null,
+  "aciklama": "Eski adıyla Doğanlar ya da Bornova Stadyumu olarak bilinen futbol stadı; Ekim 2016'da açıldı. Yaklaşık 9 bin seyirci kapasitelidir. Yeni statları yapılırken Göztepe, Altay ve Altınordu bir dönem maçlarını burada oynadı; 2021'den beri Karşıyaka'nın iç saha maçlarına ev sahipliği yapmaktadır. Stat, İzmir Büyükşehir Belediyesi eski başkanı Aziz Kocaoğlu'nun adını taşır; maç günlerinde Bornova merkezinden ulaşım yoğunlaşabilir.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://en.wikipedia.org/wiki/Bornova_Stadium"
+ },
+ {
+  "id": "bornova-kucukpark",
+  "ad": "Bornova Küçükpark",
+  "tur": "gece",
+  "ilce": "Bornova",
+  "semt": "Kazımdirik",
+  "yil": null,
+  "lat": 38.4601,
+  "lon": 27.2133,
+  "web": null,
+  "aciklama": "Bornova merkezinde, Ege Üniversitesi'ne yakınlığı nedeniyle öğrencilerin yoğun olarak buluştuğu küçük meydan ve çevresi. Etrafındaki sokaklarda birahaneler, bira bahçeleri, kafeler ve yeme-içme mekânları bulunur; Süvari Caddesi üzerinden Cumhuriyet Meydanı'na bağlanır. Bornova Belediyesi'nin gençlik festivali gibi açık hava etkinlikleri de bu meydanda düzenlenir. Akşamları ve hafta sonları kalabalık olur; metroyla Bornova istasyonundan yürüyerek ulaşılabilir.",
+  "ilgi": [
+   "eglence",
+   "yeme"
+  ],
+  "kaynak": "https://bornova.bel.tr/music-sports-and-excitement"
+ },
+ {
+  "id": "bornova-asik-veysel-acikhava-tiyatrosu",
+  "ad": "Bornova Aşık Veysel Açıkhava Tiyatrosu",
+  "tur": "sahne",
+  "ilce": "Bornova",
+  "semt": "Kızılay",
+  "yil": null,
+  "lat": 38.4673,
+  "lon": 27.21,
+  "web": null,
+  "aciklama": "Bornova'daki Aşık Veysel Rekreasyon Alanı içinde bulunan açıkhava sahnesi. İzmir Büyükşehir Belediyesi'nin kültür şirketi İzmir Kültür AŞ tarafından bakım ve yenileme çalışmaları yapılmıştır. Yaz sezonunda ünlü müzisyenlerin konserleri, tiyatro oyunları ve festival programları burada sahnelenir. Aynı park içinde buz sporları salonu, yürüyüş yolları ve gölet de bulunduğundan konser öncesinde parkta vakit geçirilebilir.",
+  "ilgi": [
+   "eglence",
+   "doga"
+  ],
+  "kaynak": "https://www.yenibakishaber.com/asik-veysel-acik-hava-tiyatrosu-yeni-yuzuyle-sanatseverleri-agirlayacak"
+ },
+ {
+  "id": "karsiyaka-arena",
+  "ad": "Karşıyaka Arena (Mustafa Kemal Atatürk Spor Salonu)",
+  "tur": "salon",
+  "ilce": "Karşıyaka",
+  "semt": "Mavişehir",
+  "yil": "2005",
+  "lat": 38.4744,
+  "lon": 27.0767,
+  "web": null,
+  "aciklama": "Resmî adı Mustafa Kemal Atatürk Karşıyaka Spor Salonu olan kapalı spor salonu. 2005 Dünya Üniversite Oyunları için yapıldı ve bu organizasyonda basketbol ile voleybol maçlarına ev sahipliği yaptı. Yalnız üst tribünle yaklaşık 5.200, alt tribünle birlikte 6.500 seyirci alır. Karşıyaka'nın basketbol takımı ile kadın voleybol takımının iç saha maçları burada oynanır; Karşıyaka tramvayının aynı adı taşıyan durağı salonun hemen önündedir.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://en.wikipedia.org/wiki/Kar%C5%9F%C4%B1yaka_Arena"
+ },
+ {
+  "id": "bostanli-suat-taser-acikhava-tiyatrosu",
+  "ad": "Bostanlı Suat Taşer Açıkhava Tiyatrosu",
+  "tur": "sahne",
+  "ilce": "Karşıyaka",
+  "semt": "Bostanlı",
+  "yil": null,
+  "lat": 38.4543,
+  "lon": 27.0997,
+  "web": null,
+  "aciklama": "Bostanlı sahilinde, tiyatro sanatçısı Suat Taşer'in adını taşıyan açıkhava sahnesi. Özellikle yaz aylarında konser, tiyatro ve gösteriler için kentin sık kullanılan mekânlarından biridir; Karşıyaka Belediyesi'nin yenileme çalışmasıyla üstü örtülmüştür. Sahil yürüyüş yolunun hemen yanında olduğundan gösteri öncesinde Bostanlı kıyısında gün batımı izlenebilir. Bostanlı vapur iskelesi ve tramvay durakları yakındadır.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://testvisitizmir.izmir.bel.tr/en/Destinasyon/8148"
+ },
+ {
+  "id": "buca-arena",
+  "ad": "Buca Arena",
+  "tur": "stadyum",
+  "ilce": "Buca",
+  "semt": "Yedigöller",
+  "yil": "2009",
+  "lat": 38.3951,
+  "lon": 27.1921,
+  "web": null,
+  "aciklama": "Buca'nın kuzeyinde, Yedigöller yakınında bulunan futbol stadı. İnşaatı 2008'de başladı ve 2009'da açıldı; resmî kapasitesi 8.810 kişidir. 2019'a kadar Bucaspor'un, 2019'dan bu yana ise 1928 Bucaspor'un iç saha maçlarına ev sahipliği yapmaktadır. Kentin futbol takımları için alternatif saha olarak da kullanılır; maç günleri dışında çevresi Buca'nın sakin konut bölgelerinden biridir.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://en.wikipedia.org/wiki/Buca_Arena"
+ },
+ {
+  "id": "balcova-karting",
+  "ad": "Balçova Karting",
+  "tur": "spor",
+  "ilce": "Balçova",
+  "semt": "Bahçelerarası",
+  "yil": null,
+  "lat": 38.3957,
+  "lon": 27.0387,
+  "web": null,
+  "aciklama": "Balçova'da, Mustafa Kemal Sahil Bulvarı kenarında bulunan go-kart pisti. Yaklaşık 3.600 metrekarelik alanda 408 metre uzunluğunda bir parkuru vardır. Bireysel sürüşlerin yanı sıra arkadaş grupları için kısa yarışlar da düzenlenebilir. İnciraltı sahili ve Balçova'nın diğer rekreasyon alanlarına yakın olduğundan sahil yürüyüşüyle birleştirilebilir.",
+  "ilgi": [
+   "eglence",
+   "cocuk"
+  ],
+  "kaynak": "https://benefitsystems.com.tr/en/facilities/balcova-karting"
+ },
+ {
+  "id": "izmir-marina",
+  "ad": "İzmir Marina",
+  "tur": "marina",
+  "ilce": "Balçova",
+  "semt": "İnciraltı",
+  "yil": null,
+  "lat": 38.4063,
+  "lon": 27.0685,
+  "web": null,
+  "aciklama": "Körfezin güney kıyısında, Balçova İnciraltı sahilindeki yat limanı; İzmir Büyükşehir Belediyesi şirketi İZDENİZ tarafından işletilir. Denizde ve karada sınırlı sayıda tekneye yer veren marina, yaz aylarında yüzme, kürek, optimist, yelken ve dalış eğitimlerine ev sahipliği yapar. 2026 yazında mendirekteki alanda caz, rebetiko ve 80'ler-90'lar gecelerinden oluşan konser dizisi düzenlendi. Vapur iskelesi değildir; en yakın iskele Üçkuyular'dır.",
+  "ilgi": [
+   "eglence",
+   "doga"
+  ],
+  "kaynak": "https://www.feribotseferleri.com.tr/duyurular/izmir-marinada-ritim-deniz-ve-muzik-bir-arada"
+ },
+ {
+  "id": "narlidere-ataturk-kultur-merkezi",
+  "ad": "Narlıdere Atatürk Kültür Merkezi",
+  "tur": "sahne",
+  "ilce": "Narlıdere",
+  "semt": "Huzur",
+  "yil": null,
+  "lat": 38.3958,
+  "lon": 26.9967,
+  "web": null,
+  "aciklama": "Narlıdere Belediyesi'nin ilçedeki en büyük kültür tesisi; Huzur Mahallesi'nde, Mithatpaşa Caddesi yakınındadır. Tiyatro sahnesinde yerli tiyatro topluluklarının oyunları, konserler, söyleşiler ve sergiler düzenlenir. Belediyenin Çocuk Senfoni Orkestrası'nın çalışma salonu da bu binadadır ve yapıda kurslar da verilir. Belediye bina üzerinde çatı onarımı ve yenileme çalışmaları yürüttüğünden, güncel programı belediyenin duyurularından takip etmek yararlı olur.",
+  "ilgi": [
+   "eglence",
+   "cocuk"
+  ],
+  "kaynak": "https://www.karar.com/sehir-haberleri/narlidere-akmde-sanat-dolu-nisan-1944728"
+ },
+ {
+  "id": "cigli-ataturk-kapali-spor-salonu",
+  "ad": "Çiğli Atatürk Kapalı Spor Salonu",
+  "tur": "salon",
+  "ilce": "Çiğli",
+  "semt": "Çiğli Merkez",
+  "yil": null,
+  "lat": 38.4919,
+  "lon": 27.0566,
+  "web": null,
+  "aciklama": "Çiğli Belediyesi'nin ilçedeki ana kapalı spor salonu. Belediyenin Gençlik ve Spor Hizmetleri Müdürlüğü burada 18 branşta antrenörlerle spor eğitimleri verir; voleybol ve basketbol takımları salonu antrenman ve maçlar için kullanır. Yıllar içinde aşınan zemini yenilenerek Haziran 2026'da yeniden hizmete açıldı. Salonun bahçesinde kapalı tenis kortları ve padel kortu hazırlıkları sürmektedir; amatör maçları izlemek isteyenler için ilçede düzenli bir buluşma noktasıdır.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://www.cumhuriyet.com.tr/cumhuriyet-in-egesi/cigli-ataturk-kapali-spor-salonu-yenilenen-yuzuyle-kapilarini-acti-2510714"
+ },
+ {
+  "id": "ekrem-akurgal-yasam-parki",
+  "ad": "Dr. Ekrem Akurgal Yaşam Parkı",
+  "tur": "spor",
+  "ilce": "Bayraklı",
+  "semt": "Bayraklı",
+  "yil": null,
+  "lat": 38.4773,
+  "lon": 27.1628,
+  "web": null,
+  "aciklama": "Bayraklı'da, arkeolog Ekrem Akurgal'ın adını taşıyan geniş kent parkı. Yürüyüş ve koşu yolları, açık spor alanları, çocuk oyun alanları ve bir kapalı spor salonu içerir; salonun çatısı İzmir Büyükşehir Belediyesi tarafından güneş enerjisi santraline dönüştürülmüştür. Mahalle sakinlerinin spor ve dinlenme için kullandığı park, körfez manzaralı Bayraklı sahiline de yakındır. Yakınındaki Tepekule'de Akurgal'ın kazılarını yürüttüğü Eski Smyrna höyüğü bulunur.",
+  "ilgi": [
+   "eglence",
+   "doga",
+   "cocuk"
+  ],
+  "kaynak": "https://www.openstreetmap.org/search?query=Dr.%20Ekrem%20Akurgal%20Ya%C5%9Fam%20Park%C4%B1"
+ },
+ {
+  "id": "izmir-arkeoloji-muzesi",
+  "ad": "İzmir Arkeoloji Müzesi",
+  "tur": "muze",
+  "ilce": "Konak",
+  "semt": "Bahribaba",
+  "yil": "1984",
+  "lat": 38.4139,
+  "lon": 27.1281,
+  "web": "https://muze.gov.tr/muze-detay?DistId=MRK&SectionId=IZA01",
+  "aciklama": "Kentin ilk arkeoloji müzesi 1927'de Basmane'deki Ayavukla Kilisesi'nde açıldı; bugünkü modern bina Bahribaba Parkı'nda 11 Şubat 1984'te hizmete girdi. Üç katlı müzede Tunç Çağı'ndan Bizans'a uzanan heykeller, portreler, lahitler, mezar stelleri ve sikkeler sergilenir. Kyme'den bronz atlet heykeli, Klazomenai pişmiş toprak lahitleri ve Belevi Anıt Mezarı kabartmaları öne çıkan eserlerdir. Hemen karşısındaki Etnografya Müzesi ile aynı gezide görülebilir.",
+  "ilgi": [
+   "muze",
+   "tarih"
+  ],
+  "kaynak": "https://izmir.ktb.gov.tr/EN-240789/izmir-archeology-museum.html"
+ },
+ {
+  "id": "izmir-etnografya-muzesi",
+  "ad": "İzmir Etnografya Müzesi",
+  "tur": "muze",
+  "ilce": "Konak",
+  "semt": "Bahribaba",
+  "yil": "1831",
+  "lat": 38.4138,
+  "lon": 27.1285,
+  "web": null,
+  "aciklama": "Arkeoloji Müzesi'nin karşısındaki neoklasik taş yapı 1831'de Fransızlar tarafından vebalı hastalar için St. Roch Hastanesi olarak inşa edildi; sonra yoksul Hristiyan aileler için bakımevi ve sağlık müdürlüğü binası oldu. 1984'te Kültür Bakanlığı'na devredildi ve onarımın ardından 1980'lerin sonunda müze olarak açıldı. 19. yüzyıl İzmir yaşamını gelin odası, sünnet odası, eski bir eczane, keçecilik ve nazar boncuğu ocağı canlandırmalarıyla anlatır. Efe kıyafetleri ve deve güreşi bölümleri çocukların da ilgisini çeker.",
+  "ilgi": [
+   "muze",
+   "tarih",
+   "cocuk"
+  ],
+  "kaynak": "https://izmir.ktb.gov.tr/EN-240791/izmir-ethnography-museum.html"
+ },
+ {
+  "id": "izmir-kultur-sanat-fabrikasi",
+  "ad": "İzmir Kültür Sanat Fabrikası",
+  "tur": "muze",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": "1884",
+  "lat": 38.4362,
+  "lon": 27.1482,
+  "web": "https://izmirkultursanatfabrikasi.gov.tr",
+  "aciklama": "Alsancak'taki tarihi tütün fabrikası 1884'te Reji İdaresi tarafından kuruldu ve 2004'e kadar Tekel fabrikası olarak üretim yaptı. Kültür ve Turizm Bakanlığı'nın restorasyonuyla 29 Nisan 2023'te kültür sanat yerleşkesi olarak açıldı. İçinde 1952'den beri kentte hizmet veren İzmir Resim ve Heykel Müzesi, en büyük fabrika binasında arkeoloji ve etnografya eserlerinin sergilendiği bir müze, kütüphaneler ve sanat atölyeleri bulunur. Kültürpark'taki eski İzmir Tarih ve Sanat Müzesi'nin eserleri de buraya taşındı.",
+  "ilgi": [
+   "muze",
+   "tarih"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/%C4%B0zmir_K%C3%BClt%C3%BCr_Sanat_Fabrikas%C4%B1"
+ },
+ {
+  "id": "apikam",
+  "ad": "Ahmet Piriştina Kent Arşivi ve Müzesi (APİKAM)",
+  "tur": "muze",
+  "ilce": "Konak",
+  "semt": "Çankaya",
+  "yil": "1932",
+  "lat": 38.425,
+  "lon": 27.1379,
+  "web": "https://apikam.org.tr",
+  "aciklama": "Şair Eşref Bulvarı'ndaki bina 1930-1932 arasında inşa edildi ve 2001'e kadar İzmir İtfaiyesi'nin merkezi olarak kullanıldı. Dönemin belediye başkanı Ahmet Piriştina'nın projesiyle kent arşivi ve müzesine dönüştürüldü, 10 Ocak 2004'te açıldı; Türkiye'nin ilk kent arşivi ve müzelerinden biri sayılır. İzmir tarihine ait belgeler, fotoğraflar, kartpostallar ve gazeteler saklanır. Arşivin önemli bir bölümü Aralık 2019'dan beri çevrim içi erişime açıktır.",
+  "ilgi": [
+   "muze",
+   "tarih"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Ahmet_Piri%C5%9Ftina_Kent_Ar%C5%9Fivi_ve_M%C3%BCzesi"
+ },
+ {
+  "id": "arkas-sanat-merkezi",
+  "ad": "Arkas Sanat Merkezi",
+  "tur": "muze",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": "1906",
+  "lat": 38.4319,
+  "lon": 27.137,
+  "web": "https://arkassanatmerkezi.com",
+  "aciklama": "Kordon'daki tarihi Fransız Konsolosluğu binasının denize bakan bölümü 2010'da Arkas Holding'e kültür sanat amacıyla tahsis edildi; restorasyonun ardından Kasım 2011'de sanat merkezi olarak açıldı. Arkas'ın yayınlarına göre Emmanuel Pontremoli'nin tasarladığı bina 1906'da tamamlandı ve 1922 yangınından sağ çıktı. Lucien Arkas'ın oluşturduğu Arkas Koleksiyonu'ndan seçkiler ve tanınmış sanatçıların geçici sergileri gösterilir. Sergiler dönemsel değiştiği için gitmeden güncel programa bakmak iyi olur.",
+  "ilgi": [
+   "muze"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Arkas_Sanat_Merkezi"
+ },
+ {
+  "id": "yasar-muzesi",
+  "ad": "Yaşar Müzesi",
+  "tur": "muze",
+  "ilce": "Konak",
+  "semt": "Alsancak Liman (Umurbey)",
+  "yil": "2026",
+  "lat": 38.438,
+  "lon": 27.1618,
+  "web": null,
+  "aciklama": "Selçuk Yaşar'ın 1985'te kurduğu ve Türkiye'nin ilk özel resim müzesi olarak bilinen müzenin koleksiyonu, Alsancak liman bölgesindeki 1895 tarihli tescilli un fabrikası binasına taşındı. Restore edilen yapı 2026'da, Selçuk Yaşar'ın doğum günü olan 17 Ocak'ta Yaşar Müzesi adıyla ziyarete açıldı. DYO Resim Yarışmaları'ndan gelen modern Türk resmi, Anadolu arkeolojik buluntuları ve halı-kilim koleksiyonu sergilenir. Konferans salonu, kütüphane, kafe ve müze mağazası da bulunur.",
+  "ilgi": [
+   "muze",
+   "tarih"
+  ],
+  "kaynak": "https://www.karar.com/kultur-sanat-haberleri/yasar-muzesi-kapilarini-acti-2049815"
+ },
+ {
+  "id": "izmir-mask-muzesi",
+  "ad": "İzmir Mask Müzesi",
+  "tur": "muze",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": "2011",
+  "lat": 38.4357,
+  "lon": 27.1421,
+  "web": null,
+  "aciklama": "Konak Belediyesi'nin restore ettiği Levanten üslubundaki tarihi bir evde 10 Mayıs 2011'de açılan müze, Türkiye'nin ilk mask müzesi olarak tanıtılır. Dünya kültürlerinden etnik maskeler, Anadolu törenlerinde kullanılan maskeler ve 'iz bırakanlar' bölümünde Atatürk, Aziz Nesin, Nazım Hikmet, Âşık Veysel gibi tanınmış isimlerin maskeleri yer alır. Zemin katta kafe, üst katta sergi salonu ve maske atölyesi bulunur. Kordon'a ve Atatürk Müzesi'ne yürüme mesafesindedir.",
+  "ilgi": [
+   "muze",
+   "cocuk"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/%C4%B0zmir_Mask_M%C3%BCzesi"
+ },
+ {
+  "id": "izmir-kadin-muzesi",
+  "ad": "İzmir Kadın Müzesi",
+  "tur": "muze",
+  "ilce": "Konak",
+  "semt": "Basmane",
+  "yil": "2014",
+  "lat": 38.4211,
+  "lon": 27.1423,
+  "web": null,
+  "aciklama": "Basmane'de, eski Tilkilik semtinde, cumbalı ve 13 odalı tipik bir İzmir evinde 23 Ocak 2014'te açılan müze Konak Belediyesi'ne bağlıdır ve Türkiye'nin ilk kadın müzelerinden biri olarak tanıtılır. Odalarda öncü kadınlar, antik çağda Anadolu kadını ve kadınların toplumsal mücadelesi gibi temalar işlenir. Yakınındaki Hatuniye Camii, Aziz Vukolos Kilisesi ve Basın Anı Evi ile birlikte kısa bir Basmane yürüyüşü planlanabilir.",
+  "ilgi": [
+   "muze",
+   "tarih"
+  ],
+  "kaynak": "https://en.wikipedia.org/wiki/%C4%B0zmir_Women%27s_Museum"
+ },
+ {
+  "id": "nasreddin-hoca-cocuk-kultur-bilim-merkezi",
+  "ad": "Nasreddin Hoca Çocuk Kültür Bilim Merkezi",
+  "tur": "muze",
+  "ilce": "Karabağlar",
+  "semt": "Yurtoğlu",
+  "yil": "2021",
+  "lat": 38.3561,
+  "lon": 27.0953,
+  "web": "https://nasreddinhocackbm.karabaglar.bel.tr/",
+  "aciklama": "Karabağlar Belediyesi'nin Yurtoğlu Mahallesi'nde işlettiği merkez 2021 sonunda hizmete girdi. Ağırlıklı olarak 6-14 yaş arası çocuklara yönelik bilim atölyeleri, deney istasyonları, yaratıcı sanat kursları ve sergiler düzenlenir; adını Nasreddin Hoca'dan alır. Klasik bir müzeden çok, dokunarak ve deneyerek öğrenmeye dayalı bir mekândır. Atölyeler ve grup ziyaretleri randevuyla planlandığından gitmeden önce merkezin etkinlik takvimine bakmak gerekir.",
+  "ilgi": [
+   "muze",
+   "cocuk"
+  ],
+  "kaynak": "https://nasreddinhocackbm.karabaglar.bel.tr/"
+ },
+ {
+  "id": "kestanepazari-camii",
+  "ad": "Kestanepazarı Camii",
+  "tur": "cami",
+  "ilce": "Konak",
+  "semt": "Kemeraltı",
+  "yil": "1668",
+  "lat": 38.42,
+  "lon": 27.1349,
+  "web": null,
+  "aciklama": "Kemeraltı'nın en görkemli camilerinden biridir; Evliya Çelebi'nin kaydettiği kitabeye göre Ahmet Ağa tarafından Hicri 1078'de (yaklaşık 1667-68) yaptırıldı. Daha sonra Eminzade Ahmet Ağa tarafından genişletildi ve bugünkü görünümünü 19. yüzyılda aldı. Kare planlı taş ve mermer yapıda büyük merkezi kubbe, köşe kubbeler ve kesme taş minare bulunur; mihrabının Selçuk'taki İsa Bey Camii'nden getirildiği aktarılır. Çarşı içinde olduğundan alt katında dükkânlar vardır.",
+  "ilgi": [
+   "tarih"
+  ],
+  "kaynak": "https://en.wikipedia.org/wiki/Kestanepazar%C4%B1_Mosque"
+ },
+ {
+  "id": "salepcioglu-camii",
+  "ad": "Salepçioğlu Camii",
+  "tur": "cami",
+  "ilce": "Konak",
+  "semt": "Kemeraltı",
+  "yil": "1905",
+  "lat": 38.417,
+  "lon": 27.1325,
+  "web": null,
+  "aciklama": "Salepçizade Hacı Ahmed Ağa (bazı kaynaklarda Hoca Ahmed Efendi) tarafından yaptırılan cami 1897-1905 yılları arasında tamamlandı. Dış cephesi yeşil mermer ve taşla kaplıdır; ana kubbenin yanında girişe bakan üç küçük kubbe bulunur. İç mekân kırmızı, yeşil ve kahverengi ağırlıklı kalem işleri, beyaz-gri mermer mihrap ve geometrik motifli mermer minberle dikkat çeker. Tek şerefeli ince minaresi ayrı bir taş kaide üzerinde yükselir; Kemeraltı gezisinde Anafartalar Caddesi'ne yakındır.",
+  "ilgi": [
+   "tarih"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Salep%C3%A7io%C4%9Flu_Camii"
+ },
+ {
+  "id": "aziz-yuhanna-katedrali",
+  "ad": "Aziz Yuhanna Katedrali",
+  "tur": "kilise",
+  "ilce": "Konak",
+  "semt": "Alsancak (Kültür Mahallesi)",
+  "yil": "1874",
+  "lat": 38.4288,
+  "lon": 27.1396,
+  "web": null,
+  "aciklama": "Şehit Nevres Bulvarı'ndaki Katolik katedrali, İzmir Katolik Başpiskoposluğu'nun merkezidir ve adını havari Yuhanna'dan alır. Yapımına 1862'de başlandı, 1874'te açıldı; 1863'te Sultan Abdülaziz'in inşaat için altın bağışladığı, ana sunağın ise Papa IX. Pius'un hediyesi olduğu kaydedilir. Ekim 2020 Sisam depreminde hasar gördü. Kültürpark'ın hemen yanında olduğundan park gezisiyle birleştirilebilir; ayin saatlerinde ziyaretçilerin sessiz kalması beklenir.",
+  "ilgi": [
+   "tarih"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Aziz_Yuhanna_Katedrali"
+ },
+ {
+  "id": "etz-hayim-sinagogu",
+  "ad": "Etz Hayim Sinagogu (Havra Sokağı)",
+  "tur": "sinagog",
+  "ilce": "Konak",
+  "semt": "Kemeraltı (Havra Sokağı)",
+  "yil": null,
+  "lat": 38.4199,
+  "lon": 27.1363,
+  "web": null,
+  "aciklama": "Kemeraltı'ndaki Havra Sokağı çevresinde yoğunlaşan tarihi sinagoglardan biridir; Bizans döneminde kurulduğu ve İzmir'in ilk sinagogu olduğu kabul edilir, ancak kuruluş tarihi kesin değildir. 1841 yangınında zarar gördü ve 1851'de onarıldı; 2022'de kapsamlı restorasyonu nedeniyle İzmir Büyükşehir Belediyesi'nin yerel miras ödülüne değer görüldü. Ortada dört sütunlu teva, ahşap tavanlar ve altı Tevrat dolabı bulunur. Hemen yakınında Sinyora Giveret gibi başka tarihi sinagoglar da vardır.",
+  "ilgi": [
+   "tarih"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Etz_Hayim_Sinagogu"
+ },
+ {
+  "id": "bet-israel-sinagogu",
+  "ad": "Bet İsrael Sinagogu",
+  "tur": "sinagog",
+  "ilce": "Konak",
+  "semt": "Karataş",
+  "yil": "1907",
+  "lat": 38.4091,
+  "lon": 27.1162,
+  "web": null,
+  "aciklama": "Mithatpaşa Caddesi üzerindeki Sefarad sinagogu, Karataş'taki Yahudi cemaatinin ibadet edebilmesi için Sultan II. Abdülhamid'in fermanıyla yapıldı ve 1907'de ibadete açıldı. İzmir'in en büyük Yahudi ibadethanesi olarak bilinir ve hâlâ kullanılmaktadır. 1950'lerde Gizbar Avraam Rubi tarafından restore edilerek bugünkü görünümüne kavuştu; 2007'de 100. yılı etkinliklerle kutlandı. Tarihi Asansör'e yakın olduğundan Karataş gezisine eklenebilir; ziyaret için cemaatle önceden iletişim kurmak gerekebilir.",
+  "ilgi": [
+   "tarih"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Bet_%C4%B0srael_Sinagogu_(%C4%B0zmir)"
+ },
+ {
+  "id": "aziz-vukolos-kilisesi",
+  "ad": "Aziz Vukolos Kilisesi (Ayavukla)",
+  "tur": "kultur-merkezi",
+  "ilce": "Konak",
+  "semt": "Basmane",
+  "yil": "1887",
+  "lat": 38.4215,
+  "lon": 27.1477,
+  "web": null,
+  "aciklama": "Rum Ortodoks inançlı Ermeniler tarafından 1886'da yapımına başlanan kilise 1887'de ibadete açıldı ve adını İzmir'in ilk piskoposu Vukolos'tan alır. 1922 yangınından zarar görmeden kurtuldu ve 1927'de kentin ilk arkeoloji müzesine ev sahipliği yaptı. 1990'daki yangından sonra kullanılamaz hâle gelen yapı, İzmir Büyükşehir Belediyesi'nce 2008-2010'da restore edilerek kültür merkezi oldu. Ek binalarında Basın Müzesi ve Hanife Çetiner-Esin Yılmaz Anı Evi bulunur; 2014'ten beri ara ara ayin yapılır.",
+  "ilgi": [
+   "tarih",
+   "muze"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Aziz_Vukolos_Kilisesi"
+ },
+ {
+  "id": "eski-smyrna-tepekule",
+  "ad": "Eski Smyrna (Bayraklı Höyüğü / Tepekule)",
+  "tur": "antik",
+  "ilce": "Bayraklı",
+  "semt": "Tepekule",
+  "yil": null,
+  "lat": 38.4641,
+  "lon": 27.1697,
+  "web": null,
+  "aciklama": "Bayraklı'daki Tepekule, İzmir'in ilk kent yerleşimi Eski Smyrna'nın bulunduğu höyüktür; yerleşim Tunç Çağı'na, yaklaşık MÖ 3000'e kadar iner. Kent MÖ 7. yüzyılda en parlak dönemini yaşadı, Lidyalılarca alındı ve MÖ 545'te Persler tarafından yıkıldı. Ekrem Akurgal'ın yönettiği kazılarda ortaya çıkan Athena Tapınağı, Doğu Hellen dünyasının en eski mimari eserlerinden sayılır. Kazılar sürdüğünden ziyaret koşullarını önceden kontrol etmek gerekir.",
+  "ilgi": [
+   "tarih"
+  ],
+  "kaynak": "https://izmir.ktb.gov.tr/EN-239229/bayrakli--tepekule-smyrna.html"
+ },
+ {
+  "id": "smyrna-antik-tiyatrosu",
+  "ad": "Smyrna Antik Tiyatrosu",
+  "tur": "antik",
+  "ilce": "Konak",
+  "semt": "Kadifekale yamacı",
+  "yil": null,
+  "lat": 38.4161,
+  "lon": 27.144,
+  "web": null,
+  "aciklama": "Kadifekale'nin körfeze bakan kuzey yamacındaki Roma dönemi tiyatrosu, yaklaşık 20 bin kişilik kapasitesiyle Efes'teki tiyatroyla karşılaştırılır; MÖ 1. yüzyıldan beri var olduğu bilinmektedir. Kazılar İzmir Büyükşehir Belediyesi desteğiyle sürüyor; oturma basamakları ve seyirci girişi gün ışığına çıkarıldı. Henüz ziyarete açılmamıştır; 2026'da başlayan bir yol projesiyle Kadifekale-Agora-Kemeraltı aksına bağlanması hedefleniyor.",
+  "ilgi": [
+   "tarih"
+  ],
+  "kaynak": "https://www.cumhuriyet.com.tr/cumhuriyet-in-egesi/smyrna-tiyatrosu-gun-yuzune-cikiyor-2457731"
+ },
+ {
+  "id": "rees-kosku",
+  "ad": "Rees Köşkü",
+  "tur": "kosk",
+  "ilce": "Buca",
+  "semt": "Buca merkez",
+  "yil": null,
+  "lat": 38.3868,
+  "lon": 27.169,
+  "web": null,
+  "aciklama": "Buca'daki İngiliz Levanten Rees ailesi tarafından 19. yüzyılın ortalarında yaptırılan köşk, tipik İngiliz mimarisinin izlerini taşır. Bay Rees Osmanlı Demiryolu Şirketi'nde görevliydi ve hattın Buca'ya uzatılmasında rol oynadı. Ahşap ve moloz taştan iki katlı simetrik yapıya Birinci Dünya Savaşı sırasında Vali Rahmi Bey el koydu ve resmi bina oldu. Bugün Dokuz Eylül Üniversitesi Buca Eğitim Fakültesi dekanlığıdır; yakındaki Baptist Kilisesi ve Forbes Köşkü ile Levanten Buca yürüyüşü yapılabilir.",
+  "ilgi": [
+   "tarih"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Rees_K%C3%B6%C5%9Fk%C3%BC"
+ },
+ {
+  "id": "buca-baptist-kilisesi",
+  "ad": "Buca Protestan Baptist Kilisesi",
+  "tur": "kilise",
+  "ilce": "Buca",
+  "semt": "Buca merkez",
+  "yil": "1834",
+  "lat": 38.3869,
+  "lon": 27.1774,
+  "web": null,
+  "aciklama": "1834'te küçük bir köy şapeli olarak Anglikan Protestan kilisesi şeklinde kuruldu, daha sonra Baptist adını aldı; 1865'te Sultan Abdülaziz'in fermanıyla yenilendi. Haç planlı yapının arduvaz çatısı Rees ailesinin aracılığıyla Galler'den getirildi. 1961'e kadar ibadete açık kaldı, 1965'te belediyeye devredilip düğün ve kültür etkinliklerinde kullanıldı; 2001'deki anlaşmayla restore edilerek yeniden kiliseye dönüştü. Ayinler Türkçe yapılır ve kilise müzik etkinlikleriyle bilinir.",
+  "ilgi": [
+   "tarih"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Buca_Protestan_Baptist_Kilisesi"
+ },
+ {
+  "id": "st-mary-magdalene-anglikan-kilisesi",
+  "ad": "St. Mary Magdalene Anglikan Kilisesi",
+  "tur": "kilise",
+  "ilce": "Bornova",
+  "semt": "Bornova merkez",
+  "yil": "1857",
+  "lat": 38.4624,
+  "lon": 27.2239,
+  "web": null,
+  "aciklama": "Bornova'nın Levanten geçmişinin simgelerinden olan kilise, 1857'de Charlton Whittall tarafından eşinin anısına yaptırıldı ve adını eşinin koruyucu azizesi Mary Magdalene'den aldı. 1863'te Sultan Abdülaziz tarafından ziyaret edildi, 1864'te Cebelitarık Anglikan Piskoposluğu'na bağlandı. 20. yüzyıl başında İngiliz Kempe atölyesinin vitrayları eklendi. Cemaati azaldığından bugün özel törenlerde kullanılır; çevredeki Whittall köşkleri ve Santa Maria Kilisesi ile birlikte gezilebilir.",
+  "ilgi": [
+   "tarih"
+  ],
+  "kaynak": "https://tr.wikipedia.org/wiki/Saint_Mary_Magdalene_Anglikan_Kilisesi"
+ },
+ {
+  "id": "kibris-sehitleri-caddesi",
+  "ad": "Kıbrıs Şehitleri Caddesi",
+  "tur": "sokak",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": null,
+  "lat": 38.4395,
+  "lon": 27.1437,
+  "web": null,
+  "aciklama": "Alsancak'ın büyük bölümü yayalaştırılmış ana caddesi, İzmir'in en yoğun yeme-içme akslarından biridir. Cadde boyunca boyozcular, fırınlar, pastaneler, kafeler ve meyhaneler sıralanır; bomba tatlısının ortaya çıktığı Çelebi ile 1983'ten beri boyoz pişiren Dostlar Fırını da buradadır. Yan sokaklar akşamları meze ve müzik mekânlarıyla canlanır. Sabah boyoz ve sübye, akşam ise çevre sokaklarda meyhane turu için uygun bir başlangıç noktasıdır.",
+  "ilgi": [
+   "yeme",
+   "alisveris",
+   "eglence"
+  ],
+  "kaynak": "https://www.milliyet.com.tr/pazar/sokak-arasi-lezzetlerin-pesinde-6742869"
+ },
+ {
+  "id": "zeynel-ergin-gevrek-firini",
+  "ad": "Zeynel Ergin Gevrek Fırını",
+  "tur": "pastane",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": null,
+  "lat": 38.4384,
+  "lon": 27.1452,
+  "web": null,
+  "aciklama": "Alsancak'ta 1466. Sokak'taki bu fırın, geçmişi 19. yüzyılın sonlarına uzanan ve İzmir'in en eski gevrek fırını olarak anılan bir işletmedir. Gevrek, boyoz ve kumru ekmeği geleneksel kara fırında pişirilir; gevrekler küçültülmeden, eski usulde iri ve susamlı yapılır. Fırına adını veren Zeynel Ergin yıllarca tezgâhın başında durmuştur. Gevreği sıcakken almak için sabah erken saatler en uygun zamandır; yanına tulum peyniri ve çay iyi gider.",
+  "ilgi": [
+   "yeme",
+   "tarih"
+  ],
+  "kaynak": "https://www.visitizmir.org/tr/Destinasyon/9251"
+ },
+ {
+  "id": "alsancak-dostlar-firini",
+  "ad": "Alsancak Dostlar Fırını",
+  "tur": "pastane",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": "1983",
+  "lat": 38.4392,
+  "lon": 27.1439,
+  "web": null,
+  "aciklama": "Kıbrıs Şehitleri Caddesi üzerindeki fırın, 1983'te Mustafa Akar tarafından kurulmuş ve bugün ikinci kuşak tarafından işletilmektedir. İzmir'e özgü, Sefarad kökenli hamur işi boyozun kentte en bilinen adreslerinden biridir. Klasik boyozun yanı sıra patatesli, patlıcanlı, ıspanaklı ve peynirli çeşitler yapılır. İzmir usulüyle boyozun yanına haşlanmış yumurta ve kavun çekirdeğinden yapılan sübye istemek önerilir; sabahları sıra oluşabilir.",
+  "ilgi": [
+   "yeme",
+   "tarih"
+  ],
+  "kaynak": "https://www.milliyet.com.tr/pazar/sokak-arasi-lezzetlerin-pesinde-6742869"
+ },
+ {
+  "id": "celebi-bomba",
+  "ad": "Çelebi Bomba",
+  "tur": "pastane",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": null,
+  "lat": 38.4411,
+  "lon": 27.144,
+  "web": null,
+  "aciklama": "Kıbrıs Şehitleri Caddesi'nin ucundaki Çelebi, bugün Türkiye'nin pek çok yerinde satılan bomba tatlısının ortaya çıktığı yer olarak bilinir. Anlatılana göre içi akışkan çikolata dolgulu bu kurabiye, ailenin bir dostunun ziyareti için doğaçlama yapılmış, ardından tezgâhın simgesi olmuştur. Dükkânda bomba dışında çeşitli unlu mamuller de bulunur. Bombanın en iyi sıcakken, dolgusu akarken yendiği söylenir; caddede yürürken kısa bir tatlı molası için uygundur.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://www.milliyet.com.tr/pazar/sokak-arasi-lezzetlerin-pesinde-6742869"
+ },
+ {
+  "id": "sevinc-pastanesi",
+  "ad": "Sevinç Pastanesi",
+  "tur": "pastane",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": "1957",
+  "lat": 38.4348,
+  "lon": 27.1421,
+  "web": "https://sevincpastanesi.com.tr/",
+  "aciklama": "Pelit ailesinin 1954'te Kıbrıs Şehitleri Caddesi'nde açtığı Ülkü Pastanesi'nin ardından 1957'de kurulan Sevinç, Alsancak'ın köklü pastanelerindendir. Aile mesleği İstanbul'daki Moskova Pastanesi ustalarından öğrenmiş, işletme bugün üçüncü kuşakla sürmektedir. Ana dükkân Ali Çetinkaya Bulvarı'ndadır. Pavlova, kremalı ve fındıklı torpil ile mahlepli, sakızlı paskalya çöreği en bilinen ürünleridir; fıstıklı dondurması da yaz aylarında aranır.",
+  "ilgi": [
+   "yeme",
+   "tarih"
+  ],
+  "kaynak": "https://sevincpastanesi.com.tr/"
+ },
+ {
+  "id": "hisaronu-sambalicisi",
+  "ad": "Meşhur Hisarönü Şambalicisi",
+  "tur": "pastane",
+  "ilce": "Konak",
+  "semt": "Kemeraltı",
+  "yil": "1942",
+  "lat": 38.4219,
+  "lon": 27.1331,
+  "web": "http://meshurhisaronusambalicisi.com/",
+  "aciklama": "Kemeraltı'nda Hisar Camii'nin arka tarafında, 901. Sokak'taki bu küçük tatlıcı 1942'den beri hizmet verdiğini belirtir. İrmik, yoğurt ve şekerle hazırlanıp şerbetlenen, bademle süslenen şambali İzmir'in geleneksel tatlılarındandır ve dükkân bu tatlının kentteki en bilinen adresi sayılır. Sade ve Antep fıstıklı şambalinin yanı sıra Halep tatlısı da yapılır. Kaymaklı servis edilmesi önerilir; çarşı gezisi sırasında kısa bir mola için uygundur.",
+  "ilgi": [
+   "yeme",
+   "tarih",
+   "alisveris"
+  ],
+  "kaynak": "http://meshurhisaronusambalicisi.com/"
+ },
+ {
+  "id": "gul-kebap",
+  "ad": "Gül Kebap",
+  "tur": "restoran",
+  "ilce": "Konak",
+  "semt": "Kemeraltı",
+  "yil": null,
+  "lat": 38.4213,
+  "lon": 27.1357,
+  "web": null,
+  "aciklama": "Kemeraltı Çarşısı içindeki Gül Kebap, onlarca yıldır çarşı esnafının ve alışverişe gelenlerin uğradığı bir dönerci ve kebapçıdır. Hürriyet'in İzmir lezzet rehberinde 67 yıllık bir işletme olarak tanıtılmıştır. En bilinen yemeği, bakır tepside servis edilen dönerdir. Çarşı gezisinin ortasında öğle yemeği için uygun bir duraktır; öğle saatlerinde esnafın yoğunluğu nedeniyle masa beklemek gerekebilir.",
+  "ilgi": [
+   "yeme",
+   "tarih"
+  ],
+  "kaynak": "https://www.hurriyet.com.tr/seyahat/izmir-lezzet-rehberi-40268175"
+ },
+ {
+  "id": "aysa-bosnak-borekcisi",
+  "ad": "Ayşa Boşnak Börekçisi",
+  "tur": "restoran",
+  "ilce": "Konak",
+  "semt": "Kemeraltı",
+  "yil": "2004",
+  "lat": 38.4188,
+  "lon": 27.1343,
+  "web": null,
+  "aciklama": "Kemeraltı'nda tarihi Abacıoğlu Hanı'nın avlusunda bulunan Ayşa, 2004'te Boşnak göçmeni Ayşe Karadan'ın Boşnak mantısı satmaya başlamasıyla kurulmuştur. Kıymalı, peynirli ve ıspanaklı Boşnak böreği ile Boşnak mantısı en bilinen yemekleridir; tencere yemekleri, zeytinyağlılar ve mezeler de sunulur. Restoran Michelin Rehberi'nde Bib Gourmand ile anılmaktadır. Öğle saatlerinde çevre çalışanlarıyla dolduğu için erken gitmek önerilir.",
+  "ilgi": [
+   "yeme",
+   "tarih"
+  ],
+  "kaynak": "https://guide.michelin.com/tr/tr/article/features/izmir-de-bir-izmirli-gibi-yemek-adil-muftuoglu-begendik-abi-aysa-bosnak-borekcisi"
+ },
+ {
+  "id": "birinci-kordon-balik",
+  "ad": "Birinci Kordon Balık Restoran",
+  "tur": "balik",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": null,
+  "lat": 38.4338,
+  "lon": 27.1384,
+  "web": "https://www.birincikordon.com/",
+  "aciklama": "Kordon'da, Atatürk Caddesi üzerinde körfeze bakan bir balık lokantasıdır ve Michelin Rehberi'nin İzmir seçkisinde yer almaktadır. Yalnızca deniz balığı sunduğunu belirten restoranda balıklar kömür ateşinde, süslemeden pişirilir. Biber kabuğunda ızgara kalamar, alevde pişen levrek ve günlük hazırlanan Ege mezeleri öne çıkar. Dış mekân masalarından körfez ve gün batımı görülür; akşamları yer bulmak için önceden aramak önerilir.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://guide.michelin.com/tr/tr/izmir/izmir_2809416/restaurant/birinci-kordon-bal%C4%B1k-restoran"
+ },
+ {
+  "id": "deniz-restoran-kordon",
+  "ad": "Deniz Restoran",
+  "tur": "balik",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": null,
+  "lat": 38.4313,
+  "lon": 27.136,
+  "web": null,
+  "aciklama": "Kordon üzerinde, Atatürk Caddesi'nde yer alan Deniz Restoran, İzmir'in uzun süredir bilinen klasik balık lokantalarından biridir. Izgara balığın yanı sıra fırında sütlü balık ve karides güveç gibi sıcak deniz ürünleri yemekleriyle tanınır. Soğuk Ege mezeleri ve zeytinyağlılar da menünün önemli bölümünü oluşturur. Kordon yürüyüşüyle birleştirilebilir; hafta sonu akşamları için rezervasyon yaptırmak faydalı olur.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://www.bizevdeyokuz.com/?p=11982"
+ },
+ {
+  "id": "kemalin-yeri",
+  "ad": "Kemal'in Yeri",
+  "tur": "restoran",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": null,
+  "lat": 38.4371,
+  "lon": 27.1426,
+  "web": null,
+  "aciklama": "Alsancak'ta 1453. Sokak'ta, yaklaşık yüz yıllık bir evde hizmet veren Kemal'in Yeri, Michelin Rehberi'nde Bib Gourmand ile anılan geleneksel bir Türk mutfağı lokantasıdır. Sahibi Kemal Özçakar'ın her sabah bölgedeki çiftliklerden topladığı ürünlerle günlük değişen bir menü hazırlanır. Dereotlu ve limonlu fava ile kekik ve sarımsakla çıtır pişirilen kuzu uykuluk bilinen tabaklarındandır. Menü her gün değiştiği için rezervasyonla gitmek önerilir.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://guide.michelin.com/tr/tr/izmir/izmir_2809416/restaurant/kemal-in-yeri-mulkiyeliler-birligi"
+ },
+ {
+  "id": "tavaci-recep-usta-alsancak",
+  "ad": "Meşhur Tavacı Recep Usta Alsancak",
+  "tur": "restoran",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": "1978",
+  "lat": 38.4405,
+  "lon": 27.1426,
+  "web": "https://tavacirecepusta.com.tr/",
+  "aciklama": "Kordon'a yakın Atatürk Caddesi'ndeki bu şube, 1978'den beri Diyarbakır mutfağı sunan Tavacı Recep Usta'nın İzmir'deki adresidir. İstanbul Bostancı kökenli marka, Alsancak şubesiyle Michelin Rehberi'nde Bib Gourmand almıştır. Kaburga dolma, sac tava, soslu fırın incik, mumbar dolması ve kebap çeşitleri en bilinen yemekleridir. Porsiyonlar paylaşmaya uygundur; akşam yemekleri için önceden rezervasyon yapılması önerilir.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://tavacirecepusta.com.tr/"
+ },
+ {
+  "id": "kirk-merdiven",
+  "ad": "Kırk Merdiven",
+  "tur": "kafe",
+  "ilce": "Konak",
+  "semt": "Karataş",
+  "yil": null,
+  "lat": 38.4092,
+  "lon": 27.1189,
+  "web": null,
+  "aciklama": "Karataş'ta, Asansör'e yakın merdivenli sokakların arasında eski bir Rum evinde hizmet veren bir kafedir. Dario Moreno Sokağı çevresindeki tarihi dokunun içinde yer alır. İzmir'in sokak lezzeti kumrunun balkabaklı yorumuyla bilinir; kahvaltılıklar ve sıcak içecekler de sunulur. Karataş ve Asansör gezisi sırasında mola vermek için uygundur; mekâna ulaşmak için birkaç basamak çıkmak gerekebilir.",
+  "ilgi": [
+   "yeme",
+   "tarih"
+  ],
+  "kaynak": "https://www.bizevdeyokuz.com/?p=11982"
+ },
+ {
+  "id": "kokorecci-baki-usta",
+  "ad": "Kokoreççi Baki Usta",
+  "tur": "sokak",
+  "ilce": "Karşıyaka",
+  "semt": "Şemikler",
+  "yil": "1982",
+  "lat": 38.4754,
+  "lon": 27.101,
+  "web": "http://kokoreccibaki.com.tr/",
+  "aciklama": "Baki Usta'nın 1982'de Şemikler'de seyyar arabayla başladığı kokoreç işi, bugün oğlu Volkan Çolak tarafından sürdürülen bir işletmeye dönüşmüştür. İlk dükkân Şemikler'dedir; Bostanlı ve Bornova'da da şubeleri bulunur. Kokoreç, İzmir usulü iri parçalar halinde doğranıp ızgaraya yeniden atılmadan ekmek arasına konur; istenirse ızgarada çevrilir. Paket olarak dondurulmuş kokoreç de satılır; akşamları sıra oluşabilir.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://www.milliyet.com.tr/pazar/sokak-arasi-lezzetlerin-pesinde-6742869"
+ },
+ {
+  "id": "reyhan-pastanesi-bostanli",
+  "ad": "Reyhan Pastanesi Bostanlı",
+  "tur": "pastane",
+  "ilce": "Karşıyaka",
+  "semt": "Bostanlı",
+  "yil": "1965",
+  "lat": 38.4593,
+  "lon": 27.0937,
+  "web": "https://reyhan.com.tr/",
+  "aciklama": "Reyhan, kökleri Çarlık Rusyası'nda pastacılık yapan bir aileye uzanan ve 1965'te Cavit ile Hüseyin Reyhan'ın Alsancak'ta restore edilmiş bir Rum evinde açtığı İzmir pastanesidir. Bostanlı şubesi Şehit Cengiz Topel Caddesi'nde, sahile yakın konumdadır. Muzlu rulo, çilekli şanti, fıstıklı sükse ve doğum günü pastaları en bilinen ürünleridir. Hem pastane hem kafe olarak çalıştığı için gün batımı yürüyüşünden önce ya da sonra oturmak için uygundur.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://www.visitizmir.org/tr/Destinasyon/9311"
+ },
+ {
+  "id": "emektar-kebap",
+  "ad": "Emektar Kebap",
+  "tur": "restoran",
+  "ilce": "Bornova",
+  "semt": "Evka 3",
+  "yil": null,
+  "lat": 38.4623,
+  "lon": 27.2499,
+  "web": "https://www.emektarkebap.com/",
+  "aciklama": "Bornova'da Evka 3 semtinde, 129/7. Sokak'taki Emektar Kebap, şehir merkezinin dışında olmasına rağmen yerel müdavimleriyle tanınan bir kebapçıdır ve Michelin Rehberi'nin İzmir seçkisinde yer alır. Odun ateşli fırın ve kömür ızgarasıyla geleneksel pişirme öne çıkar. Kuzu incik, beyti sarma, lahmacun, işkembe çorbası ve yoğurtlu, patlıcanlı kuzu çevirme bilinen yemekleridir; açık ayranla servis edilir. Ulaşım için araç ya da taksi daha pratiktir.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://guide.michelin.com/tr/en/izmir/izmir_2809416/restaurant/emektar-kebap"
+ },
+ {
+  "id": "ciceklikoy-kahvalti",
+  "ad": "Çiçekliköy Kahvaltı Mekânları",
+  "tur": "kahvalti",
+  "ilce": "Bornova",
+  "semt": "Çiçekli",
+  "yil": null,
+  "lat": 38.499,
+  "lon": 27.2846,
+  "web": null,
+  "aciklama": "Bornova'nın kuzeydoğusunda, zeytinlikler ve yeşil tepelerle çevrili Çiçekliköy, İzmirlilerin hafta sonu köy kahvaltısı için tercih ettiği bir semttir. Köyde bahçeli ve ağaç gölgeli çok sayıda kahvaltı evi ve restoran bulunur. Serpme kahvaltının yanında gözleme, pişi ve menemen gibi sıcak yiyecekler ile yerel ürünler sunulur. Hafta sonu sabahları yoğun olduğundan erken gitmek veya rezervasyon yapmak, şehir merkezinden araçla gelmek önerilir.",
+  "ilgi": [
+   "yeme",
+   "doga"
+  ],
+  "kaynak": "https://yemek.com/ciceklikoy-kahvalti-yerleri/"
+ },
+ {
+  "id": "inceoglu-pastanesi",
+  "ad": "İnceoğlu Pastanesi",
+  "tur": "pastane",
+  "ilce": "Buca",
+  "semt": "Vali Rahmi Bey",
+  "yil": null,
+  "lat": 38.37,
+  "lon": 27.1898,
+  "web": null,
+  "aciklama": "Uğur Mumcu Caddesi üzerindeki İnceoğlu, geçmişi 1953'e uzandığı belirtilen ve Buca'nın en eski pastanelerinden sayılan bir işletmedir. Yıllardır semt sakinlerinin pasta, kurabiye ve tatlı aldığı klasikleşmiş bir adres olarak bilinir. Profiterol, çikolatalı pastalar ile fındıklı, cevizli ve tarçınlı kurabiyeler en çok aranan ürünleridir; karışık pasta tabakları da hazırlanır. Özel günler için pasta siparişini birkaç gün önceden vermek önerilir.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://yemek.com/izmirin-en-iyi-pastaneleri/"
+ },
+ {
+  "id": "buca-bosna-corbacisi",
+  "ad": "Buca Bosna Çorbacısı",
+  "tur": "restoran",
+  "ilce": "Buca",
+  "semt": "Buca Merkez",
+  "yil": null,
+  "lat": 38.3877,
+  "lon": 27.1736,
+  "web": null,
+  "aciklama": "Buca'nın yerlilerinden Murat Özişmen'in işlettiği Bosna Çorbacısı, semtin bilinen çorba duraklarından biridir. Müdavimleri arasında çorbalarının şifa niyetine içildiği söylenir; geleneksel esnaf çorbaları öne çıkar. Çorbacı özellikle gece geç saatlerde ve sabaha karşı tercih edilen bir mekân olarak bilinir. Buca'daki akşam programının sonunda ya da sabah erken saatlerde sıcak bir çorba içmek için uğranabilecek bir duraktır.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://www.milliyet.com.tr/galeri/izmirde-bir-yolculuga-hazir-misiniz-iste-tum-bilinmeyenleriyle-sokak-sokak-buca-hakkinda-her-sey-6337461"
+ },
+ {
+  "id": "buca-kaynaklar-dere-cafe",
+  "ad": "Kaynaklar Dere Cafe",
+  "tur": "kahvalti",
+  "ilce": "Buca",
+  "semt": "Kaynaklar",
+  "yil": null,
+  "lat": 38.3634,
+  "lon": 27.2842,
+  "web": null,
+  "aciklama": "Buca'nın doğusunda, Nif Dağı eteklerindeki Kaynaklar, yeşil bir kırsal mahalledir ve hafta sonu doğa kaçamakları için tercih edilir. Buca Belediyesi'nin işlettiği Dere Cafe, ağaçlar arasında doğayla iç içe kahvaltı ve yemek imkânı sunar. Alanda bisiklet kiralama, küçük bungalovlar ve çocuk oyun alanı da bulunur. Şehrin kalabalığından uzaklaşmak isteyenler için kahvaltı ve yürüyüş birlikte planlanabilir; ulaşım için araç daha pratiktir.",
+  "ilgi": [
+   "yeme",
+   "doga",
+   "cocuk"
+  ],
+  "kaynak": "https://www.milliyet.com.tr/galeri/izmirde-bir-yolculuga-hazir-misiniz-iste-tum-bilinmeyenleriyle-sokak-sokak-buca-hakkinda-her-sey-6337461"
+ },
+ {
+  "id": "adil-muftuoglu",
+  "ad": "Adil Müftüoğlu",
+  "tur": "restoran",
+  "ilce": "Balçova",
+  "semt": "Korutürk",
+  "yil": "1955",
+  "lat": 38.3938,
+  "lon": 27.0498,
+  "web": "https://adilmuftuoglu.com.tr/",
+  "aciklama": "1955'ten beri hizmet veren Adil Müftüoğlu, kurucusunun adıyla anılan ve bugün üçüncü kuşak tarafından işletilen bir esnaf lokantasıdır; Balçova'da Mithatpaşa Caddesi üzerindedir. Yemekler kömürlü tuğla fırında pişirilir ve mevsime göre her gün değişen yaklaşık otuz çeşit sunulur. Kuzu dolması, şevketi bostan, beğendili tas kebabı, kuzu tandır ve enginar dolması bilinen yemekleridir. Michelin Rehberi'nde Bib Gourmand ile anılır; öğle yemeği için uygundur.",
+  "ilgi": [
+   "yeme",
+   "tarih"
+  ],
+  "kaynak": "https://guide.michelin.com/tr/tr/article/features/izmir-de-bir-izmirli-gibi-yemek-adil-muftuoglu-begendik-abi-aysa-bosnak-borekcisi"
+ },
+ {
+  "id": "bizim-gazino-narlidere",
+  "ad": "Bizim Gazino",
+  "tur": "balik",
+  "ilce": "Narlıdere",
+  "semt": "Altıevler",
+  "yil": null,
+  "lat": 38.3992,
+  "lon": 26.9866,
+  "web": null,
+  "aciklama": "Narlıdere'nin Altıevler kıyısında, doğrudan sahil üzerinde yer alan Bizim Gazino, deniz kenarında balık ve meze sunan bir restorandır. Uzun yıllardır bölge sakinlerinin uğradığı bir mekân olarak bilinir. Taze balık, soğuk Ege mezeleri ve ılık salata öne çıkan seçeneklerdendir. Körfeze bakan masalarından gün batımı izlenebilir; yaz akşamları ve hafta sonları yoğun olduğundan önceden yer ayırtmak önerilir.",
+  "ilgi": [
+   "yeme",
+   "doga"
+  ],
+  "kaynak": "https://wanderlog.com/place/details/3463904/bizim-gazino"
+ }
+]

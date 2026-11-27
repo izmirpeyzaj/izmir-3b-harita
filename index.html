@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>İzmir 3B Şehir Haritası</title>
-  <link rel="stylesheet" href="css/stil.css?s=44">
+  <link rel="stylesheet" href="css/stil.css?s=49">
 </head>
 <body>
   <canvas id="sahne"></canvas>
@@ -13,7 +13,7 @@
   <aside id="sol" class="panel">
     <div>
       <h1>İzmir 3B Şehir Haritası</h1>
-      <p>On ilçeden simge yapılar. Bir yapıya tıklayın.</p>
+      <p>On ilçeden simge yapılar, müzeler, lezzet durakları, alışveriş ve eğlence yerleri. İlgi alanı seçin ya da bir yapıya tıklayın.</p>
     </div>
     <div id="araclar">
       <button id="tur">▶ Tur</button>
@@ -22,8 +22,8 @@
       <button id="defterDugme" title="Keşif defteri">📓 0</button>
       <button id="listeDugme">☰ Liste</button>
     </div>
-    <input id="ara" type="search" placeholder="Yer veya ilçe ara…" aria-label="Yer ara">
-    <div id="cipler" aria-label="Kategori filtresi"></div>
+    <input id="ara" type="search" placeholder="Yer, ilçe veya ilgi alanı ara…" aria-label="Yer ara">
+    <div id="cipler" aria-label="İlgi alanı süzgeci"></div>
     <ul id="liste"></ul>
   </aside>
 
@@ -38,7 +38,10 @@
     <span id="kartKat"></span>
     <h2 id="kartAd"></h2>
     <div id="kartMeta"></div>
+    <div id="kartIlgi" aria-label="İlgi alanları"></div>
     <p id="kartAciklama"></p>
+    <p id="kartUlasim"></p>
+    <div id="kartBaglantilar"></div>
     <p id="kartDurum"></p>
     <figure id="kartHarita">
       <svg id="ilceHarita" role="img" aria-label="İlçenin gerçek haritadaki yeri"></svg>
@@ -70,9 +73,9 @@
   <script>
     // Dosyalar değişince tarayıcı önbelleğini atlatmak için bu sayıyı artırın (stil.css bağlantısındakiyle birlikte).
     // Hepsi klasik betiktir: sayfa çift tıklanarak (file://) açıldığında da çalışır.
-    var SURUM = 46;
+    var SURUM = 48;
     (function () {
-      var dosyalar = ['vendor/three.klasik.js', 'vendor/OrbitControls.klasik.js', 'js/veri.js', 'js/ilceler.js', 'js/cografya.js', 'js/yardimci.js', 'js/yapilar.js', 'js/sahne.js', 'js/oyun.js', 'js/defter.js'];
+      var dosyalar = ['vendor/three.klasik.js', 'vendor/OrbitControls.klasik.js', 'js/mekanlar.js', 'js/veri.js', 'js/ilceler.js', 'js/cografya.js', 'js/yardimci.js', 'js/yapilar.js', 'js/mekanmodelleri.js', 'js/sahne.js', 'js/oyun.js', 'js/defter.js'];
       function hata(e) {
         console.error(e);
         document.getElementById('yukleniyor').textContent = 'Harita yüklenemedi. Sayfayı baslat.bat ile açmayı deneyin.';

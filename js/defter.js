@@ -7,7 +7,7 @@
   const ANAHTAR = 'izmir-defter';
   const yerler = S.yerler.map((y) => y.veri);
   const TOPLAM = yerler.length;
-  const ROZETLER = [[5, 'Meraklı', '🔎'], [15, 'Gezgin', '🧭'], [30, 'Kâşif', '🗺️'], [TOPLAM, 'İzmirli', '🏅']];
+  const ROZETLER = [[5, 'Meraklı', '🔎'], [15, 'Gezgin', '🧭'], [30, 'Kâşif', '🗺️'], [60, 'Rehber', '🎒'], [100, 'Şehir kurdu', '🧿'], [TOPLAM, 'İzmirli', '🏅']].filter(([e], i, d) => e <= TOPLAM && (e < TOPLAM || i === d.length - 1));
 
   let kayit = {};
   try { kayit = JSON.parse(localStorage.getItem(ANAHTAR) || '{}') || {}; } catch (e) { kayit = {}; }

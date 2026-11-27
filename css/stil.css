@@ -59,7 +59,7 @@ button:focus-visible { outline: 2px solid #2f7fd1; outline-offset: 2px; }
 body.gece #modlar button.secili { background: #eaf0f8; color: #12203a; }
 
 /* Bilgi kartı */
-#kart { right: 16px; bottom: 16px; width: 320px; max-width: calc(100% - 32px); padding: 18px; }
+#kart { right: 16px; bottom: 16px; width: 340px; max-width: calc(100% - 32px); max-height: calc(100% - 96px); overflow-y: auto; padding: 18px; }
 #kart[hidden] { display: none; }
 #kartKat { display: inline-block; padding: 3px 9px; border-radius: 999px; font-size: 11.5px; color: #fff; }
 #kart h2 { margin: 10px 0 2px; font-size: 19px; }
@@ -198,3 +198,24 @@ body.ucus #gezinme, body.ucus #kucukHarita { display: none !important; }
   #kucukHarita { width: 112px; left: 10px; bottom: 12px; }
   #kart:not([hidden]) ~ #gezinme, #kart:not([hidden]) ~ #kucukHarita { display: none; }
 }
+
+/* İlgi alanı çipleri ve kart ekleri */
+.cip { opacity: 0.8; }
+.cip::before { display: none; }
+.cip small { opacity: 0.6; font-size: 10.5px; }
+.cip.acik { opacity: 1; background: #2f7fd1; color: #fff; border-color: transparent; }
+#kartIlgi { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 8px; }
+#kartIlgi:empty { display: none; }
+#kartIlgi button { padding: 2px 8px; border-radius: 999px; font-size: 11.5px; border: 1px solid var(--kenar); background: rgba(127, 127, 127, 0.1); }
+#kartIlgi button:hover { background: rgba(127, 127, 127, 0.22); }
+#kartUlasim { margin: 10px 0 0; font-size: 12.5px; line-height: 1.45; color: var(--soluk); }
+#kartUlasim:empty { display: none; }
+#kartUlasim::before { content: "🚉 "; }
+#kartBaglantilar { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+#kartBaglantilar:empty { display: none; }
+#kartBaglantilar a { padding: 5px 10px; border-radius: 10px; font-size: 12.5px; color: inherit; text-decoration: none; border: 1px solid var(--kenar); background: rgba(127, 127, 127, 0.1); }
+#kartBaglantilar a:hover { background: rgba(127, 127, 127, 0.22); }
+#kartBaglantilar a.ana { background: #2f7fd1; color: #fff; border-color: transparent; }
+.etiket.kucuk { font-size: 10.5px; font-weight: 500; padding: 2px 7px; }
+#cipler { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 6px; scrollbar-width: thin; flex: none; }
+#cipler .cip { flex: none; white-space: nowrap; }

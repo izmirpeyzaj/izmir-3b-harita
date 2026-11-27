@@ -70,7 +70,7 @@
     if (!k) return;
     v.konum = [k[0], k[1]];
     delete v.donus;
-    const e = DENIZ_EKSENI[v.id], n = COG.yon[v.id];
+    const e = DENIZ_EKSENI[v.id] || (v.tur === 'sahil' || v.tur === 'marina' ? ['+z', 1.2] : null), n = COG.yon[v.id];
     if (e && n) {
       const wx = n[0], wz = -n[1]; // harita (x doğu, y kuzey) -> dünya (x, z = -y)
       v.donus = e[0] === '+z' ? Math.atan2(wx, wz) : e[0] === '-z' ? Math.atan2(-wx, -wz) : Math.atan2(wz, -wx);
@@ -684,8 +684,9 @@
   const aydinlananlar = new Set();
   const yerler = IZ.YERLER.map((veri) => {
     const kat = IZ.KATEGORILER[veri.kategori];
-    veri.hazir = !!IZ.yapilar[veri.id];
-    const grup = veri.hazir ? IZ.yapilar[veri.id]() : IZ.igne(kat.renk);
+    veri.hazir = !!IZ.yapilar[veri.id] || !!(veri.tur && IZ.mekanModeli);
+    const grup = IZ.yapilar[veri.id] ? IZ.yapilar[veri.id]() : veri.hazir ? IZ.mekanModeli(veri) : IZ.igne(kat.renk);
+    if (veri.kucuk && veri.donus === undefined) veri.donus = (((veri.konum[0] * 7.3 + veri.konum[1] * 3.1) % 4 + 4) % 4 | 0) * Math.PI / 2 + Math.PI;
     if (veri.hazir) IZ.birlestir(grup);
     grup.position.copy(D(veri.konum[0], veri.konum[1], veri.kot || 0));
     grup.rotation.y = veri.donus || 0;
@@ -703,13 +704,16 @@
     });
 
     const etiket = document.createElement('button');
-    etiket.className = 'etiket' + (veri.hazir ? '' : ' sirada');
+    etiket.className = 'etiket' + (veri.hazir ? '' : ' sirada') + (veri.kucuk ? ' kucuk' : '');
     etiket.textContent = veri.ad;
     etiket.style.setProperty('--renk', kat.renk);
     etiket.addEventListener('click', () => (IZ.sahne.tiklamaYakala ? IZ.sahne.tiklamaYakala(veri) : sec(veri.id)));
     etiketKatmani.appendChild(etiket);
 
-    return { veri, grup, etiket, capa: D(veri.konum[0], veri.konum[1], (veri.kot || 0) + veri.boy), olcek: 1 };
+    // Katalogdaki yerlerin modelleri simge yapılardan biraz küçük çizilir (kalabalık merkezde sığsınlar)
+    const taban = veri.kucuk ? 0.8 * ((COG.olcek || {})[veri.id] || 1) : 1;
+    if (veri.kucuk) veri.boy = veri.boy * taban + 0.2;
+    return { veri, grup, etiket, capa: D(veri.konum[0], veri.konum[1], (veri.kot || 0) + veri.boy), olcek: taban, taban };
   });
   const yerBul = (id) => yerler.find((y) => y.veri.id === id);
 
@@ -865,22 +869,32 @@
   }
 
   // ---------- Arayüz ----------
-  const kapaliKategoriler = new Set();
+  // İlgi alanı süzgeci: tek seçim; seçili alan dışındaki yerler haritada ve listede gizlenir
+  let seciliIlgi = null;
   const cipler = document.getElementById('cipler');
-  Object.entries(IZ.KATEGORILER).forEach(([anahtar, kat]) => {
-    const b = document.createElement('button');
-    b.className = 'cip acik';
-    b.style.setProperty('--renk', kat.renk);
-    b.textContent = kat.ad;
-    b.setAttribute('aria-pressed', 'true');
-    b.addEventListener('click', () => {
-      const kapat = !kapaliKategoriler.has(anahtar);
-      kapat ? kapaliKategoriler.add(anahtar) : kapaliKategoriler.delete(anahtar);
-      b.classList.toggle('acik', !kapat);
-      b.setAttribute('aria-pressed', String(!kapat));
-      yerler.forEach((y) => { if (y.veri.kategori === anahtar) y.grup.visible = !kapat; });
-      listeyiCiz();
+  const ilgiUyar = (v) => !seciliIlgi || v.ilgi.includes(seciliIlgi);
+  function ilgiSec(anahtar) {
+    seciliIlgi = seciliIlgi === anahtar ? null : anahtar;
+    cipler.querySelectorAll('.cip').forEach((b) => {
+      const acik = (b.dataset.ilgi || null) === seciliIlgi;
+      b.classList.toggle('acik', acik);
+      b.setAttribute('aria-pressed', String(acik));
     });
+    yerler.forEach((y) => { y.grup.visible = ilgiUyar(y.veri); });
+    if (secili && !secili.grup.visible) kartiKapat();
+    listeyiCiz();
+  }
+  [[null, { ad: 'Tümü', simge: '✦' }]].concat(Object.entries(IZ.ILGILER)).forEach(([anahtar, ilgi]) => {
+    const b = document.createElement('button');
+    b.className = 'cip' + (anahtar ? '' : ' acik');
+    if (anahtar) b.dataset.ilgi = anahtar;
+    const n = anahtar ? IZ.YERLER.filter((v) => v.ilgi.includes(anahtar)).length : IZ.YERLER.length;
+    b.textContent = ilgi.simge + ' ' + ilgi.ad + ' ';
+    const sayi = document.createElement('small');
+    sayi.textContent = n;
+    b.appendChild(sayi);
+    b.setAttribute('aria-pressed', String(!anahtar));
+    b.addEventListener('click', () => ilgiSec(anahtar));
     cipler.appendChild(b);
   });
 
@@ -902,7 +916,7 @@
   function listeyiCiz() {
     liste.innerHTML = '';
     const aranan = ara.value.trim().toLocaleLowerCase('tr');
-    const gorunen = yerler.filter((y) => y.grup.visible && (!aranan || (y.veri.ad + ' ' + y.veri.semt + ' ' + y.veri.ilce).toLocaleLowerCase('tr').includes(aranan)));
+    const gorunen = yerler.filter((y) => y.grup.visible && (!aranan || (y.veri.ad + ' ' + y.veri.semt + ' ' + y.veri.ilce + ' ' + y.veri.ilgi.map((i) => IZ.ILGILER[i].ad).join(' ')).toLocaleLowerCase('tr').includes(aranan)));
     if (!gorunen.length) {
       const li = document.createElement('li');
       li.className = 'bos';
@@ -982,6 +996,7 @@
     document.getElementById('kartMeta').textContent = [y.veri.semt, y.veri.semt.includes(y.veri.ilce) ? '' : y.veri.ilce, y.veri.yil].filter(Boolean).join(' · ');
     document.getElementById('kartAciklama').textContent = y.veri.aciklama;
     document.getElementById('kartDurum').textContent = y.veri.hazir ? '' : '3B modeli sırada; şimdilik iğne ile gösteriliyor.';
+    kartEkleri(y.veri);
     ilceHaritasiniGuncelle(y.veri.ilce);
     kart.hidden = false;
     // Keşif defteri (js/defter.js): oyun dışında açılan her kart deftere işlenir
@@ -994,6 +1009,41 @@
     if (yon.y < 0.45) { yon.y = 0.45; yon.normalize(); }
     ucus = { t: 0, n0: controls.target.clone(), n1: hedefNokta, k0: camera.position.clone(), k1: hedefNokta.clone().addScaledVector(yon, 46) };
   }
+  // Kartın ilgi etiketleri, ulaşım bilgisi ve bağlantıları
+  const TASIT = { metro: 'Metro', tren: 'İZBAN', tramvay: 'Tramvay', vapur: 'Vapur' };
+  function kartEkleri(v) {
+    const ilgiKutu = document.getElementById('kartIlgi');
+    ilgiKutu.innerHTML = '';
+    v.ilgi.forEach((i) => {
+      const b = document.createElement('button');
+      b.textContent = IZ.ILGILER[i].simge + ' ' + IZ.ILGILER[i].ad;
+      b.title = 'Bu ilgi alanındaki yerleri göster';
+      b.addEventListener('click', () => { if (seciliIlgi !== i) ilgiSec(i); sol.classList.remove('kapali'); });
+      ilgiKutu.appendChild(b);
+    });
+    const u = (COG.ulasim || {})[v.id] || [];
+    document.getElementById('kartUlasim').textContent = u.length
+      ? 'En yakın duraklar: ' + u.map(([t, ad, m]) => ad + ' (' + TASIT[t] + ', ~' + (m < 1000 ? Math.round(m / 50) * 50 + ' m' : (m / 1000).toFixed(1).replace('.', ',') + ' km') + ')').join(' · ')
+      : '';
+    const bag = document.getElementById('kartBaglantilar');
+    bag.innerHTML = '';
+    function baglanti(yazi, adres, sinif) {
+      const a = document.createElement('a');
+      a.href = adres;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.textContent = yazi;
+      if (sinif) a.className = sinif;
+      bag.appendChild(a);
+    }
+    if (v.web) baglanti(v.webTur === 'vikipedi' ? 'Vikipedi ↗' : 'Web sitesi ↗', v.web, 'ana');
+    const g = (COG.gercek || {})[v.id];
+    if (g) {
+      baglanti('Yol tarifi ↗', 'https://www.google.com/maps/dir/?api=1&destination=' + g[0] + ',' + g[1]);
+      baglanti('OpenStreetMap ↗', 'https://www.openstreetmap.org/?mlat=' + g[0] + '&mlon=' + g[1] + '#map=17/' + g[0] + '/' + g[1]);
+    }
+  }
+
   // Gezinme: kapat, tüm harita, önceki/sonraki, otomatik tur
   const BAS_KAMERA = new THREE.Vector3(-88, 58, -12), BAS_HEDEF = new THREE.Vector3(0, 0, -22);
 
@@ -1057,7 +1107,7 @@
     const c = document.createElementNS(SVGNS, 'circle');
     c.setAttribute('cx', v.konum[0]);
     c.setAttribute('cy', -v.konum[1]);
-    c.setAttribute('r', 3);
+    c.setAttribute('r', v.kucuk ? 1.8 : 3);
     c.setAttribute('fill', IZ.KATEGORILER[v.kategori].renk);
     kucuk.appendChild(c);
   });
@@ -1218,16 +1268,18 @@
 
     const w = window.innerWidth, h = window.innerHeight;
     yerler.forEach((y) => {
-      const hedefOlcek = y === uzerinde || y === secili ? 1.08 : 1;
+      const hedefOlcek = (y === uzerinde || y === secili ? 1.08 : 1) * y.taban;
       y.olcek += (hedefOlcek - y.olcek) * 0.2;
       y.grup.scale.setScalar(y.olcek);
       if (y.grup.userData.guncelle) y.grup.userData.guncelle(t);
       if (y.grup.userData.igne) y.grup.position.y = (y.veri.kot || 0) + 0.5 + Math.sin(t * 2 + y.veri.konum[0]) * 0.25;
       v.copy(y.capa).project(camera);
       y.ekranda = y.grup.visible && v.z < 1 && Math.abs(v.x) < 1.1 && Math.abs(v.y) < 1.1;
+      const kameraUzak = y.capa.distanceTo(camera.position);
+      if (y.veri.kucuk && y !== secili && y !== uzerinde && !seciliIlgi && kameraUzak > 78) y.ekranda = false;
       y.ex = ((v.x + 1) / 2) * w;
       y.ey = ((1 - v.y) / 2) * h;
-      y.uzaklik = y === secili ? -1 : y.capa.distanceTo(camera.position);
+      y.uzaklik = y === secili ? -1 : kameraUzak + (y.veri.kucuk ? 25 : 0);
       y.etiket.classList.toggle('secili', y === secili);
     });
     // Semt adları: yalnızca uzaktan bakarken görünür

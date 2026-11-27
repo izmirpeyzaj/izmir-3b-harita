@@ -92,7 +92,7 @@
       const v = sira[tur];
       const parca = [];
       if (ipucu >= 1) parca.push(IZ.KATEGORILER[v.kategori].ad + ', ' + v.ilce + ' ilçesinde');
-      if (ipucu >= 2) parca.push(v.semt + ', ' + v.yil);
+      if (ipucu >= 2) parca.push([v.semt, v.yil].filter(Boolean).join(', '));
       ipucuYazi.textContent = parca.join(' · ');
       $('oyunIpucuDugme').disabled = ipucu >= 2;
     }

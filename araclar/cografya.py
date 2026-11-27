@@ -19,6 +19,7 @@ ILCELER = ['Konak', 'Çiğli', 'Karşıyaka', 'Bayraklı', 'Bornova', 'Buca', 'G
 ADLAR = {'KONAK': 'Konak', 'BALÇOVA': 'Balçova', 'KARABAĞLAR': 'Karabağlar', 'BUCA': 'Buca', 'GAZİEMİR': 'Gaziemir',
          'BAYRAKLI': 'Bayraklı', 'NARLIDERE': 'Narlıdere', 'KARŞIYAKA': 'Karşıyaka', 'ÇİĞLİ': 'Çiğli', 'BORNOVA': 'Bornova'}
 KIYI_YERLERI = {'konak-pier', 'pasaport', 'karsiyaka-iskele', 'bostanli', 'kus-cenneti', 'deniz-muzesi', 'sahilevleri'}
+KIYI_TURLERI = {'sahil', 'marina'}  # katalogda kıyıya oturan türler
 KIYI_GERISI = {'ataturk-aniti': 8.0}  # kıyıdan içeri uzaklık (birim): Cumhuriyet Meydanı, Kordon
 EK_YARICAP = {'teleferik': 11.0, 'asansor': 12.5, 'kadifekale': 21.0, 'havalimani': 12.5, 'cumhuriyet-agaci': 4.6, 'konak-pier': 12.0, 'pasaport': 9.0, 'karsiyaka-iskele': 10.4, 'zubeyde-hanim': 7.8, 'basmane-gari': 9.0, 'latife-kosku': 6.6, 'bostanli': 7.5, 'deniz-muzesi': 8.0, 'sahilevleri': 8.0,
               'ataturk-aniti': 7.4, 'ataturk-muzesi': 6.4, 'alsancak-gari': 7.4, 'kulturpark': 9.2, 'havagazi': 6.8, 'polikarp': 6.6,
@@ -117,6 +118,20 @@ def main():
     veri_js = io.open(os.path.join(KOK, 'js', 'veri.js'), encoding='utf-8').read()
     yaricap = {m.group(1): float(m.group(2)) for m in re.finditer(r"id: '([^']+)'[\s\S]*?alan: ([\d.]+)", veri_js)}
     yaricap.update(EK_YARICAP)
+    # İlgi alanı kataloğundaki yerler (araclar/mekanlar_derle.py ile denetlenir)
+    mekan_yolu = os.path.join(KOK, 'araclar', 'mekanlar.json')
+    mekanlar = json.load(io.open(mekan_yolu, encoding='utf-8')) if os.path.exists(mekan_yolu) else []
+    mekan_js = io.open(os.path.join(KOK, 'js', 'mekanlar.js'), encoding='utf-8').read() if mekanlar else ''
+    MEKAN_IDLERI, MEKAN_KIYI, MEKAN_ILCE = set(), set(), {}
+    for m in mekanlar:
+        if '"id": "%s"' % m['id'] not in mekan_js:
+            continue  # derleme betiğinin elediği yer
+        koordinat[m['id']] = [m['lat'], m['lon']]
+        yaricap[m['id']] = float(m.get('alan') or 2.9)
+        MEKAN_IDLERI.add(m['id'])
+        MEKAN_ILCE[m['id']] = ILCELER.index(m['ilce']) + 1 if m.get('ilce') in ILCELER else None
+        if m.get('tur') in KIYI_TURLERI:
+            MEKAN_KIYI.add(m['id'])
 
     # ---- İlçe parçaları ----
     parcalar = []  # (kod, ad, halka)
@@ -325,8 +340,10 @@ def main():
         return math.hypot(px - qx, py - qy), qx, qy
 
     # ---- Yerleşim ----
+    # İki aşama: önce simge yapılar (kendi aralarında, eskisi gibi), sonra katalogdaki yerler simge yapılar
+    # sabit tutularak boşluklara oturur. Böylece yeni yer eklemek simge yapıların yerini değiştirmez.
     hedef = {k: cog(v[1], v[0]) for k, v in koordinat.items()}
-    konum = dict(hedef)
+    konum = {k: v for k, v in hedef.items() if k not in MEKAN_IDLERI}
     yon = {}
     sabit = set()
     for k in KIYI_YERLERI:
@@ -352,73 +369,136 @@ def main():
         konum[k] = (q[0] - n[0] * iceri, q[1] - n[1] * iceri)
         sabit.add(k)
     kimlikler = sorted(konum)
-    R = {k: yaricap.get(k, 7.0) for k in kimlikler}
-    for tur in range(2200):
-        for k in kimlikler:
-            if k in sabit:
-                continue
-            x, y = konum[k]
-            hx, hy = hedef[k]
-            x += (hx - x) * 0.006
-            y += (hy - y) * 0.006
-            # denizden ve harita kenarından uzak dur
-            pay = R[k] * 0.8 + 3.2
-            d = denize(x, y)
-            if d < pay:
-                gx = denize(x + 1, y) - denize(x - 1, y)
-                gy = denize(x, y + 1) - denize(x, y - 1)
-                L = math.hypot(gx, gy)
-                if L > 1e-6:
-                    x += gx / L * min(2.0, pay - d)
-                    y += gy / L * min(2.0, pay - d)
-            x = max(KUTU[0] + R[k] + 2, min(KUTU[2] - R[k] - 2, x))
-            y = max(KUTU[1] + R[k] + 2, min(KUTU[3] - R[k] - 2, y))
-            # caddelerden ve tramvaydan uzak dur
-            for hat in hatlar:
-                for i in range(len(hat) - 1):
-                    d, qx, qy = parcaya(x, y, hat[i], hat[i + 1])
-                    pay2 = R[k] * 0.8 + 1.4
-                    if d < pay2:
-                        if d < 1e-6:
-                            x += 0.3
-                        else:
-                            x += (x - qx) / d * (pay2 - d)
-                            y += (y - qy) / d * (pay2 - d)
-            konum[k] = (x, y)
-        for _ in range(3):
-          for i, a in enumerate(kimlikler):
-            for b in kimlikler[i + 1:]:
-                ax, ay = konum[a]
-                bx, by = konum[b]
-                d = math.hypot(bx - ax, by - ay)
-                pay = R[a] + R[b] + 0.6
-                if d < pay:
-                    if d < 1e-6:
-                        bx += 0.1
-                        d = 0.1
-                    ux, uy = (bx - ax) / d, (by - ay) / d
-                    ia = 0 if a in sabit else (1.0 if b in sabit else 0.5)
-                    ib = 0 if b in sabit else (1.0 if a in sabit else 0.5)
-                    konum[a] = (ax - ux * (pay - d) * ia, ay - uy * (pay - d) * ia)
-                    konum[b] = (bx + ux * (pay - d) * ib, by + uy * (pay - d) * ib)
+    R = {k: yaricap.get(k, 7.0) for k in hedef}
 
-        for k in kimlikler:
-            if k in sabit:
-                continue
-            x, y = konum[k]
-            pay = R[k] * 0.8 + 3.2
-            for _ in range(12):
-                d = denize(x, y)
-                if d >= pay:
-                    break
-                gx = denize(x + 1, y) - denize(x - 1, y)
-                gy = denize(x, y + 1) - denize(x, y - 1)
-                L = math.hypot(gx, gy)
-                if L < 1e-6:
-                    break
-                x += gx / L * min(1.0, pay - d)
-                y += gy / L * min(1.0, pay - d)
-            konum[k] = (x, y)
+    def gevset(kimlikler, tur_sayisi, cekim=0.006, hizli=False):
+      # hizli: çiftler her 10 turda bir yakınlığa göre süzülür ve iki sabit yer arasındaki çift atlanır
+      tum_ciftler = [(a, b) for i, a in enumerate(kimlikler) for b in kimlikler[i + 1:]]
+      ciftler = tum_ciftler
+      for tur in range(tur_sayisi):
+          if hizli and tur % 10 == 0:
+              ciftler = [(a, b) for a, b in tum_ciftler if not (a in sabit and b in sabit)
+                         and math.hypot(konum[a][0] - konum[b][0], konum[a][1] - konum[b][1]) < R[a] + R[b] + 6]
+          for k in kimlikler:
+              if k in sabit:
+                  continue
+              x, y = konum[k]
+              hx, hy = hedef[k]
+              x += (hx - x) * cekim
+              y += (hy - y) * cekim
+              # denizden ve harita kenarından uzak dur
+              pay = R[k] * 0.8 + 3.2
+              d = denize(x, y)
+              if d < pay:
+                  gx = denize(x + 1, y) - denize(x - 1, y)
+                  gy = denize(x, y + 1) - denize(x, y - 1)
+                  L = math.hypot(gx, gy)
+                  if L > 1e-6:
+                      x += gx / L * min(2.0, pay - d)
+                      y += gy / L * min(2.0, pay - d)
+              x = max(KUTU[0] + R[k] + 2, min(KUTU[2] - R[k] - 2, x))
+              y = max(KUTU[1] + R[k] + 2, min(KUTU[3] - R[k] - 2, y))
+              # caddelerden ve tramvaydan uzak dur
+              for hat in hatlar:
+                  for i in range(len(hat) - 1):
+                      d, qx, qy = parcaya(x, y, hat[i], hat[i + 1])
+                      pay2 = R[k] * 0.8 + 1.4
+                      if d < pay2:
+                          if d < 1e-6:
+                              x += 0.3
+                          else:
+                              x += (x - qx) / d * (pay2 - d)
+                              y += (y - qy) / d * (pay2 - d)
+              konum[k] = (x, y)
+          for _ in range(3):
+            for a, b in ciftler:
+                  ax, ay = konum[a]
+                  bx, by = konum[b]
+                  d = math.hypot(bx - ax, by - ay)
+                  pay = R[a] + R[b] + 0.6
+                  if d < pay:
+                      if d < 1e-6:
+                          bx += 0.1
+                          d = 0.1
+                      ux, uy = (bx - ax) / d, (by - ay) / d
+                      ia = 0 if a in sabit else (1.0 if b in sabit else 0.5)
+                      ib = 0 if b in sabit else (1.0 if a in sabit else 0.5)
+                      konum[a] = (ax - ux * (pay - d) * ia, ay - uy * (pay - d) * ia)
+                      konum[b] = (bx + ux * (pay - d) * ib, by + uy * (pay - d) * ib)
+
+          for k in kimlikler:
+              if k in sabit:
+                  continue
+              x, y = konum[k]
+              pay = R[k] * 0.8 + 3.2
+              for _ in range(12):
+                  d = denize(x, y)
+                  if d >= pay:
+                      break
+                  gx = denize(x + 1, y) - denize(x - 1, y)
+                  gy = denize(x, y + 1) - denize(x, y - 1)
+                  L = math.hypot(gx, gy)
+                  if L < 1e-6:
+                      break
+                  x += gx / L * min(1.0, pay - d)
+                  y += gy / L * min(1.0, pay - d)
+              konum[k] = (x, y)
+
+    gevset(kimlikler, 2200)
+
+    # İkinci aşama: katalogdaki yerler
+    sabit |= set(kimlikler)
+    for k in sorted(MEKAN_KIYI):
+        hx, hy = hedef[k]
+        aday = [q for q in kiyi_noktalari if all(math.hypot(q[0] - konum[c][0], q[1] - konum[c][1]) >= R[c] + R[k] + 0.6 for c in konum)]
+        konum[k] = min(aday or kiyi_noktalari, key=lambda q: (q[0] - hx) ** 2 + (q[1] - hy) ** 2)
+        yon[k] = deniz_yonu(*konum[k])
+        sabit.add(k)
+        KIYI_YERLERI.add(k)
+    # Kıyıda olmayanlar: gerçek konuma en yakın boş nokta (sarmal arama). Yerleştirme sırası,
+    # merkeze yakın olandan uzağa: kalabalık merkezde önce yer bulanlar gerçeğe daha yakın kalır.
+    def bos_mu(k, x, y):
+        if not (KUTU[0] + R[k] + 2 < x < KUTU[2] - R[k] - 2 and KUTU[1] + R[k] + 2 < y < KUTU[3] - R[k] - 2):
+            return False
+        if kod(x, y) <= 0 or denize(x, y) < R[k] * 0.6 + 0.8:
+            return False
+        if MEKAN_ILCE.get(k) and kod(x, y) != MEKAN_ILCE[k]:
+            return False  # kendi ilçesinde kalsın
+        for c, (cx, cy) in konum.items():
+            if (x - cx) ** 2 + (y - cy) ** 2 < (R[c] + R[k] + 0.6) ** 2:
+                return False
+        for hat in hatlar:
+            for i in range(len(hat) - 1):
+                if parcaya(x, y, hat[i], hat[i + 1])[0] < R[k] * 0.6 + 0.4:
+                    return False
+        return True
+    def sarmal(k, rmax):
+        hx, hy = hedef[k]
+        r_ = 0.0
+        while r_ <= rmax:
+            n = max(1, int(2 * math.pi * r_ / 0.6))
+            for j in range(n):
+                a_ = 2 * math.pi * j / n
+                x, y = hx + math.cos(a_) * r_, hy + math.sin(a_) * r_
+                if bos_mu(k, x, y):
+                    return (x, y)
+            r_ += 0.4
+        return None
+    # Kalabalıkta model küçültülür: önce tam boy yakında, sonra küçük boy yakında, sonra tam boy uzakta
+    olcek = {}
+    for k in sorted(MEKAN_IDLERI - MEKAN_KIYI, key=lambda k: math.hypot(*hedef[k])):
+        tam = R[k]
+        bulunan = None
+        for r_k, rmax in ((tam, 10), (tam * 0.72, 14), (tam * 0.56, 18), (tam * 0.56, 90)):
+            R[k] = r_k
+            bulunan = sarmal(k, rmax)
+            if bulunan:
+                break
+        konum[k] = bulunan or hedef[k]
+        if R[k] < tam:
+            olcek[k] = round(R[k] / tam, 2)
+        sabit.add(k)
+    kimlikler = sorted(konum)
 
     # denetim
     sorun = []
@@ -635,6 +715,27 @@ def main():
                           'uzak': uzak, 'model': model, 'arabali': bool(o.get('ArabaliVapurIskelesiMi'))})
     print('istasyon:', {t: sum(1 for i in istasyonlar if i[0] == t) for t in ('metro', 'tren', 'tramvay')}, 'iskele:', [i['ad'] + ('*' if i['model'] else '') for i in iskeleler])
 
+    # ---- Ulaşım: her yere gerçek koordinatlarla en yakın raylı durak ve iskele ----
+    duraklar = list(ham_ist)
+    for o in json.load(acik('iskeleler-api.json')):
+        if o.get('AktifMi', True):
+            duraklar.append(('vapur', baslik(o['Adi']), float(o['Boylam']), float(o['Enlem'])))
+    def metre(lon1, lat1, lon2, lat2):
+        return math.hypot((lon1 - lon2) * KX, (lat1 - lat2) * KY) * 1000
+    ulasim = {}
+    for k, (lat, lon) in koordinat.items():
+        aday = sorted((metre(lon, lat, dl, dt), t, ad) for t, ad, dl, dt in duraklar)
+        sec_, gorulen = [], set()
+        for m_, t, ad in aday:
+            if m_ > 1600 or len(sec_) >= 3:
+                break
+            if t in gorulen:  # her taşıt türünden yalnız en yakını
+                continue
+            gorulen.add(t)
+            sec_.append([t, ad, int(round(m_))])
+        if sec_:
+            ulasim[k] = sec_
+
     # ---- Tepeler ----
     tepeler = []
     for lon, lat, r, h in TEPELER:
@@ -690,6 +791,9 @@ def main():
         'hedef': {k: yuvarla(hedef[k]) for k in kimlikler},
         'yon': {k: yuvarla(yon[k], 3) for k in kimlikler if yon.get(k)},
         'kiyida': sorted(KIYI_YERLERI),
+        'gercek': {k: [round(v[0], 5), round(v[1], 5)] for k, v in sorted(koordinat.items())},
+        'ulasim': ulasim,
+        'olcek': olcek,
         'istasyonlar': [[t, a, round(x, 1), round(y, 1)] for t, a, x, y in istasyonlar],
         'iskeleler': iskeleler,
         'yollar': {k: [[yuvarla(q, 2) for q in z] for z in v] for k, v in yollar.items()},
