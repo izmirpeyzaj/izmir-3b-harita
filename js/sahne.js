@@ -1036,7 +1036,10 @@
       if (sinif) a.className = sinif;
       bag.appendChild(a);
     }
-    if (v.web) baglanti(v.webTur === 'vikipedi' ? 'Vikipedi ↗' : 'Web sitesi ↗', v.web, 'ana');
+    if (v.web) baglanti(v.webTur === 'vikipedi' ? 'Vikipedi ↗' : /instagram\.com/.test(v.web) ? 'Instagram ↗' : 'Web sitesi ↗', v.web, 'ana');
+    // Google Maps'te yerin kendi kaydı (saatler, yorumlar, fotoğraflar) ada göre aranarak açılır.
+    const sorgu = [v.ad.replace(/\s*\([^)]*\)/g, ''), v.semt, v.ilce, 'İzmir'].filter(Boolean).join(', ');
+    baglanti('Google Maps ↗', 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(sorgu), v.web ? '' : 'ana');
     const g = (COG.gercek || {})[v.id];
     if (g) {
       baglanti('Yol tarifi ↗', 'https://www.google.com/maps/dir/?api=1&destination=' + g[0] + ',' + g[1]);

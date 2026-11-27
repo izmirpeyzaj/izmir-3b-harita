@@ -1755,5 +1755,996 @@
    "doga"
   ],
   "kaynak": "https://wanderlog.com/place/details/3463904/bizim-gazino"
+ },
+ {
+  "id": "karsiyaka-carsisi",
+  "ad": "Karşıyaka Çarşısı (Kemalpaşa Caddesi)",
+  "tur": "carsi",
+  "ilce": "Karşıyaka",
+  "semt": "Donanmacı",
+  "lat": 38.4565,
+  "lon": 27.1179,
+  "web": null,
+  "aciklama": "Karşıyaka İskelesi'nden içeri uzanan, yaklaşık 400 metrelik Kemalpaşa Caddesi ve çevresindeki sokaklardan oluşan açık hava çarşısı. Belediye kararıyla her gün 09.00 ile 23.00 arasında araç trafiğine kapalı tutuluyor. Giyim dükkânları, kuruyemişçiler, tatlıcılar ve köfteci, dönerci gibi eski esnaf yan yana. İZBAN istasyonu ve vapur iskelesiyle ilçenin en kalabalık buluşma yeri.",
+  "ilgi": [
+   "alisveris",
+   "yeme"
+  ],
+  "kaynak": "https://www.karar.com/sehir-haberleri/karsiyaka-carsisinda-arac-denetimleri-suruyor-2064477"
+ },
+ {
+  "id": "sembol-ocakbasi-bayrakli",
+  "ad": "Sembol Ocakbaşı İzmir",
+  "tur": "restoran",
+  "ilce": "Bayraklı",
+  "semt": "Mansuroğlu",
+  "lat": 38.4513,
+  "lon": 27.1805,
+  "web": "https://sembolocakbasi.com/",
+  "aciklama": "Bayraklı'nın iş kuleleri arasında, İslam Kerimov Caddesi'nde Şanlıurfa usulü ocakbaşı. İstanbul şubelerinden sonra İzmir'e gelen markanın en bilinen yemekleri ciğer ve kebap çeşitleri. Masaya ikram olarak çiğ köfte ve soğan salatası geliyor, ızgaralar yarım ve tam porsiyon sunuluyor. Akşamları kalabalık olduğu için rezervasyon öneriliyor.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/sembol-ocakbasi-izmir/"
+ },
+ {
+  "id": "ziyade-et-bayrakli",
+  "ad": "Ziyade Et",
+  "tur": "restoran",
+  "ilce": "Bayraklı",
+  "semt": "Mansuroğlu",
+  "lat": 38.4516,
+  "lon": 27.1824,
+  "web": "https://www.instagram.com/ziyade_et/",
+  "aciklama": "Mansuroğlu'nda İslam Kerimov Caddesi üzerinde tek şubeli et ve kebap restoranı. Fırında kuzu tandır, dana yanak ve kömürde kuzu çöp şiş öne çıkan yemekleri, tatlıda sıcak katmer var. Yüksek tavanlı salonu, açık terası ve çocuk oyun alanıyla iş yemeklerine ve aile buluşmalarına hizmet veriyor.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/ziyade-et/"
+ },
+ {
+  "id": "ustat-kebap-bayrakli",
+  "ad": "Üstat Kebap",
+  "tur": "restoran",
+  "ilce": "Bayraklı",
+  "semt": "Manavkuyu",
+  "lat": 38.4628,
+  "lon": 27.1827,
+  "web": "https://www.instagram.com/ustatkebap/",
+  "aciklama": "Manavkuyu'da sade, aile işletmesi havasında bir kebapçı. Adana kebabını makinede değil zırhla elde çekilmiş kıymayla yapmasıyla biliniyor. Kuzu pirzola, ciğer şiş ve karışık kebap tabakları da sık sipariş ediliyor. Öğlenleri çevredeki çalışanlar, akşamları aileler geliyor.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/ustat-kebap/"
+ },
+ {
+  "id": "mersinli-cigerci-apo-bayrakli",
+  "ad": "Mersinli Ciğerci Apo",
+  "tur": "restoran",
+  "ilce": "Bayraklı",
+  "semt": "Adalet",
+  "lat": 38.4558,
+  "lon": 27.1795,
+  "web": "https://www.instagram.com/mersinlicigerciapoizmir/",
+  "aciklama": "Haydar Aliyev Caddesi'nde, Mersin usulü ciğer ve sakatat ızgarası yapan restoran. Kuzu ciğer şiş meşe kömüründe pişiriliyor, menüde yürek şiş, dolma şırdan ve mumbar da var. Masaya dokuz çeşit meze ikram ediliyor, yemek soğuk baklava ve çayla bitiyor. Gece yarısını geçene kadar açık.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/mersinli-cigerci-apo/"
+ },
+ {
+  "id": "bayrakli-korfez-cafe",
+  "ad": "Bayraklı Körfez Cafe",
+  "tur": "kafe",
+  "ilce": "Bayraklı",
+  "semt": "Körfez",
+  "lat": 38.4903,
+  "lon": 27.1326,
+  "web": "https://bayraklias.com/korfez.html",
+  "aciklama": "Bayraklı Belediyesi'nin şirketi Bayraklı A.Ş.'nin işlettiği, deniz kenarında bir sosyal tesis. Geniş bahçesi, çocuk oyun alanı ve kışın kapatılan oturma bölümü var. Serpme kahvaltı, ızgara balık ve köfte gibi yemekleri uygun fiyatla sunuyor. Körfez manzarası nedeniyle hafta sonları kahvaltı için tercih ediliyor.",
+  "ilgi": [
+   "yeme",
+   "cocuk"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/bayrakli-korfez-cafe/"
+ },
+ {
+  "id": "donerci-aygun-zorlu",
+  "ad": "Dönerci Aygün Zorlu",
+  "tur": "restoran",
+  "ilce": "Çiğli",
+  "semt": "Ataşehir",
+  "lat": 38.4876,
+  "lon": 27.0615,
+  "web": "https://www.instagram.com/donerciaygunzorlu/",
+  "aciklama": "Çiğli Ataşehir'de Atatürk Caddesi üzerinde büyük bir döner salonu. Döneri on beşten fazla şekilde sunuyor: İskender, pilav üstü, lahmacun arası, perde döner ve mantı döner bunlardan birkaçı. Pide ve lahmacun da kendi fırınında pişiyor. Öğle saatinden gece 23.00'e kadar açık.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/donerci-aygun-zorlu/"
+ },
+ {
+  "id": "donerci-saban-usta-gaziemir",
+  "ad": "Dönerci Şaban Usta",
+  "tur": "restoran",
+  "ilce": "Gaziemir",
+  "semt": "Atıfbey",
+  "yil": "1990",
+  "lat": 38.3213,
+  "lon": 27.1274,
+  "web": "https://donercisabanusta.com.tr/",
+  "aciklama": "Gaziemir'in eski Seydiköy çarşısında, Lozan Caddesi'nden ayrılan Meydan Yolu'nda 1990'dan beri döner yapan dükkân. Döner dükkânda hazırlanıyor; çeyrek, yarım, dürüm ve gemi ekmek olarak satılıyor. Ağaç altındaki masaları ve vitrindeki 'başka şubemiz yoktur' yazısıyla tanınıyor. Adı çok taklit edildiği için yerliler orijinal dükkânı ayrıca vurguluyor.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/donerci-saban-usta/"
+ },
+ {
+  "id": "cigerci-sinan-gaziemir",
+  "ad": "Ciğerci Sinan",
+  "tur": "restoran",
+  "ilce": "Gaziemir",
+  "semt": "Atıfbey",
+  "yil": "2006",
+  "lat": 38.3242,
+  "lon": 27.1357,
+  "web": "https://www.cigercisinan.com/",
+  "aciklama": "2006'dan beri Gaziemir Atıfbey'de, Etiler Caddesi'nin başında hizmet veren ocakbaşı ve ciğerci. Kuzu ciğer şiş ile Adana ve Urfa kebabı meşe kömüründe pişiyor. Ezme, közlenmiş biber ve soğan salatası gibi ikram mezeler masada tazeleniyor. Havalimanı yolu üzerinde olduğu için şehir dışından gelenler de uğruyor.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/cigerci-sinan/"
+ },
+ {
+  "id": "donerci-kenan-opsar",
+  "ad": "Dönerci Kenan Opsar",
+  "tur": "restoran",
+  "ilce": "Karabağlar",
+  "semt": "Ali Fuat Cebesoy",
+  "lat": 38.3804,
+  "lon": 27.1127,
+  "web": "https://www.instagram.com/donercikenanopsar/",
+  "aciklama": "Karabağlar'da Eski İzmir Caddesi üzerinde, bir apartmanın zemin katında küçük bir dönerci. Yalnızca dana döner yapıyor; ustası Kenan Opsar eti İzmir ve çevre köylerden aldığını söylüyor. Döner gramajla, çeyrekten kiloya kadar satılıyor. Öğle saatlerinde önünde kuyruk oluşması olağan.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/donerci-kenan-opsar/"
+ },
+ {
+  "id": "cigerci-bahattin-buca",
+  "ad": "Ciğerci Bahattin Buca",
+  "tur": "restoran",
+  "ilce": "Buca",
+  "semt": "Menderes",
+  "lat": 38.3897,
+  "lon": 27.1683,
+  "web": "https://www.instagram.com/cigercibahattinbuca/",
+  "aciklama": "Buca'da Menderes Caddesi üzerinde Mersin usulü ciğer şiş yapan ocakbaşı. Ciğer, yürek ve et şiş ile Adana ve Urfa kebabı kömür ateşinde pişiyor. Yemekle birlikte on iki çeşide kadar ikram meze, tatlı ve sınırsız çay veriliyor. Gece yarısına kadar açık.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/cigerci-bahattin-buca/"
+ },
+ {
+  "id": "buca-1923-mevlana-kafe",
+  "ad": "Buca 1923 Mevlana Kafe",
+  "tur": "kafe",
+  "ilce": "Buca",
+  "semt": "Yaylacık",
+  "lat": 38.3916,
+  "lon": 27.1768,
+  "web": "https://www.buca.bel.tr/tr/hizmetler/buca1923-mevlana-kafe",
+  "aciklama": "Buca Belediyesi'nin Yaylacık'ta, Tıngırtepe'nin zirvesinde Mevlana Heykeli'nin dibinde işlettiği kafe ve sosyal tesis. Terasından İzmir'e ve körfeze geniş bir manzara açılıyor, gün batımında kalabalıklaşıyor. Kahvaltı, köfte ve hamburger gibi yemekleri uygun fiyatla sunuyor. Tesisteki atölyede ney ve ebru kursları da düzenleniyor.",
+  "ilgi": [
+   "yeme",
+   "doga"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/buca-1923-mevlana-kafe-turistik-tesisleri/"
+ },
+ {
+  "id": "kumrucu-omur",
+  "ad": "Kumrucu Ömür",
+  "tur": "sokak",
+  "ilce": "Karşıyaka",
+  "semt": "Bostanlı",
+  "yil": "1962",
+  "lat": 38.4517,
+  "lon": 27.1046,
+  "web": "https://www.instagram.com/kumrucuomur/",
+  "aciklama": "Bostanlı'da Girne Bulvarı'nda, 1962'den beri kömür ızgarasında kumru yapan büfe. Çeşme kumru, kaşarlı kumru ve kumpir en çok sipariş edilenler. Sabahtan gece geç saatlere kadar açık; bahçesinde maç yayını ve oyun masaları da var. Karşıyaka'nın kumru denince akla gelen adreslerinden biri.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/kumrucu-omur/"
+ },
+ {
+  "id": "cagdas-bufe-bostanli",
+  "ad": "Çağdaş Büfe",
+  "tur": "sokak",
+  "ilce": "Karşıyaka",
+  "semt": "Bostanlı",
+  "lat": 38.458,
+  "lon": 27.0992,
+  "web": "https://www.instagram.com/cagdasbufebostanli/",
+  "aciklama": "Bostanlı'da 1787/1 Sokak'ta, yüksek tabureli küçük bir sandviç büfesi. Karşıyaka'nın en eski fast food duraklarından biri olarak anılıyor. En bilinen ürünü dilli kaşarlı sandviç; pastırmalı ve 'arabesk' adlı sandviçler de sık isteniyor. Sandviçler kâğıda sarılı servis ediliyor, pazar günleri kapalı.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/cagdas-bufe/"
+ },
+ {
+  "id": "donerci-vahap-usta-karsiyaka",
+  "ad": "Dönerci Vahap Usta",
+  "tur": "restoran",
+  "ilce": "Karşıyaka",
+  "semt": "Bahriye Üçok",
+  "yil": "1985",
+  "lat": 38.4591,
+  "lon": 27.108,
+  "web": "https://www.instagram.com/vahapusta1985/",
+  "aciklama": "Karşıyaka'da Latife Hanım Sokak'ta, tabelasında 1985'ten beri yazan bir dönerci. Kısa menüsünde pide arası, dürüm, sade porsiyon, İskender ve pilav üstü döner var. Kaldırıma bakan camlı kış bahçesinde oturuluyor. Akşam 19.00'da kapanıyor, pazar günleri açık değil.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/donerci-vahap-usta/"
+ },
+ {
+  "id": "denizkent-restoran-mavisehir",
+  "ad": "Denizkent Balık Restoran",
+  "tur": "balik",
+  "ilce": "Karşıyaka",
+  "semt": "Mavişehir",
+  "lat": 38.4676,
+  "lon": 27.0767,
+  "web": "https://karsiyakakentas.com/denizkent-balik-restoran/",
+  "aciklama": "Mavişehir sahilinde, Karşıyaka Belediyesi'nin şirketi Kent A.Ş.'nin işlettiği balık restoranı. Kapalı salon, gölgeli bahçe ve ahşap iskeleyle birlikte yaklaşık 900 kişilik oturma kapasitesi var. Izgara levrek, barbun, karides ve kalkan menünün öne çıkanları. İki çocuk oyun alanı ve ücretsiz otoparkıyla ailelerin tercih ettiği bir yer.",
+  "ilgi": [
+   "yeme",
+   "cocuk"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/denizkent-restoran/"
+ },
+ {
+  "id": "bostanli-ayvalik-balikcisi",
+  "ad": "Bostanlı Ayvalık Balıkçısı",
+  "tur": "balik",
+  "ilce": "Karşıyaka",
+  "semt": "Bostanlı",
+  "lat": 38.4602,
+  "lon": 27.0911,
+  "web": "https://www.instagram.com/ayvalikbalikcisibostanli/",
+  "aciklama": "Bostanlı'da Şehit Cengiz Topel Caddesi'nde, camlı salonu ve ısıtıcılı kaldırım terasıyla bir balık lokantası. Balık girişteki buzlu tezgâhtan kiloyla seçilip ızgarada pişiriliyor. Adına uygun olarak menüde Ayvalık lokumu ve Selanik mezesi gibi Kuzey Ege tatları da bulunuyor. Balık yemeyenler için köfte ve sac kavurma da var.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/bostanli-ayvalik-balikcisi/"
+ },
+ {
+  "id": "bostanli-yasemin-kafe",
+  "ad": "Bostanlı Yasemin Kafe & Teras Restoran",
+  "tur": "kafe",
+  "ilce": "Karşıyaka",
+  "semt": "Bostanlı",
+  "yil": "2001",
+  "lat": 38.4627,
+  "lon": 27.0847,
+  "web": "https://www.izmir.bel.tr/tr/restoranlar-ve-kafeteryalarimiz/63/3204",
+  "aciklama": "Bostanlı sahil yolunda, İzmir Büyükşehir Belediyesi şirketi Grand Plaza'nın 2001'den beri işlettiği kafe ve restoran. Zemin katta kahvaltı, döner ve pizza sunan self servis kafe, üst katta ise ızgara balık ve zeytinyağlı mezeler sunan teras restoran var. Körfez manzarası nedeniyle gün batımı saatlerinde kalabalıklaşıyor. 2021'de yenilendi.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/bostanli-yasemin-kafe-teras-restoran/"
+ },
+ {
+  "id": "bogazici-restaurant-uckuyular",
+  "ad": "Boğaziçi Restaurant Üçkuyular",
+  "tur": "balik",
+  "ilce": "Balçova",
+  "semt": "Bahçelerarası",
+  "lat": 38.4052,
+  "lon": 27.0707,
+  "web": "https://www.bogazicirestaurant.com.tr/",
+  "aciklama": "Üçkuyular vapur iskelesinin yanında, cam cepheli salonlarıyla körfeze bakan büyük bir restoran. Balık restoranı ile ocakbaşını aynı çatı altında topluyor. Levrek lokum, kalamar ve güveçte ahtapotun yanında Adana kebap da sunuluyor. Hafta sonları manzaralı serpme kahvaltı veriliyor.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/bogazici-restaurant-uckuyular/"
+ },
+ {
+  "id": "kokorecci-asim-usta",
+  "ad": "Kokoreççi Asım Usta",
+  "tur": "sokak",
+  "ilce": "Bornova",
+  "semt": "Çamdibi",
+  "yil": "1960",
+  "lat": 38.4409,
+  "lon": 27.1993,
+  "web": "https://www.instagram.com/kokorecciasimusta/",
+  "aciklama": "Çamdibi'nde Burak Reis Caddesi'nde 1960'tan beri kokoreç yapan dükkân. Süt kuzu kokoreci meşe kömüründe pişiriliyor, siparişe göre tahtada doğranıp ekmeğe konuyor. İzmir usulü kelle söğüş ve beyin de menüde. Yoğun saatlerde şişler bittiği için öğleden sonra erken gitmek gerekiyor.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://lezzetrotam.com/izmir/kokorecci-asim-usta/"
+ },
+ {
+  "id": "balmumu-dukkan-lokanta",
+  "ad": "Balmumu Dükkan Lokanta",
+  "tur": "restoran",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "lat": 38.4331,
+  "lon": 27.1419,
+  "web": null,
+  "aciklama": "Alsancak'ta 1388 Sokak'ta, Ege mutfağının ev yemeklerini sunan küçük bir lokanta. Malzeme her sabah pazardan alınıyor, mezeler ve sebze yemekleri vitrinden seçiliyor. Michelin Rehberi'nde yer alıyor; zeytinyağlı yaprak sarma ve karabuğdaylı kuzu yemeği rehberde öne çıkarılıyor. Yalnızca öğle ve akşamüstü açık, pazar günleri kapalı.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://guide.michelin.com/en/izmir/izmir_2809416/restaurant/balmumu-dukkan-lokanta"
+ },
+ {
+  "id": "scappi-izmir",
+  "ad": "Scappi",
+  "tur": "restoran",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "lat": 38.4273,
+  "lon": 27.1365,
+  "web": "https://ristorantescappi.com/",
+  "aciklama": "Swissôtel Büyük Efes'in dokuzuncu katında İtalyan ve Akdeniz mutfağı sunan restoran. Terası körfeze bakıyor ve gün batımıyla biliniyor. Kısmen açık mutfağında pizza fırını var; ev yapımı makarna ve risotto öne çıkan yemekleri. Michelin Rehberi İzmir seçkisinde yer alıyor.",
+  "ilgi": [
+   "yeme"
+  ],
+  "kaynak": "https://guide.michelin.com/en/izmir/izmir_2809416/restaurant/scappi"
+ },
+ {
+  "id": "sakiz-alsancak",
+  "ad": "Sakız Alsancak",
+  "tur": "balik",
+  "ilce": "Konak",
+  "semt": "Pasaport",
+  "lat": 38.42836,
+  "lon": 27.13325,
+  "web": "https://www.sakizalsancak.com/",
+  "aciklama": "Pasaport İskelesi'nin karşısında, Kordon üzerinde Ege ve Girit mutfağı yapan bir balık meyhanesi. Gündüz zeytinyağlılar ve deniz ürünleriyle restoran gibi çalışır, akşamları rakı ve meze sofrasına döner. Ahtapot, kalamar ve otlu Girit mezeleriyle tanınır; yerel rehberler İzmirlilerin misafirlerini götürdüğü klasik adreslerden biri olarak anar.",
+  "ilgi": [
+   "yeme",
+   "eglence"
+  ],
+  "kaynak": "https://yemek.com/izmirin-en-iyi-mezecileri/"
+ },
+ {
+  "id": "klup-ali",
+  "ad": "Klüp Ali",
+  "tur": "balik",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "lat": 38.4392,
+  "lon": 27.1443,
+  "web": "https://klupalirestoran.com/",
+  "aciklama": "Alsancak'ın eğlence sokaklarından 1469 Sokak'ta, rakı-balık sofrasıyla bilinen köklü bir meyhane. Izgara levrek, tekir ve barbun tava gibi balıklar ile taze kalamar tavası en çok övülen tabakları arasında. Hafta sonları rezervasyonla dolan, gürültülü barların arasında daha oturaklı bir sofra sunan bir yer.",
+  "ilgi": [
+   "yeme",
+   "eglence"
+  ],
+  "kaynak": "https://mesprestiges.com/en/izmir/places/clup-ali"
+ },
+ {
+  "id": "meyhane-endulus",
+  "ad": "Endülüs Meyhanesi",
+  "tur": "meyhane",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": "1997",
+  "lat": 38.43551,
+  "lon": 27.14182,
+  "web": null,
+  "aciklama": "Kıbrıs Şehitleri Caddesi'ne bağlanan 1435 Sokak'ta, 1997'den beri aynı yerde çalışan bir meyhane. Çoğu akşam fasıl yapılır; soğuk mezeler, ara sıcaklar ve fix ya da alakart menüyle geleneksel meyhane düzenini sürdürür. Seksen kişilik küçük salonu doğum günü ve arkadaş buluşmaları için sık tercih edilir.",
+  "ilgi": [
+   "yeme",
+   "eglence"
+  ],
+  "kaynak": "https://www.izmirmekanrehberi.com/alsancak/endulus-meyhane"
+ },
+ {
+  "id": "simarik-meyhane",
+  "ad": "Şımarık Meyhane",
+  "tur": "meyhane",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": "2011",
+  "lat": 38.4359,
+  "lon": 27.14178,
+  "web": "https://simarikmeyhane.net/",
+  "aciklama": "Alsancak'ta Cumbalı Sokak olarak da bilinen 1448 Sokak'ta, üç katlı eski bir Rum evinde 2011'de açılmış fasıllı meyhane. Ahşap zeminli salonları ve açık teras katı var; her akşam canlı müzik yapılır, yazın fasıl terasta sürer. Atom, cibez ve haydari mezeleriyle Arnavut ciğeri müdavimlerin sık söylediği tabaklar.",
+  "ilgi": [
+   "yeme",
+   "eglence"
+  ],
+  "kaynak": "https://simarikmeyhane.net/"
+ },
+ {
+  "id": "tek-tek-meyhanesi-kordon",
+  "ad": "Tek Tek Meyhanesi Kordon",
+  "tur": "meyhane",
+  "ilce": "Konak",
+  "semt": "Kordon",
+  "lat": 38.44199,
+  "lon": 27.14336,
+  "web": "https://www.instagram.com/tektekmeyhanesi/",
+  "aciklama": "Alsancak Kordon'da, Atatürk Caddesi üzerinde haftanın yedi günü fasıl yapılan bir meyhane. Mezeler her gün taze hazırlanır; yaprak ciğer, kokoreç, paçanga böreği ve kasap köfte menüsünün bilinen tabakları. Canlı müzik ve dans eşliğinde kalabalık, hareketli bir akşam ortamı vardır.",
+  "ilgi": [
+   "yeme",
+   "eglence"
+  ],
+  "kaynak": "https://www.izmirmekanrehberi.com/alsancak/tek-tek-meyhanesi-kordon"
+ },
+ {
+  "id": "mumlu-meyhane",
+  "ad": "Mumlu Meyhane",
+  "tur": "meyhane",
+  "ilce": "Konak",
+  "semt": "Umurbey (Alsancak)",
+  "lat": 38.43879,
+  "lon": 27.15877,
+  "web": "https://www.instagram.com/mumluizmir/",
+  "aciklama": "Alsancak'ın doğusunda, Umurbey'de Şehitler Caddesi yakınında büyük kapasiteli bir eğlence meyhanesi. Sahnede canlı müzik eşliğinde fix menü ve alkollü servis yapılır; kalabalık gruplar, doğum günleri ve kutlamalar için tercih edilir. Altı yüz kişiye yaklaşan kapasitesiyle şehrin büyük meyhane salonlarından biri.",
+  "ilgi": [
+   "yeme",
+   "eglence"
+  ],
+  "kaynak": "https://www.izmirmekanrehberi.com/alsancak/mumlu-meyhane"
+ },
+ {
+  "id": "kalimera-kemeralti",
+  "ad": "Kalimera",
+  "tur": "meyhane",
+  "ilce": "Konak",
+  "semt": "Kemeraltı",
+  "lat": 38.42169,
+  "lon": 27.13232,
+  "web": null,
+  "aciklama": "Kemeraltı'nda Hisar Camii ile Kızlarağası Hanı'nın hemen yanında, Türk ve Yunan mutfaklarını buluşturan küçük bir meyhane. Fava, ançüez, patlıcan salatası ve haydari gibi soğuk mezeler ile dolmalar ve karides öne çıkar. Bazı akşamlar canlı müzik yapılır; çarşının kapanmasından sonra tarihi hanların arasında rakı içilebilecek az sayıda yerden biri.",
+  "ilgi": [
+   "yeme",
+   "eglence",
+   "tarih"
+  ],
+  "kaynak": "https://www.yeniasir.com.tr/yazarlar/sezer-altan/2024/06/15/turk-ve-yunan-lezzet-birligi"
+ },
+ {
+  "id": "sardin-balik-kemeralti",
+  "ad": "Sardin Balık Restaurant",
+  "tur": "balik",
+  "ilce": "Konak",
+  "semt": "Kemeraltı (Balıkçılar Meydanı)",
+  "lat": 38.41946,
+  "lon": 27.13403,
+  "web": null,
+  "aciklama": "Kemeraltı'nın balık hali çevresindeki Balıkçılar Meydanı'nda, tezgâhın yanı başında çalışan bir balık lokantası. Fava, şakşuka, lakerda ve levrek marin gibi soğuk mezelerle deniz ürünlü pazı sarması ve deniz ürünlü börek gibi sıcaklar sunar. Saat Kulesi'ne birkaç dakika yürüme mesafesinde, sade ve kalabalık bir çarşı mekânı.",
+  "ilgi": [
+   "yeme",
+   "alisveris"
+  ],
+  "kaynak": "https://yemek.com/izmirin-en-iyi-mezecileri/"
+ },
+ {
+  "id": "tulumbali-meyhane",
+  "ad": "Tulumbalı Meyhane",
+  "tur": "meyhane",
+  "ilce": "Konak",
+  "semt": "Akın Simav (Güzelyalı)",
+  "lat": 38.40924,
+  "lon": 27.11066,
+  "web": "https://www.instagram.com/tulumbaliofficiall/",
+  "aciklama": "Mustafa Kemal Sahil Bulvarı üzerinde, Göztepe-Güzelyalı kıyısında uzun yıllardır çalışan bir meyhane. Meze, rakı ve Türk müziği üzerine kurulu; akşamları canlı fasıl eşliğinde fix menü servis edilir. Kutlamalar ve kalabalık sofralar için tercih edilen, Alsancak dışındaki köklü fasıl adreslerinden biri.",
+  "ilgi": [
+   "yeme",
+   "eglence"
+  ],
+  "kaynak": "https://www.izmirmekanrehberi.com/konak/tulumbali-meyhane"
+ },
+ {
+  "id": "sardunya-alsancak",
+  "ad": "Sardunya",
+  "tur": "gece",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "lat": 38.43775,
+  "lon": 27.14282,
+  "web": null,
+  "aciklama": "Alsancak'ta barlar sokağı olarak bilinen Muzaffer İzgü Sokak'ta, kafe bölümü de olan bir bar. Yarı alternatif bir kalabalığın buluştuğu mekânda caz ve alternatif müzik etkinlikleri düzenlenir. Konser biletleri de satan sahnesiyle Alsancak gece hayatının uzun soluklu adreslerinden biri.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://iticket.com.tr/en/venues/sardunya-alsancak"
+ },
+ {
+  "id": "kalyon-pub",
+  "ad": "Kalyon",
+  "tur": "gece",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": "1978",
+  "lat": 38.43569,
+  "lon": 27.14096,
+  "web": null,
+  "aciklama": "Cumhuriyet Bulvarı üzerinde, 1978'de Zafer ve Haluk Olcay kardeşlerin açtığı pub. Denizcilik temalı dekoru ve İngiliz pub havası açıldığından bu yana pek değişmemiştir. Daha çok yerli müdavimlerin uğradığı mekânda canlı müzik ve maç yayınları yapılır; İzmir'in en eski publarından biri sayılır.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://www.gpsmycity.com/attractions/kalyon-pub-39608.html"
+ },
+ {
+  "id": "sirena-pub",
+  "ad": "Sirena",
+  "tur": "gece",
+  "ilce": "Konak",
+  "semt": "Kordon",
+  "yil": "1976",
+  "lat": 38.4339,
+  "lon": 27.13839,
+  "web": null,
+  "aciklama": "Kordon'da Atatürk Caddesi üzerinde, geniş bira seçkisi sunan bir pub ve bira bahçesi. Hamburger ve sosis gibi pub yemekleri servis edilir; yazın körfeze bakan dış oturma alanı dolar. Kaynaklara göre 1976'dan beri çalışan mekân, Kordon'un eski müdavim publarından biri.",
+  "ilgi": [
+   "eglence",
+   "yeme"
+  ],
+  "kaynak": "https://wanderlog.com/place/details/4440916/sirena"
+ },
+ {
+  "id": "karaf-meyhane",
+  "ad": "Karaf Meyhane",
+  "tur": "meyhane",
+  "ilce": "Karşıyaka",
+  "semt": "Bostanlı",
+  "lat": 38.45486,
+  "lon": 27.0992,
+  "web": "https://karafmeyhane.com/",
+  "aciklama": "Bostanlı'da Cemal Gürsel Caddesi üzerinde, sahile yakın bir mahalle meyhanesi. Klasik İzmir mezelerinin yanında ocakbaşında pişen kebaplar, et ve balık sunar; rakı adını da veren karafla gelir. Turistten çok semtin müdavimlerine hitap eden, uzun arkadaş sofralarına göre kurulmuş bir yer.",
+  "ilgi": [
+   "yeme",
+   "eglence"
+  ],
+  "kaynak": "https://karafmeyhane.com/"
+ },
+ {
+  "id": "muhtelif-meyhane",
+  "ad": "Muhtelif Meyhane",
+  "tur": "meyhane",
+  "ilce": "Karşıyaka",
+  "semt": "Bostanlı",
+  "lat": 38.45589,
+  "lon": 27.09489,
+  "web": null,
+  "aciklama": "Bostanlı'da Suat Gürbüzer Sokak'ta, Bostanlı sahiline yakın bir meyhane. Deniz manzarası ve özenli mezeleriyle öne çıkar; müzik sesi yüksek değildir, sohbet etmeye uygun sakin bir ortamı vardır. Karşıyaka'nın en hareketli sosyal alanlarından birinde, öğleden gece yarısına kadar açıktır.",
+  "ilgi": [
+   "yeme",
+   "eglence"
+  ],
+  "kaynak": "https://www.izmirmekanrehberi.com/karsiyaka/muhtelif-meyhane"
+ },
+ {
+  "id": "molly-malones-bostanli",
+  "ad": "Molly Malone's Bostanlı",
+  "tur": "gece",
+  "ilce": "Karşıyaka",
+  "semt": "Bostanlı",
+  "yil": "2017",
+  "lat": 38.45779,
+  "lon": 27.09491,
+  "web": null,
+  "aciklama": "Bostanlı'da 2017'nin başında açılan İrlanda pubu. İrlanda biraları, burger ve patates püresi gibi pub yemekleri sunar; açıldığında kendi internet radyosu Molly Malone's FM ile dikkat çekmişti. Gece geç saate kadar açık, Karşıyaka yakasının bilinen publarından biri.",
+  "ilgi": [
+   "eglence",
+   "yeme"
+  ],
+  "kaynak": "https://www.hurriyet.com.tr/yazarlar/aynur-tartan/izmir-gece-hayatindan-bildiriyorum-40420051"
+ },
+ {
+  "id": "kuntra-wine-bar",
+  "ad": "Kuntra Wine Bar",
+  "tur": "gece",
+  "ilce": "Karşıyaka",
+  "semt": "Atakent",
+  "lat": 38.4674,
+  "lon": 27.08736,
+  "web": "https://www.instagram.com/kuntrawinebar/",
+  "aciklama": "Atakent'te küçük ve sıcak bir salonda çalışan şarap barı. Yaklaşık yüz etiketlik şarap listesi vardır; mutfağı ahtapot, taze makarna ve rosto gibi tabaklarla gece geç saate kadar servis yapar. Karşıyaka yakasında rakı sofrasına alternatif arayanların gittiği bir yer.",
+  "ilgi": [
+   "eglence",
+   "yeme"
+  ],
+  "kaynak": "https://mesprestiges.com/en/izmir/places/kuntra-wine-bar"
+ },
+ {
+  "id": "koyu-meyhane",
+  "ad": "Koyu Meyhane",
+  "tur": "meyhane",
+  "ilce": "Bayraklı",
+  "semt": "Adalet",
+  "lat": 38.45296,
+  "lon": 27.1766,
+  "web": "https://www.instagram.com/koyumeyhane/",
+  "aciklama": "Bayraklı'nın gökdelenlerle dolu iş merkezi Adalet Mahallesi'nde, ara sokaktaki bir meyhane. Sevilen mezeleri ve sohbeti bastırmayan hafif müziğiyle mesai sonrası buluşmalara uygundur. Bazı akşamlar canlı müzik yapılır.",
+  "ilgi": [
+   "yeme",
+   "eglence"
+  ],
+  "kaynak": "https://www.izmirmekanrehberi.com/bayrakli/koyu-meyhane"
+ },
+ {
+  "id": "gandinin-yeri",
+  "ad": "Gandi'nin Yeri",
+  "tur": "meyhane",
+  "ilce": "Bornova",
+  "semt": "Kazımdirik",
+  "yil": "1966",
+  "lat": 38.46521,
+  "lon": 27.20716,
+  "web": "https://www.instagram.com/gandininyeri/",
+  "aciklama": "Bornova'da Yüzbaşı İbrahim Hakkı Caddesi üzerinde, İzmir'in en eski meyhanelerinden biri sayılan küçük ve rustik bir mekân. 1966'da Balıkesir'den gelen Yaşar Dede tarafından devralınmış, bugün de aynı aile tarifleriyle sürüyor. Meze sofrası, köfte ve sucuğuyla bilinir; uzun ve klasik rakı akşamlarının adresidir.",
+  "ilgi": [
+   "yeme",
+   "eglence",
+   "tarih"
+  ],
+  "kaynak": "https://wanderlog.com/place/details/8739572"
+ },
+ {
+  "id": "buzuki-meyhane-bornova",
+  "ad": "Buzuki Meyhane",
+  "tur": "meyhane",
+  "ilce": "Bornova",
+  "semt": "Küçükpark",
+  "lat": 38.4607,
+  "lon": 27.2124,
+  "web": null,
+  "aciklama": "Bornova Küçükpark'ta, barların yoğunlaştığı Süvari Caddesi üzerinde bir meyhane. Taze ve çeşitli mezeleriyle bilinir; yaprak ciğer sıkça önerilen tabaklarından. Bornova'nın en popüler meyhanelerinden biri olarak gösterilir ve rahat, gösterişsiz bir ortamı vardır.",
+  "ilgi": [
+   "yeme",
+   "eglence"
+  ],
+  "kaynak": "https://listelist.com/izmir-en-iyi-meyhaneler/"
+ },
+ {
+  "id": "sherwood-pub-bornova",
+  "ad": "Sherwood Pub",
+  "tur": "gece",
+  "ilce": "Bornova",
+  "semt": "Küçükpark",
+  "yil": "2011",
+  "lat": 38.46053,
+  "lon": 27.21218,
+  "web": null,
+  "aciklama": "Bornova Küçükpark'ta Süvari Caddesi üzerinde, 2011'den beri çalışan pub, kafe ve restoran. Canlı müzik geceleri, dart tahtası ve üst kattaki terasıyla bilinir. Yorumlarda müzik seçkisiyle Bornova'nın sevilen barlarından biri olarak anılır.",
+  "ilgi": [
+   "eglence",
+   "yeme"
+  ],
+  "kaynak": "https://www.cvent.com/venues/fr-FR/-/bar-club/sherwood-pub-cafe-restaurant/venue-94810ced-7637-4ad6-b540-5e433a6f67cd"
+ },
+ {
+  "id": "hungry-dog-pub-buca",
+  "ad": "Hungry Dog Pub",
+  "tur": "gece",
+  "ilce": "Buca",
+  "semt": "Vali Rahmi Bey",
+  "yil": "2019",
+  "lat": 38.38827,
+  "lon": 27.17242,
+  "web": null,
+  "aciklama": "Buca'nın eski evlerinden birinde, 2019 başında önceki Oliver mekânının yerine açılan iki katlı kafe-pub. Retro dekoru 1950-60'lardan kalma Amerikan gazoz şişeleri, daktilolar ve sakız makineleri gibi koleksiyon parçalarıyla doludur. Açık bahçesi ve üst kattaki müzik koleksiyonuyla Buca'nın bilinen gece mekânlarından biri.",
+  "ilgi": [
+   "eglence",
+   "yeme"
+  ],
+  "kaynak": "https://www.yeniasir.com.tr/yazarlar/hakan_urganci/2019/01/06/izmirin-yenileri"
+ },
+ {
+  "id": "izmir-arena-bayrakli",
+  "ad": "İzmir Arena",
+  "tur": "sahne",
+  "ilce": "Bayraklı",
+  "semt": "Turan",
+  "yil": "2010",
+  "lat": 38.46558,
+  "lon": 27.14524,
+  "web": null,
+  "aciklama": "Turan'da, körfeze bakan yaklaşık 16 bin metrekarelik açık alanı ve 2.200 metrekarelik kapalı bölümüyle çok amaçlı bir etkinlik mekânı. 2010'da açıldı; konserlerin yanı sıra festival, düğün ve kurumsal etkinliklere de ev sahipliği yapıyor. Şehrin büyük açık hava konserlerinin yapıldığı adreslerden biri; Şebnem Ferah 2026'da altı yıl aradan sonra İzmir'deki konserini burada verdi.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://www.visitizmir.org/en/Destinasyon/8106"
+ },
+ {
+  "id": "ooze-venue",
+  "ad": "Ooze Venue",
+  "tur": "gece",
+  "ilce": "Bornova",
+  "semt": "Erzene",
+  "lat": 38.46507,
+  "lon": 27.22155,
+  "web": null,
+  "aciklama": "Bornova'da Kazım Karabekir Caddesi üzerindeki konser kulübü. Yaklaşık yirmi yıldır kentin gece hayatında yer alıyor; 2025 sonbaharında 20. yılı için özel bir konser takvimiyle sezonu açtı. Programında rock, hip-hop, pop ve metal grupları ağırlıklı.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://www.yenibakishaber.com/foto-galeri/ooze-venue-kapilarini-eylulde-acacak-20-yila-ozel-konser-takvimi"
+ },
+ {
+  "id": "cliff-venue",
+  "ad": "Cliff Venue",
+  "tur": "sahne",
+  "ilce": "Bornova",
+  "semt": "Erzene",
+  "lat": 38.4648,
+  "lon": 27.2183,
+  "web": null,
+  "aciklama": "Bornova'da Fevzi Çakmak Caddesi'ndeki çok amaçlı konser ve etkinlik mekânı. Yaklaşık 1.200 kişilik sahnesi ve geniş bahçesiyle alternatif müzik konserleri, DJ geceleri ve tematik partiler düzenliyor. Şanışer, Stabil gibi isimler burada sahne aldı.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://www.oggusto.com/gastronomi/turkiye/izmirin-en-iyi-canli-muzik-mekanlari"
+ },
+ {
+  "id": "izmir-performance-hall",
+  "ad": "İzmir Performance Hall",
+  "tur": "sahne",
+  "ilce": "Bornova",
+  "semt": "Kazımdirik",
+  "lat": 38.4508,
+  "lon": 27.201,
+  "web": null,
+  "aciklama": "Yaşar Üniversitesi'nin yanındaki Myvia 414 (Park 414) yaşam merkezinde bağımsız bir gösteri salonu. Kendini İzmir'in ilk komedi kulübü olarak tanıtıyor. Stand-up gösterilerinin yanında akustik konserler, tiyatro, söyleşi ve atölyeler de yapılıyor.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://www.biletix.com/mekan/3508B/IZMIR/en"
+ },
+ {
+  "id": "645-kk-bornova",
+  "ad": "6:45 KK Bornova",
+  "tur": "gece",
+  "ilce": "Bornova",
+  "semt": "Kazımdirik",
+  "lat": 38.4507,
+  "lon": 27.2012,
+  "web": null,
+  "aciklama": "Myvia 414 kompleksindeki, \"Kaybedenler Kulübü\" adını taşıyan zincirin Bornova şubesi. Canlı sahnesinde rock, pop ve hip-hop konserleri, DJ performansları ve tematik geceler düzenleniyor. Ankara ve Bolu'da da şubeleri bulunuyor.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://iticket.com.tr/en/venues/645-bornova"
+ },
+ {
+  "id": "soldout-performance-hall",
+  "ad": "SoldOut Performance Hall",
+  "tur": "sahne",
+  "ilce": "Karşıyaka",
+  "semt": "Mavişehir",
+  "lat": 38.47449,
+  "lon": 27.0755,
+  "web": "https://soldout.com.tr",
+  "aciklama": "Mavişehir'de Caher Dudayev Bulvarı üzerindeki MaviBahçe kompleksinde yer alan konser salonu. Rock, pop, indie ve alternatif müzik konserleri düzenleniyor; 2026'da Vincent Cavanagh, Yedinci Ev ve Kovacs gibi isimler programdaydı. Karşıyaka–Mavişehir tramvayının Mavişehir durağına yakın.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://iticket.com.tr/en/venues/soldout-performance-hall"
+ },
+ {
+  "id": "hayal-kahvesi-izmir",
+  "ad": "Hayal Kahvesi İzmir",
+  "tur": "gece",
+  "ilce": "Konak",
+  "semt": "Çınarlı",
+  "lat": 38.44745,
+  "lon": 27.17423,
+  "web": null,
+  "aciklama": "Ege Perla alışveriş merkezinin içinde, Ozan Abay Caddesi'ndeki canlı müzik kulübü. İstanbul'da doğan Hayal Kahvesi zincirinin İzmir şubesi. Programında rock, pop ve rap konserleri yer alıyor; 2026'da yung ouzo ve Ogün Sanlısoy burada sahne aldı.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://iticket.com.tr/en/venues/hayal-kahvesi-izmir"
+ },
+ {
+  "id": "ayfer-feray-acikhava-tiyatrosu",
+  "ad": "Bornova Ayfer Feray Açıkhava Tiyatrosu",
+  "tur": "sahne",
+  "ilce": "Bornova",
+  "semt": "Kazımdirik",
+  "lat": 38.46306,
+  "lon": 27.21655,
+  "web": null,
+  "aciklama": "Bornova Belediyesi'nin, belediye binasının yanındaki 650 kişilik açık hava sahnesi. Yaz aylarında konser, tiyatro ve gösterilere ev sahipliği yapıyor. Adını tiyatro ve sinema oyuncusu Ayfer Feray'dan alıyor.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://www.visitizmir.org/en/Destinasyon/8115"
+ },
+ {
+  "id": "ismet-inonu-sanat-merkezi",
+  "ad": "İsmet İnönü Sanat Merkezi",
+  "tur": "salon",
+  "ilce": "Konak",
+  "semt": "Kültürpark",
+  "lat": 38.43067,
+  "lon": 27.14379,
+  "web": null,
+  "aciklama": "Kültürpark'ın Lozan Kapısı yakınındaki, İzmir Büyükşehir Belediyesi'ne bağlı kültür merkezi. 752 koltuklu ana salonunda konser, tiyatro, seminer ve konferanslar yapılıyor. Yıl boyunca ulusal ve uluslararası kültür etkinliklerine ev sahipliği yapıyor.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://www.visitizmir.org/en/Destinasyon/8225"
+ },
+ {
+  "id": "ege-universitesi-ataturk-kultur-merkezi",
+  "ad": "Ege Üniversitesi Atatürk Kültür Merkezi",
+  "tur": "salon",
+  "ilce": "Konak",
+  "semt": "Yeşiltepe",
+  "yil": "1980",
+  "lat": 38.41562,
+  "lon": 27.12596,
+  "web": null,
+  "aciklama": "Mithatpaşa Caddesi'nde, 1980'de kurulan, kentin köklü kültür merkezlerinden biri. 624 kişilik Ahmed Adnan Saygun Salonu, 652 kişilik Yunus Emre Salonu ve 340 kişilik tiyatro salonu bulunuyor. Üniversitenin ve kentteki başka kurumların konser, tiyatro ve bilimsel etkinlikleri burada yapılıyor.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://iticket.com.tr/en/venues/ege-universitesi-ataturk-kultur-merkezi"
+ },
+ {
+  "id": "sabanci-kultur-sarayi",
+  "ad": "DEÜ Sabancı Kültür Sarayı",
+  "tur": "salon",
+  "ilce": "Konak",
+  "semt": "Yeşiltepe",
+  "lat": 38.41454,
+  "lon": 27.12316,
+  "web": null,
+  "aciklama": "Mithatpaşa Caddesi'nde, Dokuz Eylül Üniversitesi Devlet Konservatuvarı'nın da kullandığı kültür yapısı. Konser, tiyatro, sergi ve panel gibi etkinliklerin yanında üniversitenin akademik yıl açılış töreni gibi büyük törenler de burada yapılıyor.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://www.yenibakishaber.com/dokuz-eylulde-yeni-akademik-yil-coskuyla-basladi"
+ },
+ {
+  "id": "tepekule-kongre-ve-sergi-merkezi",
+  "ad": "Tepekule Kongre ve Sergi Merkezi",
+  "tur": "salon",
+  "ilce": "Bayraklı",
+  "semt": "Adalet",
+  "yil": "2006",
+  "lat": 38.45325,
+  "lon": 27.1707,
+  "web": "https://mmotepekule.org",
+  "aciklama": "Makina Mühendisleri Odası'nın Anadolu Caddesi'ndeki kongre ve sergi merkezi; 2006'da açıldı. En büyük salonları 732 kişilik Anadolu Salonu ile tiyatro düzeninde 800 kişilik İzmir Salonu. Kongre ve fuarların yanı sıra gösteri ve konserler de düzenleniyor.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://www.visitizmir.org/en/Destinasyon/8107"
+ },
+ {
+  "id": "turkan-saylan-kultur-merkezi",
+  "ad": "Türkan Saylan Kültür Merkezi",
+  "tur": "salon",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "yil": "1997",
+  "lat": 38.43527,
+  "lon": 27.14269,
+  "web": null,
+  "aciklama": "Kıbrıs Şehitleri Caddesi'nde 1997'de açılan kültür merkezi. 108 kişilik Benal Nevzat Salonu'nda tiyatro, konser, söyleşi ve dans gösterileri yapılıyor. Çocuk, genç ve yetişkinlere yönelik resim, heykel, sinema ve kurgu atölyeleri de var.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://www.visitizmir.org/en/Destinasyon/8153"
+ },
+ {
+  "id": "selahattin-akcicek-kultur-merkezi",
+  "ad": "Dr. Selahattin Akçiçek Kültür Merkezi",
+  "tur": "salon",
+  "ilce": "Konak",
+  "semt": "Fatih",
+  "lat": 38.41084,
+  "lon": 27.12794,
+  "web": null,
+  "aciklama": "Konak Belediyesi'ne bağlı, adını eski İzmir belediye başkanı Selahattin Akçiçek'ten alan kültür merkezi. 278 koltuklu Avni Anıl Tiyatro Salonu konser, oyun ve paneller için çok amaçlı kullanılıyor. Koro, tiyatro, satranç, resim ve gitar etkinlikleri de düzenleniyor.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://en.wikipedia.org/wiki/Dr._Selahattin_Ak%C3%A7i%C3%A7ek_Cultural_Center"
+ },
+ {
+  "id": "mustafa-necati-kultur-merkezi",
+  "ad": "Mustafa Necati Kültür Merkezi",
+  "tur": "salon",
+  "ilce": "Karabağlar",
+  "semt": "Yeşilyurt",
+  "yil": "2021",
+  "lat": 38.39776,
+  "lon": 27.11202,
+  "web": null,
+  "aciklama": "İzmir Büyükşehir Belediyesi'nin Yeşilyurt'ta Ekim 2021'de açtığı kültür merkezi. 306 kişilik çok amaçlı salonu, 58 kişilik seminer salonu, sergi alanı ve atölyeleri bulunuyor. Çatısındaki güneş panelleri binanın aydınlatma ihtiyacını karşılıyor.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://www.birgun.net/haber/mustafa-necati-kultur-merkezi-15-ekim-de-aciliyor-361818"
+ },
+ {
+  "id": "ahmet-piristina-kultur-merkezi",
+  "ad": "Ahmet Piriştina Kültür Merkezi",
+  "tur": "salon",
+  "ilce": "Karşıyaka",
+  "semt": "Şemikler",
+  "yil": "2013",
+  "lat": 38.47379,
+  "lon": 27.09718,
+  "web": null,
+  "aciklama": "Şemikler'de, eski İzmir Büyükşehir Belediye Başkanı Ahmet Piriştina'nın adını taşıyan, 2013'te açılan üç katlı kültür merkezi. 300 kişilik konferans salonu, seminer salonları ve derslikleri bulunuyor. Söyleşi, seminer ve kültür etkinliklerinde kullanılıyor.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://www.visitizmir.org/en/Destinasyon/8140"
+ },
+ {
+  "id": "karaca-sinemasi",
+  "ad": "Karaca Sineması (Karaca Kültür Merkezi)",
+  "tur": "sinema",
+  "ilce": "Konak",
+  "semt": "Alsancak",
+  "lat": 38.4335,
+  "lon": 27.1415,
+  "web": null,
+  "aciklama": "Alsancak'ta Sevgi Yolu (1379 Sokak) üzerinde, kırk yılı aşkın süredir film gösteren sinema. 2017'de yenilenerek Karaca Kültür Merkezi adıyla yeniden açıldı; iki küçük sinema salonu, çok amaçlı salon ve sergi alanı bulunuyor. Alışveriş merkezi dışındaki az sayıdaki sinemadan biri.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://www.hurriyet.com.tr/yerel-haberler/izmir/sinema-kultur-merkezi-oldu-40673868"
+ },
+ {
+  "id": "bati-sinemasi-bornova",
+  "ad": "Batı Sineması",
+  "tur": "sinema",
+  "ilce": "Bayraklı",
+  "semt": "Özkanlar",
+  "lat": 38.45882,
+  "lon": 27.19834,
+  "web": null,
+  "aciklama": "Bornova Özkanlar'da 257 Sokak'taki iki salonlu sinema. Alışveriş merkezi dışında vizyon filmleri gösteren mahalle sinemalarından biri.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://www.beyazperde.com/sinemalar/sinema-T0234/"
+ },
+ {
+  "id": "adapark-lunapark",
+  "ad": "Adapark Lunapark",
+  "tur": "lunapark",
+  "ilce": "Gaziemir",
+  "semt": "Dokuz Eylül",
+  "lat": 38.31189,
+  "lon": 27.14408,
+  "web": null,
+  "aciklama": "Gaziemir'de İzmir–Sarnıç yolu üzerindeki lunapark. Hız treni adı verilen, zincirli tırmanışlı bir aile tipi raylı oyuncağı bulunuyor. Kültürpark'taki tarihi lunaparkın 2025'te sökülmesinden sonra kentin merkeze yakın sabit lunaparklarından biri.",
+  "ilgi": [
+   "eglence",
+   "cocuk"
+  ],
+  "kaynak": "https://rcdb.com/22503.htm"
+ },
+ {
+  "id": "izmir-go-park",
+  "ad": "İzmir Go Park",
+  "tur": "spor",
+  "ilce": "Gaziemir",
+  "semt": "Dokuz Eylül",
+  "lat": 38.3137,
+  "lon": 27.147,
+  "web": null,
+  "aciklama": "Gaziemir'de 695 Sokak'taki, yaklaşık 8.000 metrekarelik go-kart tesisi. Karting pistinin yanında airsoft alanı da bulunuyor. Listelenen çalışma saatleri her gün 11.00 ile gece yarısı arası.",
+  "ilgi": [
+   "eglence"
+  ],
+  "kaynak": "https://benefitsystems.com.tr/en/facilities/izmir-go-park/"
  }
 ]
